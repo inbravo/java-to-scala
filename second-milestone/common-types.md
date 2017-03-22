@@ -38,7 +38,7 @@
       /* Print values */
       println("Byte Max Value: " + maxByteValue)
 
-      /* For Char minimum value, which is '\uFFFF', which is not a printable character by definition, so a trick is used */
+      /* Trick is used to convert a Char to yeild numeric value */
       println("Char Max Value: " + (maxCharValue + 0))
       println("Short Max Value: " + maxShortValue)
       println("Int Max Value: " + maxIntValue)
@@ -60,7 +60,7 @@
       /* Print values */
       println("Byte Min Value: " + minByteValueWithoutType)
 
-      /* For Char minimum value, which is '\uFFFF', which is not a printable character by definition, so a trick is used */
+      /* Trick is used to convert a Char to yeild numeric value */
       println("Char Min Value: " + (minCharValueWithoutType + 0))
       println("Short Min Value: " + minShortValueWithoutType)
       println("Int Min Value: " + minIntValueWithoutType)
