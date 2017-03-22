@@ -9,7 +9,7 @@
 * Open Scala program `com.inbravo.lang.HelloWorld.scala` in your Eclipse
 * Program looks like,
 
-  * ```Scala
+  * ```scala
     object HelloWorld {
 
       /**
