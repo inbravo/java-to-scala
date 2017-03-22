@@ -42,7 +42,7 @@
 
 * **Variables as functions: **thanks to functional nature of Scala.
 
-  * Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala\)\)\] in Eclipse and run...
+  * Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala%29\)\] in Eclipse and run...
 
   * Focus on following two lines from program. You will see a variable and a function; doing same job,
 
