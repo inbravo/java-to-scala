@@ -19,10 +19,8 @@
   6. **Float**  
   7. **Double**
 
-* Scala also has a **Boolean **type
-
-* While the other nine subtypes of `AnyVal`are familiar value types. Only `Unit` type stands out. `Unit` is similar to void in Java
-* If you remember the Hello World program, `Unit `was the return type of every `main `method
+* Scala also has a `Boolean `type
+* Type `Unit `is similar to `void `in Java. If you remember the Hello World program, `Unit`was the return type of every`main`method
   * `def main(args: Array[String]): Unit = { .... }`
 * There is no distinction between Primitive types and Class types in Scala. Unlike Java, all Scala types are Classes
 * Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.ValuesTest.scala \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
