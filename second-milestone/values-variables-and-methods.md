@@ -2,9 +2,11 @@
 | :--- | :--- |
 | Time required | 15 minutes |
 | Benefit realized | Ability to define properties and fields |
-| Git sample\(s\) | VarAndValTest.scala & [LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala) |
+| Git sample\(s\) | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) & [LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala) |
 
 ---
+
+* Open program`com.inbravo.lang.VarAndValTest.scala`\[[VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)\] in Eclipse and run...
 
 * To declare a variable, use `var`
 
@@ -40,19 +42,24 @@ lazy val lazyValueWithType: Int = 100
 
 * Open program `com.inbravo.lang.LazyValTest.scala`\[[LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala)\] in Eclipse and run...
 
-* **Variables as functions: **thanks to functional nature of Scala
-
-* Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala%29\)\] in Eclipse and run...
-
-* Focus on following two lines from program. You will see a variable and a function; doing same job,
+* Scala provides keyword `def `for creating methods or definitions
 
 ```scala
-/* Anonymous First-class function as a variable */
-var incrementVariable = (x: Int) => x + 1
-
-/* First-class function as a definition */
-def incrementFunction = (x: Int) => x + 1
+def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
 ```
+
+* **Variable or Value as function: **thanks to functional nature of Scala
+
+* Focus on following two lines from program. You will see a `var`, `val` and `def`, actually doing same job
+
+```scala
+  /* A variable, value and definition, doing same jobs (increment of integer value) */
+  var incrementVar = (x: Int) => x + 1 /* A definition using 'var' */
+  val incrementVal = (x: Int) => x + 1 /* A definition using 'val' */
+  def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
+```
+
+
 
 
 
