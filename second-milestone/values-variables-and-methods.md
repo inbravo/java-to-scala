@@ -40,7 +40,7 @@ lazy val lazyValueWithType: Int = 100
 
 * Open program `com.inbravo.lang.LazyValTest.scala`\[[LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala)\] in Eclipse and run...
 
-* **Variables as functions: **thanks to functional nature of Scala.
+* **Variables as functions: **thanks to functional nature of Scala
 
 * Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala%29\)\] in Eclipse and run...
 
