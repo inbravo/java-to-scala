@@ -8,22 +8,27 @@
 
 * Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef`and `AnyVal`
 
-  * ![](/assets/types.png)
+  ![](/assets/types.png)
 
-* In above Image `AnyVal`is extended by all numeric types. Scala has seven numeric types  
-  1. **Byte**  
-  2. **Char**  
-  3. **Short**  
-  4. **Int**  
-  5. **Long**  
-  6. **Float**  
-  7. **Double**
+* From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala` 
 
-* Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of every`main`method
+* Scala has 7 numeric types  
+  1. **Byte **  **  :**   `val maxByteValue: Byte = Byte.MaxValue`  
+  2. **Char **  **  :**   `val maxCharValue: Char = Char.MaxValue`  
+  3. **Short **  ** :**   `val maxShortValue: Short = Short.MaxValue`  
+  4. **Int **  **      :**   `val maxIntValue: Int = Int.MaxValue`  
+  5. **Long **  **  :**   `val maxLongValue: Long = Long.MaxValue`  
+  6. **Float **  **  :**   `val maxFloatValue: Float = Float.MaxValue`  
+  7. **Double  :**   `val maxDoubleValue: Double = Double.MaxValue`
 
-  * `def main(args: Array[String]): Unit = { .... }`
+* Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of `main`method
 
-* Scala also has a `Boolean`type
+```scala
+def main(args: Array[String]): Unit = { .... }
+```
+
+* Scala also has got a type **Boolean **:    `val trueBoolean: Boolean = true`
+
 * There is no distinction between Primitive types and Class types in Scala. Unlike Java, all Scala types are Classes
 * Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.ValuesTest.scala \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
@@ -78,6 +83,10 @@
 
       /* Method print does not ends with a new line */
       print("Double Min Value: " + minDoubleValueWithoutType)
+  
+      /* Boolean values */
+      val trueBoolean: Boolean = true
+      val falseBoolean: Boolean = false
     }
     ```
 
