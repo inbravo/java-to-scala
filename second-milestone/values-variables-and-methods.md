@@ -6,7 +6,7 @@
 
 ---
 
-* To declare a variable whose contents can vary, use **var**
+* To declare a variable, use **`var`**
 
   * ```scala
     /* Without type */
@@ -16,7 +16,7 @@
     var variableWithType: Int = 10
     ```
 
-* To declare a constant, use **val**
+* To declare a constant, use **`val`**
 
   * ```scala
     /* Without type */
@@ -26,9 +26,9 @@
     val valueWithType: Int = 10 * 5 + 2
     ```
 
-* All **val **type variables are initialized before utilization
+* All **val **type variables are initialized before utilization. A Scala **`val `**is a `public static final` in Java
 
-* If you want to defer this process of initiailization untill actuall utlization, use **lazy val**
+* If you want to defer this process of initiailization untill actuall utlization, use **`lazy val`**
 
   * ```scala
     /* Lazy value without type */
@@ -42,17 +42,17 @@
 
 * **Variables as functions: **thanks to functional nature of Scala.
 
-  * Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala%29\)\] in Eclipse and run...
+* Open program`com.inbravo.lang.FirstClassFuncTest.scala`\[[FirstClassFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/FirstClassFuncTest.scala%29\)\] in Eclipse and run...
 
-  * Focus on following two lines from program. You will see a variable and a function; doing same job,
+* Focus on following two lines from program. You will see a variable and a function; doing same job,
 
-    * ```scala
-        /* Anonymous First-class function as a variable */
-        var incrementVariable = (x: Int) => x + 1
+  * ```scala
+      /* Anonymous First-class function as a variable */
+      var incrementVariable = (x: Int) => x + 1
 
-        /* First-class function as a definition */
-        def incrementFunction = (x: Int) => x + 1
-      ```
+      /* First-class function as a definition */
+      def incrementFunction = (x: Int) => x + 1
+    ```
 
 
 

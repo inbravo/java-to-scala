@@ -20,8 +20,10 @@
   7. **Double**
 
 * Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of every`main`method
+
   * `def main(args: Array[String]): Unit = { .... }`
-* Scala also has a `Boolean `type
+
+* Scala also has a `Boolean`type
 * There is no distinction between Primitive types and Class types in Scala. Unlike Java, all Scala types are Classes
 * Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.ValuesTest.scala \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 

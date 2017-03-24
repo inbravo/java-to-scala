@@ -6,7 +6,7 @@
 | :--- |
 | **A Pragmatic Approach to Embrace Scala** |
 | **Suitable for Beginners** |
-| **Edition 1.0b** |
+| **Edition 0.1b** |
 
 
 
