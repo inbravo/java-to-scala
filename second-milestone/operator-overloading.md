@@ -7,14 +7,12 @@
 ---
 
 * Unlike Java, you can overload operators in Scala
-* All operators do the usual work \(+ - \* / % & \| ^ &gt;&gt; &lt;&lt;\), but these operators are methods, which is owing to Operator Overloading feature of Scala. Example
+* All operators do the usual work \(`+ - * / % & | ^ >> <<`\), but these operators are methods, which is owing to Operator Overloading feature of Scala. Example
 
-  * a + b
-     is a shorthand for
-     a.+\(b\)
-  * If a & b are type of Int, method '**+'** of Int class will applied on operation: a.**+**\(b\)
+  * `a + b`  is a shorthand for ` a.+(b)`
+  * If a & b are type of Int, method '**+'** of Int class will applied on operation: `a.`**`+`**`(b)`
 
-* Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.OperatorsAreMethods.scala \[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala\)\)\] in Eclipse and run...
+* Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.OperatorsAreMethods.scala \[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29\)\] in Eclipse and run...
 
   * ```scala
     /**
