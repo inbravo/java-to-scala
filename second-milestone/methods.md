@@ -18,7 +18,7 @@ def print = println(value)
 def print = { println(value) }
 ```
 
-* Declare a method which take a parameter and returns nothing but prints the passed 'Int' value
+* Declare a method which take a parameter and returns nothing but prints the passed `Int` value
 
 ```scala
 def printIt(value: Int) = println(value)
