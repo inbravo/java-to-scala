@@ -43,7 +43,6 @@ def returnFloat: Float = return 1.0F
 ```scala
 /**
  * A complete example to understand; how to define methods in Scala
- * Prints following 'HelloHello()Hello()111.01.01()'
  *
  * amit.dixit
  */
