@@ -2,14 +2,19 @@
 | :--- | :--- |
 | Time required | 5 minutes |
 | Benefits realized | First program execution in Scala |
-| Git sample | [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala) |
+| Git sample | [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala) & [HelloWorldWithoutMain.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorldWithoutMain.scala) |
 
 ---
 
-* Open Scala program `com.inbravo.lang.HelloWorld.scala` in your Eclipse. 
-* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console.
+* Open Scala program `com.inbravo.lang.HelloWorld.scala` \[[HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala)\] in your Eclipse
+* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console
 
 ```scala
+/**
+ * Hello World program using main method, like Java
+ *
+ * amit.dixit
+ */
 object HelloWorld {
 
   /**
@@ -23,6 +28,25 @@ object HelloWorld {
     /* Control flow : scala.Predef.println --> scala.Console.println --> java.io.PrintStream.println */
     println("Hello World")
   }
+}
+```
+
+* Scala provides `scala.App` to avoid `main`method
+* Open Scala program `com.inbravo.lang.HelloWorldWithoutMain.scala` \[[HelloWorldWithoutMain.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorldWithoutMain.scala)\] in your Eclipse
+
+* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console
+
+```scala
+/**
+ * Hello World program without main method, unlike Java, using scala.App class
+ * Extend scala.App to avoid usage of main method
+ *
+ * amit.dixit
+ */
+object HelloWorldWithoutMain extends App {
+
+  /* Control flow : scala.Predef.println --> scala.Console.println --> java.io.PrintStream.println */
+  println("Hello World")
 }
 ```
 
