@@ -10,7 +10,7 @@
 
   ![](/assets/types.png)
 
-* From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala` 
+* From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala`
 
 * Scala has 7 numeric types  
   1. **Byte **  **  :**   `val maxByteValue: Byte = Byte.MaxValue`  
@@ -30,65 +30,61 @@ def main(args: Array[String]): Unit = { .... }
 * Scala also has got a type **Boolean **:    `val trueBoolean: Boolean = true`
 
 * There is no distinction between Primitive types and Class types in Scala. Unlike Java, all Scala types are Classes
-* Now run this complete sample and understand every method, by its comments. Open program com.inbravo.lang.ValuesTest.scala \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
-  * ```scala
-    /**
-     * Following program helps in undersanding the various Scala types
-     *
-     * amit.dixit
-     */
-    object ValuesTest extends App {
+* Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
-      /* Different Scala types, initialized with their maximum value and with their types (NAME:TYPE e.g. val maxByteValue: Byte) */
-      val maxByteValue: Byte = Byte.MaxValue
-      val maxCharValue: Char = Char.MaxValue
-      val maxShortValue: Short = Short.MaxValue
-      val maxIntValue: Int = Int.MaxValue
-      val maxLongValue: Long = Long.MaxValue
-      val maxFloatValue: Float = Float.MaxValue
-      val maxDoubleValue: Double = Double.MaxValue
+```scala
+object ValuesTest extends App {
 
-      /* Print values */
-      println("Byte Max Value: " + maxByteValue)
+  /* Different Scala types, initialized with their maximum value and with their types (NAME:TYPE e.g. val maxByteValue: Byte) */
+  val maxByteValue: Byte = Byte.MaxValue
+  val maxCharValue: Char = Char.MaxValue
+  val maxShortValue: Short = Short.MaxValue
+  val maxIntValue: Int = Int.MaxValue
+  val maxLongValue: Long = Long.MaxValue
+  val maxFloatValue: Float = Float.MaxValue
+  val maxDoubleValue: Double = Double.MaxValue
 
-      /* Trick is used to convert a Char to yeild numeric value */
-      println("Char Max Value: " + (maxCharValue + 0))
-      println("Short Max Value: " + maxShortValue)
-      println("Int Max Value: " + maxIntValue)
-      println("Long Max Value: " + maxLongValue)
-      println("Float Max Value: " + maxFloatValue)
+  /* Print values */
+  println("Byte Max Value: " + maxByteValue)
 
-      /* Method print does not ends with a new line */
-      print("Double Max Value: " + maxDoubleValue)
+  /* Trick is used to convert a Char to yeild numeric value */
+  println("Char Max Value: " + (maxCharValue + 0))
+  println("Short Max Value: " + maxShortValue)
+  println("Int Max Value: " + maxIntValue)
+  println("Long Max Value: " + maxLongValue)
+  println("Float Max Value: " + maxFloatValue)
 
-      /* Different Scala types, initialized with their minimum value and without their types */
-      val minByteValueWithoutType = Byte.MinValue
-      val minCharValueWithoutType = Char.MinValue
-      val minShortValueWithoutType = Short.MinValue
-      val minIntValueWithoutType = Int.MinValue
-      val minLongValueWithoutType = Long.MinValue
-      val minFloatValueWithoutType = Float.MinValue
-      val minDoubleValueWithoutType = Double.MinValue
+  /* Method print does not ends with a new line */
+  print("Double Max Value: " + maxDoubleValue)
 
-      /* Print values */
-      println("Byte Min Value: " + minByteValueWithoutType)
+  /* Different Scala types, initialized with their minimum value and without their types */
+  val minByteValueWithoutType = Byte.MinValue
+  val minCharValueWithoutType = Char.MinValue
+  val minShortValueWithoutType = Short.MinValue
+  val minIntValueWithoutType = Int.MinValue
+  val minLongValueWithoutType = Long.MinValue
+  val minFloatValueWithoutType = Float.MinValue
+  val minDoubleValueWithoutType = Double.MinValue
 
-      /* Trick is used to convert a Char to yeild numeric value */
-      println("Char Min Value: " + (minCharValueWithoutType + 0))
-      println("Short Min Value: " + minShortValueWithoutType)
-      println("Int Min Value: " + minIntValueWithoutType)
-      println("Long Min Value: " + minLongValueWithoutType)
-      println("Float Min Value: " + minFloatValueWithoutType)
+  /* Print values */
+  println("Byte Min Value: " + minByteValueWithoutType)
 
-      /* Method print does not ends with a new line */
-      print("Double Min Value: " + minDoubleValueWithoutType)
+  /* Trick is used to convert a Char to yeild numeric value */
+  println("Char Min Value: " + (minCharValueWithoutType + 0))
+  println("Short Min Value: " + minShortValueWithoutType)
+  println("Int Min Value: " + minIntValueWithoutType)
+  println("Long Min Value: " + minLongValueWithoutType)
+  println("Float Min Value: " + minFloatValueWithoutType)
+
+  /* Method print does not ends with a new line */
+  print("Double Min Value: " + minDoubleValueWithoutType)
   
-      /* Boolean values */
-      val trueBoolean: Boolean = true
-      val falseBoolean: Boolean = false
-    }
-    ```
+  /* Boolean values */
+  val trueBoolean: Boolean = true
+  val falseBoolean: Boolean = false
+}
+```
 
 
 
