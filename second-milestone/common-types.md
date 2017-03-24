@@ -29,7 +29,7 @@ def main(args: Array[String]): Unit = { .... }
 
 * Scala also has got a type **Boolean **:    `val trueBoolean: Boolean = true`
 
-* There is no distinction between Primitive types and Class types in Scala. Unlike Java, all Scala types are Classes
+* Unlike Java, There is no distinction like primitive type or class type in Scala
 
 * Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
