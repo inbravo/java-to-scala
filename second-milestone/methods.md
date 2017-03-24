@@ -12,7 +12,7 @@
      def print = println(value)
     ```
 
-* Notice that unlike Java, you can ignore curly brackets while defining Scala methods '{}'
+* Notice that unlike Java, you can ignore curly brackets \(`{ ... }`\) while defining Scala methods 
 
   * ```scala
     def print = { println(value) }
@@ -38,7 +38,7 @@
     def returnFloat: Float = return 1.0F
     ```
 
-* Now run this complete sample and understand every method, by its comments. Open program `com.inbravo.lang.MethodTest.scala`\[[MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala\)\)\) \] in Eclipse and run...
+* Now run this complete sample and understand every method, by its comments. Open program `com.inbravo.lang.MethodTest.scala`\[[MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala%29%29\)\] in Eclipse and run...
 
   * ```scala
     package com.inbravo.lang
