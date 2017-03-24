@@ -4,8 +4,8 @@
 
 | **Java to Scala** |
 | :--- |
-| **A Pragmatic Approach to Embrace Scala** |
-| **Suitable for Beginners** |
+| **A Pragmatic Programmers Quick Companion to Embrace Scala** |
+| **Beginners Delight** |
 | **Edition 0.1b** |
 
 
