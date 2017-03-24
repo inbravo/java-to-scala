@@ -7,7 +7,7 @@
 ---
 
 * Open Scala program `com.inbravo.lang.HelloWorld.scala` in your Eclipse. 
-* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World!!' **on console.
+* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console.
 
 ```scala
 object HelloWorld {
