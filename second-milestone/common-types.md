@@ -1,6 +1,6 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
-| Time required | 5 minutes |
+| Time required | 15 minutes |
 | Benefit realized | Understanding of Scala Basic types |
 | Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) |
 
@@ -79,7 +79,7 @@ object ValuesTest extends App {
 
   /* Method print does not ends with a new line */
   print("Double Min Value: " + minDoubleValueWithoutType)
-  
+
   /* Boolean values */
   val trueBoolean: Boolean = true
   val falseBoolean: Boolean = false
