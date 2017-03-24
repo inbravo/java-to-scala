@@ -21,7 +21,7 @@
         /* Control flow : scala.Predef.println --> scala.Console.println --> java.io.PrintStream.println */
         println("Hello World!!")
       }
-    }
+    }    
     ```
 * Right click on program --&gt; Run As --&gt; Scala Application
 
