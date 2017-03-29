@@ -6,6 +6,12 @@
 
 ---
 
+* Scala provides keyword `def`for creating methods or definitions
+
+```scala
+def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
+```
+
 * Declare a method which takes no parameter and returns nothing but prints 'Hello''
 
 ```scala
