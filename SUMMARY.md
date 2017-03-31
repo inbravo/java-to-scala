@@ -15,7 +15,7 @@
   * [Operator Overloading](second-milestone/operator-overloading.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Anagram Test](third-milestone/anagram-test.md)
-  * Stack
+  * [Stack](third-milestone/stack.md)
   * Queue
   * LinkedList
 * =\*= Fourth Milestone =\*=
