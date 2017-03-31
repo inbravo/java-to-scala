@@ -14,8 +14,8 @@
 package com.inbravo.lang
 
 /**
- *
  * A function without a return type
+ * amit.dixit
  */
 object ProcedureTest {
 
