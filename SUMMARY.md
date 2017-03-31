@@ -11,6 +11,7 @@
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
   * [Methods or Definitions](second-milestone/methods.md)
   * [Variables as Definitions](second-milestone/variables-and-definitions.md)
+  * [Procedures](second-milestone/variables-and-definitions/procedures.md)
   * [Operator Overloading](second-milestone/operator-overloading.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Anagram Test](third-milestone/anagram-test.md)
