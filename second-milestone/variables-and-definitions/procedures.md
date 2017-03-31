@@ -36,18 +36,19 @@ object ProcedureTest {
 }
 ```
 
-* If the function body is enclosed in braces without a preceding = symbol, then the return type is Unit 
-* Because the procedure doesn’t return any value, you can avpid the = symbol
+* Because the procedure doesn’t return any value, you can avoid the = symbol
 
 ```scala
 /* Look carefully: there is no '=' */
 def box(s : String) { 
+
     val border = "-" * s.length + "--\n"
     println(border + "|" + s + "|\n" + border)
 }
 ```
 
-* Best is to always use `Unit `in the cases where no return type
+* If the function body is enclosed in braces without a preceding = symbol, then the return type is `Unit`
+* Best is to always use `Unit`in cases where no return type
 
 ```scala
 def box(s : String): Unit = {
