@@ -1,4 +1,4 @@
-| Milestone | Second milestone |
+| Milestone | Second |
 | :--- | :--- |
 | Purpose | Ability to define values, variables and methods |
 | Time required | 80 minutes |
