@@ -8,7 +8,7 @@
 
 * Open Java program [Anagram.java](https://github.com/inbravo/java-src/blob/master/src/com/inbravo/string/Anagram.java)
 * Open Scala program`com.inbravo.string.Anagram.scala`\[[Anagram.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/string/Anagram.scala)\] in Eclipse and run...
-* You will notice that both Scala & Java programs are same.
+* You will notice that both Scala & Java programs are same
 
 ```scala
 package com.inbravo.string
