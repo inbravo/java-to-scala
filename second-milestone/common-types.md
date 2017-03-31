@@ -34,6 +34,13 @@ def main(args: Array[String]): Unit = { .... }
 * Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
 ```scala
+package com.inbravo.lang
+
+/**
+ * Following program helps in undersanding the various Scala types
+ *
+ * amit.dixit
+ */
 object ValuesTest extends App {
 
   /* Different Scala types, initialized with their maximum value and with their types (NAME:TYPE e.g. val maxByteValue: Byte) */

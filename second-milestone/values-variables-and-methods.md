@@ -42,7 +42,7 @@ lazy val lazyValueWithType: Int = 100
 
 * Open program `com.inbravo.lang.LazyValTest.scala`\[[LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala)\] in Eclipse and run...
 
-* Scala provides keyword `def `for creating methods or definitions
+* Scala provides keyword `def`for creating methods or definitions
 
 ```scala
 def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
@@ -58,8 +58,6 @@ def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
   val incrementVal = (x: Int) => x + 1 /* A definition using 'val' */
   def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
 ```
-
-
 
 
 
