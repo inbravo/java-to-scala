@@ -1,6 +1,8 @@
-|  |  |
+| Topic | Variables as Definitions |
 | :--- | :--- |
-|  |  |
+| Time required | 10 minutes |
+| Benefit realized | How a Variable can also be used for creating a definition |
+| Git sample | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)  |
 
 ---
 

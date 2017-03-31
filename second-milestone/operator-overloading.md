@@ -1,6 +1,6 @@
 | Topic | Operator Overloading |
 | :--- | :--- |
-| Time required | 5 minutes |
+| Time required | 10 minutes |
 | Benefit realized | Benefit of operator overloading in Scala |
 | Git sample | [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala) |
 
@@ -12,7 +12,7 @@
   * `a + b`  is a shorthand for `a.+(b)`
   * If a & b are type of Int, method '**+'** of Int class will applied on operation: `a.+(b)`
 
-* Open program `com.inbravo.lang.OperatorsAreMethods.scala `\[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29\)\] in Eclipse and run...
+* Open program `com.inbravo.lang.OperatorsAreMethods.scala`\[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29\)\] in Eclipse and run...
 
 ```scala
 /**

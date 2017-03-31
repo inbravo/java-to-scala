@@ -9,8 +9,8 @@
   * [Common Types](second-milestone/common-types.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
   * [Methods or Definitions](second-milestone/methods.md)
+  * [Variables as Definitions](second-milestone/variables-and-definitions.md)
   * [Operator Overloading](second-milestone/operator-overloading.md)
-  * [Variables and Definitions](second-milestone/variables-and-definitions.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
 * =\*= Fourth Milestone =\*=
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
