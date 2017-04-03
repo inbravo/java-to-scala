@@ -1,6 +1,6 @@
 | Topic | Anagram Test |
 | :--- | :--- |
-| Time required | 10 minutes |
+| Time required | 30 minutes |
 | Benefit realized | Writing a simple Scala program |
 | Git sample | [Anagram.java](https://github.com/inbravo/java-src/blob/master/src/com/inbravo/string/Anagram.java) and [Anagram.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/string/Anagram.scala) |
 
