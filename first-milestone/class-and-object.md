@@ -20,8 +20,11 @@ object A extends B with C {
 
   * creates a single instance of this class named `A`
 
-* Class is the **Blueprint **for objects 
+* Class is the **Blueprint **for objects
+
 * Object is the **Entry Point** of a program
+
+* Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
 
 
 

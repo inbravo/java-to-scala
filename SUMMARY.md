@@ -7,7 +7,6 @@
   * [Hello World](first-milestone/hello-world.md)
   * [Class and Object](first-milestone/class-and-object.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
-  * [Object and Class](second-milestone/object-and-class.md)
   * [Common Types](second-milestone/common-types.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
   * [Methods or Definitions](second-milestone/methods.md)
