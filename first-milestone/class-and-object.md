@@ -6,7 +6,7 @@
 
 ---
 
-*  You can think of the `object`keyword as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
+* You can think of the `object`keyword as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
 
 ```scala
 object A extends B with C {
@@ -15,14 +15,13 @@ object A extends B with C {
 ```
 
 * Declaration in above example,
-  *  declares an anonymous \(inaccessible\) class that extends both `B`and `C` and
 
-  *  creates a single instance of this class named `A` 
-* Class is a blueprint for objects. objects are program entry point
+  * declares an anonymous \(inaccessible\) class `A` that extends both `B`and `C` and
 
+  * creates a single instance of this class named `A`
 
-
-
+* Class is the **Blueprint **for objects 
+* Object is the **Entry Point** of a program
 
 
 
