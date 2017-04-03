@@ -5,7 +5,7 @@
 * [=\*= First Milestone =\*=](first-milestone.md)
   * [Setup: Well Begun Half Done](first-milestone/setup-well-begun-half-done.md)
   * [Hello World](first-milestone/hello-world.md)
-  * [Class and Object](first-milestone/class-and-object.md)
+  * [Object and Class](first-milestone/class-and-object.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
   * [Common Types](second-milestone/common-types.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
