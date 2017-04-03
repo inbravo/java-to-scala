@@ -1,6 +1,6 @@
 | Topic | Hello World |
 | :--- | :--- |
-| Time required | 5 minutes |
+| Time required | 10 minutes |
 | Benefits realized | First program execution in Scala |
 | Git sample | [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala) & [HelloWorldWithoutMain.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorldWithoutMain.scala) |
 
