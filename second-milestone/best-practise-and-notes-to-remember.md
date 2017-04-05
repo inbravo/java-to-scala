@@ -6,8 +6,7 @@
 4. In scala semicolons ; are optional and only required if you have multiple statements on the same line. 
 5. In scala multiple variables or values can be declare and initialized together as :
     var height, width = 100 // Sets both height and width to 100. 
-
-
+6. There is no need to write a return statement, as the value of the function is considered to be the return statement.
 
 
 
