@@ -1,7 +1,7 @@
 | **Topic** | **Setup** |
 | :--- | :--- |
 | Time required | 10 minutes |
-| Benefits realized |  |
+| Benefits realized | Benefits of Scala |
 
 ---
 
