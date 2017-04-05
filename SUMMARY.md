@@ -13,7 +13,7 @@
   * [Variables as Definitions](second-milestone/variables-and-definitions.md)
   * [Procedures](second-milestone/variables-and-definitions/procedures.md)
   * [Operator Overloading](second-milestone/operator-overloading.md)
-  * [Best Practise and Notes to remember](second-milestone/best-practise-and-notes-to-remember.md)
+  * [Cheat Sheat](second-milestone/best-practise-and-notes-to-remember.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
