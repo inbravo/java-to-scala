@@ -7,6 +7,7 @@
   * [Hello World](first-milestone/hello-world.md)
   * [Object and Class](first-milestone/class-and-object.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
+  * [Why Scala](first-milestone/why-scala.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
   * [Common Types](second-milestone/common-types.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)

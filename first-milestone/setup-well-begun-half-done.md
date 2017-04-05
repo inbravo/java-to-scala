@@ -9,9 +9,9 @@ This excersice involves three actions
 
 * **Scala build tool setup**
 
-  * Download [sbt](http://www.scala-sbt.org%20) setup in your desired compression format \(zip or tgz\)
+  * Download [sbt](http://www.scala-sbt.org ) setup in your desired compression format \(zip or tgz\)
   * Decompress the downloaded file to local directory. Ex:`/download/path-to-sbt`
-  * Update **PATH **variable to include [sbt](http://www.scala-sbt.org%20). Ex:`[adixit@marcus ~]$ export PATH=$PATH:/download/path-to-sbt/bin`
+  * Update **PATH **variable to include [sbt](http://www.scala-sbt.org ). Ex:`[adixit@marcus ~]$ export PATH=$PATH:/download/path-to-sbt/bin`
 
 * **Code setup**
 
