@@ -16,6 +16,7 @@
   * [Procedures](second-milestone/variables-and-definitions/procedures.md)
   * [Operator Overloading](second-milestone/operator-overloading.md)
   * [Cheat Sheet](second-milestone/best-practise-and-notes-to-remember.md)
+  * [While-If Scala](second-milestone/looping-in-scala.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
