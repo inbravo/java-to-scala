@@ -10,7 +10,7 @@
 
    // this is Java class
 
-`MyClass {`
+`MyClass { `
 
 `private int index;`
 
@@ -26,5 +26,5 @@
 
 In Scala, you would likely write this instead:
 
-class MyClass\(index: Int, name: String\)
+`class MyClass(index: Int, name: String)`
 
