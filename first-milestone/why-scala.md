@@ -11,5 +11,5 @@ The power behind the . Behind the scenes, your input is quickly compiled into by
 
 **Why this Book **
 
-In this book we will guide you gently up Scala’s learning curve, one step at a time by giving all the basics and advance example of scala and full setup to make it easy to learn by run the examples by your own. If you’re java programer and wishing to learn Scala, the most challenging aspects  may involve Scala’s type system \(which is richer than Java’s\) and its support for functional programming. 
+In this book we will guide you gently up Scala’s learning curve, one step at a time by giving all the basics and advance example of scala and full setup to make it easy to learn by run the examples by your own. If you’re java programer and wishing to learn Scala, the most challenging aspects  may involve Scala’s type system \(which is richer than Java’s\) and its support for functional programming.In this book we are using eclipse to set up and run scala program, you can use Scala interactive shell as well. 
 
