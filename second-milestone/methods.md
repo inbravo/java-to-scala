@@ -2,7 +2,7 @@
 | :--- | :--- |
 | Time required | 30 minutes |
 | Benefit realized | Ability to define properties and fields |
-| Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) |
+| Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) \(Need to update this class to \) |
 
 ---
 
