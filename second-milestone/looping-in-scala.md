@@ -44,5 +44,12 @@ for(variable <- range) statement
 for(variable <- [range or list] if condition; if condition; ...) statement
 ```
 
+```
+e.g.
+var list = List(1,2,3,4,5,6,7,8,9,10)
+//print odd number in list except 7
+for(element <- list if element%2 != 0; if element!= 7) println("Element of list is : " + element)
+```
+
 
 
