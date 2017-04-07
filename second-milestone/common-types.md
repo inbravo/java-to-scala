@@ -15,13 +15,13 @@
 * From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala`
 
 * Scala has 7 numeric types  
-  1. **Byte **  **  :**   `val maxByteValue: Byte = Byte.MaxValue`  
-  2. **Char **  **  :**   `val maxCharValue: Char = Char.MaxValue`  
-  3. **Short **  ** :**   `val maxShortValue: Short = Short.MaxValue`  
-  4. **Int **  **      :**   `val maxIntValue: Int = Int.MaxValue`  
-  5. **Long **  **  :**   `val maxLongValue: Long = Long.MaxValue`  
-  6. **Float **  **  :**   `val maxFloatValue: Float = Float.MaxValue`  
-  7. **Double  :**   `val maxDoubleValue: Double = Double.MaxValue`
+  1. **Byte **  **  :**   `val maxByteValue: Byte = Byte.MaxValue   : 8 bits`  
+  2. **Char **  **  :**   `val maxCharValue: Char = Char.MaxValue : 16 bits `  
+  3. **Short **  ** :**   `val maxShortValue: Short = Short.MaxValue : 16 bits `  
+  4. **Int **  **      :**   `val maxIntValue: Int = Int.MaxValue : 32 bits`  
+  5. **Long **  **  :**   `val maxLongValue: Long = Long.MaxValue  : 64 bits`  
+  6. **Float **  **  :**   `val maxFloatValue: Float = Float.MaxValue : 32 bits `  
+  7. **Double  :**   `val maxDoubleValue: Double = Double.MaxValue  : 64 bits`
 
 * Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of `main`method
 
@@ -31,7 +31,9 @@ def main(args: Array[String]): Unit = { .... }
 
 * Scala also has got a type **Boolean **:    `val trueBoolean: Boolean = true`
 
-* Unlike Java, There is no distinction like primitive type or class type in Scala
+* In Scala `Null `is also an object, Null corresponds to Null value or empty reference.  
+
+* No one can create object like `Nothing `in scala, this is used to denote empty collection or abnormal termination. 
 
 * Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
