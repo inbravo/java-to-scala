@@ -9,7 +9,7 @@
   * [Object and Class](first-milestone/class-and-object.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
-  * [Common Types](second-milestone/common-types.md)
+  * [Common Types/Data Types](second-milestone/common-types.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
   * [Methods or Definitions](second-milestone/methods.md)
   * [Variables as Definitions](second-milestone/variables-and-definitions.md)

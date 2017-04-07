@@ -6,6 +6,8 @@
 
 ---
 
+* As Scala is pure object oriented language, each and every value in Scala is an object. Even all of the primitive data types of Scala are the objects.
+
 * Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef`and `AnyVal`
 
   ![](/assets/types.png)
