@@ -18,8 +18,6 @@ if "else" part if not defined in if-else statement, return type would be `Any`.
 
 `//here return type  would be Java.lang.String`
 
-
-
 Scala has same control structure like Java as while, do-while, for. Syntax for while and do-while in scala is same is Java.
 
 ```
@@ -34,11 +32,7 @@ do{
   }while(condition)
 ```
 
-Syntax for for is different in scala in compare to java 
-
-```
-for
-```
+Syntax for for is different in scala in compare to java
 
 ```
 for(variable <- list) statement
