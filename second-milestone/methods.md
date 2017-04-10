@@ -91,11 +91,15 @@ object MethodTest extends App {
 }
 ```
 
-you can also call a method with variable number of parameters. like :
+you can also call a method with variable number of arguments, like :
 
-`def sum(args: Int*) = {var result = 0 for (arg <- args) result += arg  result }`
+`def sum(args: Int*) = {  
+var result = 0  
+ for (arg <- args) result += arg  
+  result  
+ }`
 
-you can call it with as many argument as required. 
+you can call it with as many argument as required.
 
 `val s = sum (1,2,3,4)`
 
