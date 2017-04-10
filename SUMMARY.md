@@ -19,6 +19,7 @@
   * [Input and Output](second-milestone/input-and-output.md)
   * [Cheat Sheet](second-milestone/best-practise-and-notes-to-remember.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
+  * [Array](third-milestone/array.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
   * Queue
