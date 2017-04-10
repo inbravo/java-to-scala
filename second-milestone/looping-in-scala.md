@@ -18,6 +18,10 @@ if "else" part if not defined in if-else statement, return type would be `Any`.
 
 `//here return type  would be Java.lang.String`
 
+The if statement without an else is equivalent to
+
+`if (x > 0) 1 else ()`
+
 Scala has same control structure like Java as while, do-while, for. Syntax for while and do-while in scala is same is Java.
 
 ```
