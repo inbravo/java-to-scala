@@ -23,7 +23,7 @@
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
   * Queue
-  * LinkedList
+  * [LinkedList](third-milestone/linkedlist.md)
 * =\*= Fourth Milestone =\*=
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
 * =\*= Sixth Milestone =\*=
