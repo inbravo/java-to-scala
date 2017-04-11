@@ -26,7 +26,7 @@ to add elements :
 
 `b.insert(2, 6)`
 
-`//insert before index 2. `
+`//insert before index 2.`
 
 We can also use `insert`or `remove`to add/delete.
 
@@ -40,5 +40,15 @@ We can also use `insert`or `remove`to add/delete.
 
 On Arrays you can directly use `sum, min, max, sorted` methods.
 
+**Multidimensional Arrays**
 
+As in Java, Scala also supports multidimensional array as arrays of arrays.
+
+`val matrix = Array.ofDim[Double](3, 4) //Array of three rows, four columns of Double type.`
+
+To access the element :
+
+`matrix(row)(column)`
+
+Scala arrays are implemented as Java arrays, you can pass them back and forth between Java and Scala.
 
