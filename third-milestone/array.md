@@ -12,25 +12,33 @@
 
 `s(0) = "Goodbye"`
 
+In Scala `ArrayBuffer`used for variable length array. which is implemented in`scala.collection.mutable.ArrayBuffer`
 
-
-In Scala `ArrayBuffer `used for variable length array. which is implemented in`scala.collection.mutable.ArrayBuffer`
-
-`val b = ArrayBuffer[Int]()`
+`val b = ArrayBuffer[Int]()`
 
 `// Or new ArrayBuffer[Int]`
 
-This will create an empty Array buffer, in which we can add Integers. 
+This will create an empty Array buffer, in which we can add Integers.
 
 to add elements :
 
-b+ = \(1,2,3,4\).
+`b+ = (1,2,3,4)`
 
-We can also use `insert `or `remove `to add/delete.
+`b.insert(2, 6)`
 
-\***Yield **: The for \(...\) yield loop creates a new collection of the same type as the original collection.
+`//insert before index 2. `
 
-\***guard :** an if inside the for.To process the elements from an Array which match the particular conditions. 
+We can also use `insert`or `remove`to add/delete.
+
+\***Yield **: The for \(...\) yield loop creates a new collection of the same type as the original  
+ collection.
+
+\***guard :** an if inside the  
+ for.To process the elements from an Array which match the particular conditions.
 
 `for (elem <- a if a % 2 == 0) yield 2 * elem`
+
+On Arrays you can directly use `sum, min, max, sorted` methods.
+
+
 
