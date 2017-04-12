@@ -23,7 +23,7 @@
   * [Maps and Tuples](third-milestone/maps-and-tuples.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
-  * Queue
+  * [Queue](third-milestone/queue.md)
   * [LinkedList](third-milestone/linkedlist.md)
   * [Cheat Sheet](third-milestone/cheat-sheet.md)
 * =\*= Fourth Milestone =\*=
