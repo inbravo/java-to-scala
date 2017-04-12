@@ -25,6 +25,7 @@
   * [Stack](third-milestone/stack.md)
   * Queue
   * [LinkedList](third-milestone/linkedlist.md)
+  * [Cheat Sheet](third-milestone/cheat-sheet.md)
 * =\*= Fourth Milestone =\*=
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
 * =\*= Sixth Milestone =\*=
