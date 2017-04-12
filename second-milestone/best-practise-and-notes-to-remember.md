@@ -22,8 +22,10 @@
 10. Every method parameter must be followed by type annotation.
 
 11. Method names can contain characters like ‘.’ OR ‘\*’ OR ‘+’ as Scala doesn’t have any native operators \(all operators of Scala are methods\).
+
 12. Scala re-uses Java’s types, and also “dresses them up” to make them nicer.
-13. 14. Method without parameters can be called without parentheses and method with one parameter can be call with . oprator and without parenthesis. 
+13. Method without parameters can be called without parentheses and method with one parameter can be call with . operator and without parenthesis. 
+14. We can call parameter less method with or without \(\), its always a good practise to use \(\) with a mutator methods\(methods which make change in object state\), and drop \(\) for accessor method \(method which does not change object state\).
 15. Exceptions work just like in Java or C++, but you use a “pattern matching” syntax for catch. Scala has no checked exceptions.
 16. Scala has no switch statement.
 17. Scala has no break or continue statements, to break out of a loop, instead you can use some boolean flag  or use the break method in the Breaks object
