@@ -10,7 +10,7 @@
 
 `val s = Array("Hello", "World")`
 
-`s(0) = "Goodbye" // this is equivalent to s.update(0,"Goodbye")`
+`s(0) = "Goodbye" // this is equivalent to s.update(0,"Goodbye") as all oprations are method call in scala`
 
 In Scala `ArrayBuffer`used for variable length array. which is implemented in`scala.collection.mutable.ArrayBuffer`
 
