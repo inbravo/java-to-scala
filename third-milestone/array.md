@@ -10,7 +10,7 @@
 
 `val s = Array("Hello", "World")`
 
-`s(0) = "Goodbye"`
+`s(0) = "Goodbye" // this is equivalent to s.update(0,"Goodbye")`
 
 In Scala `ArrayBuffer`used for variable length array. which is implemented in`scala.collection.mutable.ArrayBuffer`
 
@@ -50,5 +50,6 @@ To access the element :
 
 `matrix(row)(column)`
 
-Scala arrays are implemented as Java arrays, you can pass them back and forth between Java and Scala.
+Scala arrays are implemented as Java arrays, you can pass them back and  
+ forth between Java and Scala.
 
