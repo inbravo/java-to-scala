@@ -17,11 +17,14 @@ Scala use`:+`to append operation, but this rarely used, as the time to append a 
 
 #### Tuples
 
-Tuples are also immutable like list, but it can contains elements of different types. so a List can be either List\[Int\] or List\[String\], while tuple can be combination of both. So mostly in Java we used JavaBean like class to hold  multiple return values, while in scala we can do that by using tuples. 
+Tuples are also immutable like list, but it can contains elements of different types. so a List can be either List\[Int\] or List\[String\], while tuple can be combination of both. So mostly in Java we used JavaBean like class to hold  multiple return values, while in scala we can do that by using tuples.
 
-`val pair = (99, "Luftballons") // to create tule we just need to place the objects into parenthesis seprated by commas`
+`val pair = (99, "Luftballons")   
+ // to create and initilized tuple of type Tuple2[Int, String] i.e. Tuple of length 2 we just need to place the objects into parenthesis seprated by commas`
 
-`println(pair._1)`_` // `_`to access the elements of tuple you can use ._and index of element in tuple. `
+`println(pair._1)//to access the elements of tuple you can use ._and index of element in tuple.`
 
 `println(pair._2)`
+
+
 
