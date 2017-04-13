@@ -4,6 +4,10 @@
 | Benefits |  |
 | Git Sample |  |
 
+In Scala Set and Maps can be mutable or immutable, depends upon which one we imported to our class. by default it would be immutable. to use Mutable maps you can import `import scala.collection.mutable.Map` , while to create mutable set ` import scala.collection.mutable.Set`
+
+#### Maps
+
 Maps are collection of key/value pairs. In Scala, a map is a collection of pairs.In scala Map can be hash table or balanced tree, depending upon the implementation. By default it would be hash table. . A pair is simply a grouping of two values,  
 not necessarily of the same type, such as \("Alice", 10\).You can construct map like :
 
@@ -21,7 +25,7 @@ To create blank map :
 
 You can access values from Map as :
 
-`scores("Bob")`  // =3 , Like scores.get\("Bob"\) in Java, it will throw exception if value for the requested key not present in Map. you can use 
+`scores("Bob")`  // =3 , Like scores.get\("Bob"\) in Java, it will throw exception if value for the requested key not present in Map. you can use
 
 `val bobsScore = if (scores.contains("Bob")) scores("Bob") else 0` Or
 
@@ -29,9 +33,9 @@ You can access values from Map as :
 
 you can add/update value in map using \(\) :
 
-scores\("Bob"\) = 5 //if Bob present, it will update value for Bob, otherwise add new pair. 
+scores\("Bob"\) = 5 //if Bob present, it will update value for Bob, otherwise add new pair.
 
-you can also use += or -= to add deleted pairs from Map. 
+you can also use += or -= to add deleted pairs from Map.
 
 To iterate Map :
 
@@ -41,11 +45,36 @@ To visit only keys you can use `scores.keySet`  or to iterate values `for (v <- 
 
 To get an immutable tree map instead of a hash map, use
 
-`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,"Fred" -> 7, "Bob" -> 3, "Cindy" -> 8)`
+`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,  
+"Fred" -> 7, "Bob" -> 3, "Cindy" -> 8)`
 
-To map Java map into Scala you can use conversion utility by importing 
+To map Java map into Scala you can use conversion utility by importing
 
-`import scala.collection.JavaConversions.mapAsScalaMap.` To use scala map into java you can use 
+`import scala.collection.JavaConversions.mapAsScalaMap.` To use scala map into java you can use
 
 `import scala.collection.JavaConversions.mapAsJavaMap`
+
+#### Sets
+
+`var jetSet = Set("Boeing", "Airbus") //Create and initilize Immutable Set with 2 Strings. `
+
+`jetSet += "Lear" // reassign the jetSet var with a new set containing "Boeing", "Airbus", and "Lear`
+
+`println(jetSet.contains("Cessna"))`
+
+
+
+In case of mutable Set
+
+`import scala.collection.mutable.Set `
+
+`val movieSet = Set("Hitch", "Poltergeist") //Create mutable Set `
+
+`movieSet += "Shrek" // Add Shrek to movieSet `
+
+`println(movieSet)`
+
+
+
+
 
