@@ -27,7 +27,8 @@
   * [Queue](third-milestone/queue.md)
   * [LinkedList](third-milestone/linkedlist.md)
   * [Cheat Sheet](third-milestone/cheat-sheet.md)
-* =\*= Fourth Milestone =\*=
+* [=\*= Fourth Milestone =\*=](fourth-milestone.md)
+  * [Classes and Objects](fourth-milestone/classes-and-objects.md)
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
 * =\*= Sixth Milestone =\*=
 * =\*= Seventh Milestone =\*=
