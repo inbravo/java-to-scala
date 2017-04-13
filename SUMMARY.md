@@ -20,6 +20,7 @@
   * [Cheat Sheet](second-milestone/best-practise-and-notes-to-remember.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Array](third-milestone/array.md)
+  * [List](third-milestone/list.md)
   * [Maps and Tuples](third-milestone/maps-and-tuples.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
