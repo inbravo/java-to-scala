@@ -31,5 +31,5 @@
   * [Classes and Objects](fourth-milestone/classes-and-objects.md)
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
 * =\*= Sixth Milestone =\*=
-* =\*= Seventh Milestone =\*=
+* [=\*= Seventh Milestone =\*=](seventh-milestone.md)
 

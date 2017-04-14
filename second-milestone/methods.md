@@ -93,11 +93,13 @@ object MethodTest extends App {
 
 you can also call a method with variable number of arguments, like :
 
-`def sum(args: Int*) = {  
+```scala
+def sum(args: Int*) = {  
 var result = 0  
  for (arg <- args) result += arg  
   result  
- }`
+ }
+```
 
 you can call it with as many argument as required.
 
