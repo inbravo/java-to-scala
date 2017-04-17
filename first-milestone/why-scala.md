@@ -11,7 +11,7 @@
     * [Easy Access from Anywhere and Anytime](http://inbravo.github.io/scala-src)
   * Every chapter of this book is named as **Topic. **Every **Topic **uses specific code examples 
   * Every **Milestone **containts all inter-related **Topics**
-  * All code examples of a Topic, can be directly [**viewable on GitHub**](http://inbravo.github.io/scala-src/) and [**Executable on Your Local Enviornment**](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
+  * All code examples of a Topic, can be directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
 * **Sense of Achivement: **
   * Content of this book is broken in multiple **Milestones **and **Topics **per Milestone
   * A Topic is based on a minimalistic appraoch, yet giving complete code examples
