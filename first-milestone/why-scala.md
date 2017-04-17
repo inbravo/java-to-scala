@@ -1,23 +1,29 @@
 
 ---
 
+Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure.
 
+Scala is more "**fashionable**" these days. It provides both object oriented and functional programming and in compatible with Java Virtual Machine \(JVM\).
 
-Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure. 
+Functional constructs allows the developer to write short and concise code, whereas object-oriented concepts allows the language to be used for large complex projects.
 
-Scala is more "**fashionable**" these days. It provides both object oriented and functional programming and in compatible with Java Virtual Machine \(JVM\). 
-
-Functional constructs allows the developer to write short and concise code, whereas object-oriented concepts allows the language to be used for large complex projects. 
-
-Scala is fully interoperable with the Java language, which allows developers to use all Java libraries from within Scala. 
+Scala is fully interoperable with the Java language, which allows developers to use all Java libraries from within Scala.
 
 Scala is short, having expressive syntax and avoids unnecessary punctuation. As the name "Scala" stands for “Scalable Language", it is designed to grow with the demands of its users.
 
 ---
 
-
-
 **Why this Book?? **
 
-In this book we will guide you gently up Scala’s learning curve, one step at a time by giving all the basic and advanced examples of Scala and full setup to make it easy to learn by run the examples by your own. If you’re java programer and wishing to learn Scala, the most challenging aspects  may involve Scala’s type system \(which is richer than Java’s\) and its support for functional programming.In this book we are using eclipse to set up and run scala program, you can use Scala interactive shell as well.
+* **Code First**: 
+  * As a programmer, we always wanted to quickly lay our hands on code, rather then reading some documentation
+  * Every chapter of this book is  named as Topic
+  * Every Topic uses some code examples
+  * All code examples of a Topic, can be directly viewable on GitHub or executable on your easilty executable on your local Eclipse IDE based enviornment
+* **Sense of Achivement: **
+  * Content of this book is broken in multiple Milestones and Topics per Milestone. 
+
+In this book we will guide you gently up Scala’s learning curve, one step at a time by giving all the basic and advanced examples.
+
+ of Scala and full setup to make it easy to learn by run the examples by your own. If you’re java programer and wishing to learn Scala, the most challenging aspects  may involve Scala’s type system \(which is richer than Java’s\) and its support for functional programming.In this book we are using eclipse to set up and run scala program, you can use Scala interactive shell as well.
 

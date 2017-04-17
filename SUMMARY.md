@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Approach](philosophy.md)
-* [Why Scala?](first-milestone/why-scala.md)
+* [Why This Book?](first-milestone/why-scala.md)
 * [=\*= First Milestone =\*=](first-milestone.md)
   * [Setup: Well Begun Half Done](first-milestone/setup-well-begun-half-done.md)
   * [Hello World](first-milestone/hello-world.md)
