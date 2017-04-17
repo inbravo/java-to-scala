@@ -9,7 +9,7 @@
     * [Code Aesthetics](http://wonko.com/post/code_aesthetics)
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
-    * [Easy Access](http://inbravo.github.io/scala-src)
+    * [Easy Access on GitHub](http://inbravo.github.io/scala-src)
   * Every chapter of this book is named as **Topic. **Every **Topic **uses specific code examples 
   * Every **Milestone **containts all inter-related **Topics**
   * All code examples of a Topic, can be directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
