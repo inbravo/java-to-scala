@@ -29,6 +29,10 @@
   * **CheatSheet **is simple mechanism of refreshing the concepts, freely from anywhere and anytime
   * **CheatSheet **is also a **Meaningfull Instrument for Impatients**
   * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve), if used with a [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) Plan
+* **Your Book**
+  * This is a Free Book, fork its content from [GitHub](https://github.com/inbravo/java-to-scala) repo
+  * Inside your local repo, change content, topics and use it for spreaing knowledge
+  * Enjoy the joy of Free Sharing
 
 ---
 
