@@ -26,8 +26,8 @@
   * One the main characterstics of every Learning process is, our ability to remember the concepts, in long run
   * Every **Milestone **of this book ends with a topic named **CheatSheet**
   * **CheatSheet **is simple mechanism of recalling all the concepts, without wasting our precious time
-  * CheatSheet is also a **Meaningfull Instrument for Impatients**
-  * CheatSheet works as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve), if used with a [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) Plan
+  * **CheatSheet **is also a **Meaningfull Instrument for Impatients**
+  * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve), if used with a [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) Plan
 
 ---
 
