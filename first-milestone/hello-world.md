@@ -10,11 +10,6 @@
 * Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console
 
 ```scala
-/**
- * Hello World program using main method, like Java
- *
- * amit.dixit
- */
 object HelloWorld {
 
   /**
@@ -37,12 +32,6 @@ object HelloWorld {
 * Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console
 
 ```scala
-/**
- * Hello World program without main method, unlike Java, using scala.App class
- * Extend scala.App to avoid usage of main method
- *
- * amit.dixit
- */
 object HelloWorldWithoutMain extends App {
 
   /* Control flow : scala.Predef.println --> scala.Console.println --> java.io.PrintStream.println */
