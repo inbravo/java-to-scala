@@ -15,7 +15,7 @@
 * **Sense of Achivement: **
   * Content of this book is broken in multiple **Milestones **and **Topics **per Milestone
   * A Topic is based on a minimalistic appraoch, yet giving complete code examples
-  * Execution of code examples will lets the users feel a sence of achivement, in-fact a motivation to read next Topic
+  * Execution of a code example, gives users a **Sense of Achivement**, in-fact a motivation to read next Topic
   * Idea is to let readers, **Quickly Understand a Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Scala is Easy for Java Programmers**
   * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
