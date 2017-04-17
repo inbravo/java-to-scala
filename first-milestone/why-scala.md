@@ -14,6 +14,8 @@
   * Execution of code examples will lets the users feel a sence of achivement, in-fact a motivation to read next Topic
   * Idea is to let readers, **Quickly Understand a Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Scala is easy to Learn for Java Programmers**
+  * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
+  * Scala is more fashionable these days. It provides both object oriented and functional programming and in compatible with Java Virtual Machine
 
 ---
 
