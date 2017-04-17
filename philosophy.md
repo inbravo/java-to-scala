@@ -5,7 +5,7 @@
 | **Attainable Realistic Goals ** |
 | [**One Thing at a Time**](http://alifeofproductivity.com/do-one-thing-at-a-time) |
 | **Sense of Achievement** |
-| **Best Code Speaks for Itself** |
+| **Let The Code Speak** |
 | **Execute First, Understand Later ** |
 
 #### 
