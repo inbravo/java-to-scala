@@ -4,8 +4,13 @@
 **Why this Book? **
 
 * **Code First**: 
-  * As a programmer, we always wanted to quickly lay our hands on code, rather then reading any documentation
-  * Every chapter of this book is named as **Topic. **Every **Topic **uses some code examples. 
+  * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
+  * In its Code First approach, this book provides Neatly written Code samples with following cocepts in mind, to increase the readablity 
+    * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
+    * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
+    * [Easy Access from Anywhere and Anytime](http://inbravo.github.io/scala-src)
+  * Every chapter of this book is named as **Topic. **Every **Topic **uses specific code examples 
+  * Every **Milestone **containts all inter-related **Topics**
   * All code examples of a Topic, can be directly [**viewable on GitHub**](http://inbravo.github.io/scala-src/) and [**Executable on Your Local Enviornment**](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
 * **Sense of Achivement: **
   * Content of this book is broken in multiple **Milestones **and **Topics **per Milestone
