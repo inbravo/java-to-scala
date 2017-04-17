@@ -22,7 +22,7 @@
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
   * This books considers you a Java Programmer, and try not to dive deeply in revealing all Scala Concepts, which are common with Java
-* **Long term Learning**
+* **Long Term Learning**
   * One the main characterstics of every Learning process is, our ability to remember the concepts, in long run
   * Every **Milestone **of this book ends with a topic named **CheatSheet**
   * **CheatSheet **is simple mechanism of recalling all the concepts, without wasting our precious time
