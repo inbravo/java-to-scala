@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Philosophy](philosophy.md)
+* [Approach](philosophy.md)
 * [Why Scala?](first-milestone/why-scala.md)
 * [=\*= First Milestone =\*=](first-milestone.md)
   * [Setup: Well Begun Half Done](first-milestone/setup-well-begun-half-done.md)
