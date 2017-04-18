@@ -1,4 +1,4 @@
-1. The interactive shell for Scala is simply called scala. You use it by typing `scala`at a command prompt. It starts an interactive shell, which is called **Scala Interpreter,** which reads an expression, evaluates it, prints it, and reads the next expression. This is called [REPL \(Read Evaludate Print Loop\)](http://docs.scala-lang.org/overviews/repl/overview.html)
+1. Scala provides an interactive shell, called **Scala Interpreter,** which reads an expression, evaluates it, prints it, and reads the next expression. This is called [REPL \(Read Evaludate Print Loop\)](http://docs.scala-lang.org/overviews/repl/overview.html). Refer [here ](http://alvinalexander.com/scala/getting-started-scala-repl-command-line-shell-options)to explore, will be helpfull in learning
 
 2. Scala program [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala), which uses`main()`
 
@@ -9,6 +9,7 @@
 5. Program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes class imports in Scala
 
 6. Program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) describes field passing using constructors in Scala
+
 7. Scala’s syntax avoids some of the boilerplate that burdens Java programs. In Scala, you can define a class using `class Employee(name: String, age: String){}`. Same in Java requires...
 
 ```java
