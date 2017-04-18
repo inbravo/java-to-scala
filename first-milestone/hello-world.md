@@ -6,7 +6,7 @@
 
 ---
 
-**HelloWorld With`main()` Method**
+**HelloWorld With**`main()`** Method**
 
 * Open Scala program `com.inbravo.lang.HelloWorld.scala` \[[HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala)\] in your Eclipse
 
@@ -29,9 +29,7 @@ object HelloWorld {
 }
 ```
 
-
-
-**HelloWorld Without `main()` Method**
+**HelloWorld Without **`main()`** Method**
 
 * Scala provides `scala.App` class to avoid `main`method
 
