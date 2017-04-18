@@ -2,16 +2,16 @@
 | :--- | :--- |
 | Time required | 10 minutes |
 | Benefit realized | What  is keyword object in Scala and its purpose |
-| Git sample |  |
+| Git sample | ClassObjectTest.scala |
 
 ---
 
-* Scala provides two ways of defining a program, using either keword `class ` or `object`
+* Scala provides two ways of defining a program, using either keword `class` or `object`
 * Scala keyword `class`is used in similar fashion, the way used in Java
 
 ```scala
 class CLASSA extends CLASSB with CLASSC {
-  
+
 }
 ```
 
@@ -21,13 +21,13 @@ class CLASSA extends CLASSB with CLASSC {
 
 ```scala
 object OBJECTA extends CLASSB with CLASSC {
-  
+
 }
 ```
 
 * Declaration in above example,
 
-  * Declares an anonymous \(inaccessible\) class `OBJECTA` that extends both `CLASSB`and `CLASSC` 
+  * Declares an anonymous \(inaccessible\) class `OBJECTA` that extends both `CLASSB`and `CLASSC`
 
   * Creates a single instance of this class named `OBJECTA`
 
