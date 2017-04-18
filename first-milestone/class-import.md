@@ -17,14 +17,14 @@ import _root_.scala._
 import _root_.scala.Predef._
 ```
 
-* Import some classes in Scala
+* Import some classes in Scala, using curly brackets \(`{}`\)
 
 ```scala
 /* Import some classes */
 import java.util.concurrent.atomic.{ AtomicInteger, AtomicLong }
 ```
 
-* Import all classes of a package in Scala
+* Import all classes of a package in Scala, using underscope character \(`_`\). Java used star character \(`*`\) for this purpose
 
 ```scala
 /* Both imports are same. top package can be ignored */
