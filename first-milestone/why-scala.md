@@ -5,7 +5,7 @@
 
 * **Code First**: 
   * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
-  * In its Code First approach, this book provides Neatly written Code samples with following cocepts in mind, to increase the readablity 
+  * In its Code First approach, this book provides code samples with following concepts in mind, to increase the readablity 
     * [Code Aesthetics](http://wonko.com/post/code_aesthetics)
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
