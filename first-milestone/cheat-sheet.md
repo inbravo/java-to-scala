@@ -2,29 +2,30 @@
 
 2. Class import  in Scala program is similar to Java. You are free to import any Java class in your Scala program
 
-   ```scala
-   import java.math.BigInteger
-   ```
+3. Scala’s syntax avoids some of the boilerplate that burdens Java programs. In Scala, you can define a class using `class Employee(name: String, age: String){}`. Same in Java requires...
 
-3. Scala’s syntax avoids some of the boilerplate that burdens Java programs.
+```java
+/* Equivalent Java class */
+class Employee { 
 
-   // this is Java class
+      private String name;
+      private int age;
 
-`MyClass {`
+      public Person(String name, int age) {
 
-`private int index;`
+          this.name = name;
+          this.age = age;
+      }
 
-`private String name;`
+      public String name() { 
+    return this.name; 
+      }
 
-`public MyClass(int index, String name) {`
+      public int age() { 
+    return this.age; 
+     }
+}
+```
 
-`this.index = index; this.name = name;`
 
-`}`
-
-`}`
-
-In Scala, you would likely write this instead:
-
-`class MyClass(index: Int, name: String)`
 
