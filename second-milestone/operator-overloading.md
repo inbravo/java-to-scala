@@ -7,6 +7,9 @@
 ---
 
 * Unlike Java, you can overload operators in Scala
+
+* Every value in Scala is an **object **and every operation is a **Method Call**. For example, when you say `1 + 2` in Scala, you are actually invoking a method named `+` defined in class Int, and 1 and 2 are objects we are passing to this method
+
 * All operators do the usual work \(`+ - * / % & | ^ >> <<`\), but these operators are methods, which is owing to operator overloading feature of Scala
 
   * `a + b`  is a shorthand for `a.+(b)`
@@ -14,55 +17,7 @@
 
 * Open program `com.inbravo.lang.OperatorsAreMethods.scala`\[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29\)\] in Eclipse and run...
 
-```scala
-/**
- * The + - * / % operators do their usual job, as do the bit operators & | ^ >> <<. There
- * is just one surprising aspect: These operators are actually methods : Quote from 'Scala for the Impatient'
- *
- * amit.dixit
- */
-object OperatorsAreMethods {
 
-  def main(args: Array[String]): Unit = {
-
-    val a = "a"
-    val b = "b"
-
-    /* '+' is nothing but just a method implemented in String class */
-    println(a.+(b))
-
-    /* a + b == a.+(b) */
-    println(a + b)
-
-    println(OperatorsAreMethods.+)
-    println(OperatorsAreMethods.++)
-
-    /* Both calls to same method */
-    println(OperatorsAreMethods.+(1))
-    println(OperatorsAreMethods + 1)
-
-    /* Both calls to same method */
-    println(OperatorsAreMethods.++(1))
-    println(OperatorsAreMethods ++ 1)
-  }
-
-  def +() {
-    println("+")
-  }
-
-  def +(param: Int) {
-    println(param + "+")
-  }
-
-  def ++() {
-    println("++")
-  }
-
-  def ++(param: Int) {
-    println(param + "++")
-  }
-}
-```
 
 
 
