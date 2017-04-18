@@ -9,6 +9,7 @@
   * [Object and Class](first-milestone/class-and-object.md)
   * [Class Import](first-milestone/class-import.md)
   * [Constructors](first-milestone/constructors.md)
+  * [Companion Object](first-milestone/companion-object.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
   * [Common Types/Data Types](second-milestone/common-types.md)
