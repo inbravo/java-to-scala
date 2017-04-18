@@ -10,9 +10,7 @@
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * [Easy Access on GitHub](http://inbravo.github.io/scala-src)
-  * Every chapter of this book is named as **Topic. **Every **Topic **uses specific code examples 
-  * Every **Milestone **containts inter-related **Topics**
-  * All code examples of a Topic, directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
+  * All code examples of this book, are directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
 * **Sense of Achivement: **
   * Content of this book is broken in multiple **Milestones**
   * Each **Milestone **is broken into multiple **Topics**
@@ -30,10 +28,9 @@
   * **CheatSheet **is simple mechanism of refreshing the concepts, freely from anywhere and anytime
   * **CheatSheet **is also a **Meaningfull Instrument for Impatients**
   * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve), if used with a [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) Plan
-* **Your Book**
-  * This is a Free Book, fork its content from [GitHub](https://github.com/inbravo/java-to-scala) repo
-  * Inside your local repo, change content, topics and use it for spreaing knowledge
-  * Enjoy Free Sharing
+* **Its Your Book**
+  * This is a Free Book, you can fork its content from [GitHub](https://github.com/inbravo/java-to-scala) repo, add notes or change examples. You can do anything
+  * Keep sharing the benefits of your work to open community
 
 ---
 
