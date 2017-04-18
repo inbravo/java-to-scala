@@ -27,7 +27,7 @@
   * This books helps in learning against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) and It suggests a sample plan based on [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
   * Every **Milestone **of this book ends with a topic named **CheatSheet**
   * **CheatSheet **is simple mechanism of refreshing the concepts, freely from anywhere and anytime
-  * **CheatSheet **is also a Meaningfull Instrument for Impatients. If you got no time to read complete book, just devour CheatSheet from every Milestone.
+  * **CheatSheet **is also a Meaningfull Instrument for Impatients. If you got no time to read complete book, just devour CheatSheet from every Milestone
   * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve)
   * **CheatSheet **along with readers study plan, created with [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) concept in mind, helps in finishing all Scala concepts from this book
 * **Its Your Book**
