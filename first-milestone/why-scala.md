@@ -22,12 +22,14 @@
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
   * This books considers you a Java Programmer, and try not to dive deeply in revealing all Scala Concepts, which are common with Java
-* **Long Term Learning**
-  * One the main characterstics of every Learning process is, our ability to remember the concepts, in long run
+* **Effective Learning**
+  * One the main characterstics of every learning process is, our ability to retain the concepts, in long run
+  * This books helps in learning against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) and It suggests a sample plan based on [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
   * Every **Milestone **of this book ends with a topic named **CheatSheet**
   * **CheatSheet **is simple mechanism of refreshing the concepts, freely from anywhere and anytime
   * **CheatSheet **is also a **Meaningfull Instrument for Impatients**
-  * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve), if used with a [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) plan
+  * **CheatSheet **can be used as [Flash Cards](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve)
+  * **CheatSheet **along with readers study plan, created with [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) concept in mind, helps in finishing all Scala concepts from this book
 * **Its Your Book**
   * This is a Free Book, you can fork its content from [GitHub](https://github.com/inbravo/java-to-scala) repo, add notes or change examples. You can do anything
   * Keep sharing the benefits of your work to open community
