@@ -6,21 +6,30 @@
 
 ---
 
-* Scala provides two ways of defining a program `class `and `object`
-* Scala keyword `class `is used in similar fashion, the way used in Java
+* Scala provides two ways of defining a program, using either keword `class ` or `object`
+* Scala keyword `class`is used in similar fashion, the way used in Java
+
+```scala
+class CLASSA extends CLASSB with CLASSC {
+  
+}
+```
+
+* Declaration in above example: Declares a class `CLASSA` that extends both `CLASSB`and `CLASSC`
+
 * You can think of Scala keyword `object`as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
 
 ```scala
-object A extends B with C {
-  def f(x: Any): Any = ???
+object OBJECTA extends CLASSB with CLASSC {
+  
 }
 ```
 
 * Declaration in above example,
 
-  * Declares an anonymous \(inaccessible\) class `A` that extends both `B`and `C` and
+  * Declares an anonymous \(inaccessible\) class `OBJECTA` that extends both `CLASSB`and `CLASSC` 
 
-  * Creates a single instance of this class named `A`
+  * Creates a single instance of this class named `OBJECTA`
 
 * Class is the **Blueprint **for objects
 

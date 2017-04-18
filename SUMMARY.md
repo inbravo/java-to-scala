@@ -7,6 +7,7 @@
   * [Setup: Well Begun Half Done](first-milestone/setup-well-begun-half-done.md)
   * [Hello World](first-milestone/hello-world.md)
   * [Object and Class](first-milestone/class-and-object.md)
+  * [Class Import](first-milestone/class-import.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
   * [Common Types/Data Types](second-milestone/common-types.md)
