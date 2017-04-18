@@ -8,7 +8,7 @@
 
 5. Program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes class imports in Scala
 
-6. Program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) describes field passing using constructors in Scala
+6. Program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) describes passing values using constructors in Scala
 
 7. Scala syntax avoids some of the boilerplate that burdens Java programs. In Scala, you can define a class using `class Employee(name: String, age: String){}`. Same in Java requires...
 
