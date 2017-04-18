@@ -1,8 +1,9 @@
 1. The interactive shell for Scala is simply called scala. You use it by typing `scala`at a command prompt. It starts an interactive shell, which is called **Scala Interpreter,** which reads an expression, evaluates it, prints it, and reads the next expression. This is called [REPL \(Read Evaludate Print Loop\)](http://docs.scala-lang.org/overviews/repl/overview.html)
 
-2. Class import  in Scala program is similar to Java. You are free to import any Java class in your Scala program
+2. 
+3. Class import  in Scala program is similar to Java. You are free to import any Java class in your Scala program
 
-3. Scala’s syntax avoids some of the boilerplate that burdens Java programs. In Scala, you can define a class using `class Employee(name: String, age: String){}`. Same in Java requires...
+4. Scala’s syntax avoids some of the boilerplate that burdens Java programs. In Scala, you can define a class using `class Employee(name: String, age: String){}`. Same in Java requires...
 
 ```java
 /* Equivalent Java class */
