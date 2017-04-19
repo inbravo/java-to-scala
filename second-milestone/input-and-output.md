@@ -6,21 +6,27 @@
 
 ---
 
-To Print the value on console you can use "print", "println" or "printf" \(same as C\)
+* To print the value on console you can use print : `print("What is your age? ")`
 
-`printf("Hello, %s! You are %d years old.\n", "John", 32)`
+* To print the value on console in a new line you can use println  `println("what is your age?")`
 
-You can read a line of input from the console with the `readLine`function. To read a numeric, Boolean, or character value, use `readInt, readDouble, readByte, readShort, readLong, readFloat, readBoolean, or readChar`. with readLine method you can pass string to prompt on console.
+* To print the formatted value use `printf` \(like C\) `printf("Hello, %s! You are %d years old.\n", "John", 32)`
 
-`val name = readLine("Your name: ")`
+* Read a line of input from the console with the `readLine`function. 
 
-`//will prompt and wait for input`
+* To read a specific value, use specific methods in Scala class `scala.io.StdIn`
 
-`print("Your age: ")`
+```scala
+scala.io.StdIn.readInt
+scala.io.StdIn.readChar
+scala.io.StdIn.readBoolean
+scala.io.StdIn.readDouble
+scala.io.StdIn.readFloat
+scala.io.StdIn.readLong
+scala.io.StdIn.readShort
+```
 
-`//will prompt and wait for input`
+* With `readLine `method you can pass string before input: `val name = scala.io.StdIn.readLine("Your name: ")`
 
-`val age = readInt()`
 
-`printf("Hello, %s! Next year, you will be %d.\n", name, age + 1)`
 
