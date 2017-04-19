@@ -15,13 +15,13 @@
 * From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala`
 
 * Scala has 7 numeric types  
-  1. **Byte **  **  :**   `val maxByteValue: Byte = Byte.MaxValue   : 8 bits`  
-  2. **Char **  **  :**   `val maxCharValue: Char = Char.MaxValue : 16 bits`  
-  3. **Short **  ** :**   `val maxShortValue: Short = Short.MaxValue : 16 bits`  
-  4. **Int **  **      :**   `val maxIntValue: Int = Int.MaxValue : 32 bits`  
-  5. **Long **  **  :**   `val maxLongValue: Long = Long.MaxValue  : 64 bits`  
-  6. **Float **  **  :**   `val maxFloatValue: Float = Float.MaxValue : 32 bits`  
-  7. **Double  :**   `val maxDoubleValue: Double = Double.MaxValue  : 64 bits`
+  1. **Byte     : ** 8 bits  **  :**   `val maxByteValue: Byte = Byte.MaxValue`  
+  2. **Char **  **  : ** 16 bits**  :**   `val maxCharValue: Char = Char.MaxValue`  
+  3. **Short **  ** : ** 16 bits ** :**   `val maxShortValue: Short = Short.MaxValue`  
+  4. **Int **  **      : ** 32 bits ** :**   `val maxIntValue: Int = Int.MaxValue`  
+  5. **Long **  **  : ** 64 bits ** :**   `val maxLongValue: Long = Long.MaxValue`  
+  6. **Float **  **  : ** 32 bits ** :**   `val maxFloatValue: Float = Float.MaxValue`  
+  7. **Double  : ** 64 bits**  :**   `val maxDoubleValue: Double = Double.MaxValue`
 
 * Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of `main`method
 
@@ -37,65 +37,5 @@ def main(args: Array[String]): Unit = { .... }
 
 * Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
-```scala
-package com.inbravo.lang
 
-/**
- * Following program helps in undersanding the various Scala types
- *
- * amit.dixit
- */
-object ValuesTest extends App {
-
-  /* Different Scala types, initialized with their maximum value and with their types (NAME:TYPE e.g. val maxByteValue: Byte) */
-  val maxByteValue: Byte = Byte.MaxValue
-  val maxCharValue: Char = Char.MaxValue
-  val maxShortValue: Short = Short.MaxValue
-  val maxIntValue: Int = Int.MaxValue
-  val maxLongValue: Long = Long.MaxValue
-  val maxFloatValue: Float = Float.MaxValue
-  val maxDoubleValue: Double = Double.MaxValue
-
-  /* Print values */
-  println("Byte Max Value: " + maxByteValue)
-
-  /* Trick is used to convert a Char to yeild numeric value */
-  println("Char Max Value: " + (maxCharValue + 0))
-  println("Short Max Value: " + maxShortValue)
-  println("Int Max Value: " + maxIntValue)
-  println("Long Max Value: " + maxLongValue)
-  println("Float Max Value: " + maxFloatValue)
-
-  /* Method print does not ends with a new line */
-  print("Double Max Value: " + maxDoubleValue)
-
-  /* Different Scala types, initialized with their minimum value and without their types */
-  val minByteValueWithoutType = Byte.MinValue
-  val minCharValueWithoutType = Char.MinValue
-  val minShortValueWithoutType = Short.MinValue
-  val minIntValueWithoutType = Int.MinValue
-  val minLongValueWithoutType = Long.MinValue
-  val minFloatValueWithoutType = Float.MinValue
-  val minDoubleValueWithoutType = Double.MinValue
-
-  /* Print values */
-  println("Byte Min Value: " + minByteValueWithoutType)
-
-  /* Trick is used to convert a Char to yeild numeric value */
-  println("Char Min Value: " + (minCharValueWithoutType + 0))
-  println("Short Min Value: " + minShortValueWithoutType)
-  println("Int Min Value: " + minIntValueWithoutType)
-  println("Long Min Value: " + minLongValueWithoutType)
-  println("Float Min Value: " + minFloatValueWithoutType)
-
-  /* Method print does not ends with a new line */
-  print("Double Min Value: " + minDoubleValueWithoutType)
-
-  /* Boolean values */
-  val trueBoolean: Boolean = true
-  val falseBoolean: Boolean = false
-}
-```
-
- \*See the trick we used to convert char to numeric value . 
 
