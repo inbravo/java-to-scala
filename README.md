@@ -5,7 +5,7 @@
 | **Java to Scala : A Pragmatic Programmers Quick Companion to Embrace Scala** |
 | :---: |
 | ** **[**Sarita Garg**](https://github.com/saritasinghal) & [**Amit Dixit**](https://github.com/inbravo) |
-| 0.1 Beta \(Scheduled to be released in Second Week May 2017\) |
+| 0.1 Beta \(Scheduled to be released in May 2017\) |
 
 
 
