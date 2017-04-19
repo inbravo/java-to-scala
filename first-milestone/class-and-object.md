@@ -2,7 +2,7 @@
 | :--- | :--- |
 | Time required | 10 minutes |
 | Benefit realized | Trait, Class and Object in Scala |
-| Git sample | ClassObjectTest.scala |
+| Git sample | [ClassObjectTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ClassObjectTest.scala) |
 
 ---
 
@@ -36,7 +36,7 @@ class CLASSB extends Printer {
 }
 ```
 
-* Declaration in above example: Declares two classes `CLASSA `& `CLASSB` 
+* Declaration in above example: Declares two classes `CLASSA`& `CLASSB`
 
 * You can think of Scala keyword `object`as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
 
@@ -56,7 +56,7 @@ object OBJECTA extends CLASSA {
 
 * Declaration in above example,
 
-  * Declares an anonymous \(inaccessible\) class `OBJECTA` 
+  * Declares an anonymous \(inaccessible\) class `OBJECTA`
 
   * Creates a single instance of this class named `OBJECTA`
 
