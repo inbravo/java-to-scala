@@ -27,7 +27,7 @@
   * Finish 4th Milestone within your Fifth Study Cycle
   * Revisit 3rd, 4th Milestone within your Sixth Study Cycle
   * Keep Revising Last Two Milestones, in every Third Study Cycle
-* **Idea is Not to Break your Study Pattern by investing some time in CheatSheet of your already learned Milestones**
+* **Idea is Not to Break your Study Pattern by investing some time in CheatSheet of your previous Milestones**
 
 
 
