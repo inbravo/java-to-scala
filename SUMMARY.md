@@ -21,7 +21,7 @@
   * [Reasoning with if-else](second-milestone/if-else.md)
   * [Looping](second-milestone/looping-in-scala.md)
   * [Input and Output](second-milestone/input-and-output.md)
-  * If Else
+  * [If Else](second-milestone/if-else.md)
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Array](third-milestone/array.md)
   * [List and Tuples](third-milestone/list.md)
