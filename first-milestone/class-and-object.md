@@ -6,7 +6,7 @@
 
 ---
 
-* Java has got `interface`, likewise Scala has `trait`
+* Java has got `interface`, likewise Scala has got `trait`
 
 ```scala
 /* A simple trait, which is like Java interface */
