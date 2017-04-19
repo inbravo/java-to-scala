@@ -14,12 +14,12 @@
 * Book has 7 Milestones. Each Milestone takes almost consumes same amount of time
 * Review each Milestone and find the number of days, you can devote to finish a Milestone. Call it **Study Cycle**
 * Example if 7 days is your **Study Cycle**. All Milestones of this book will take 7 \* 7 = 49 days
-* Now the critical fact. We are Assuming that** Following Plan will Fail **in most of the cases
+* Now the critical fact. We are Assuming that** Your Plan will Fail **in most of the cases
 
 **Example Plan**
 
 * Following is the example appraoch, you can make your own version of it...
-  * Finish 1st Milestone within your First **Study Cycle ** e.g. First Week
+  * Finish 1st Milestone within your First Study Cycle e.g. First Week
   * Finish 2nd Milestone within your Second Study Cycle e.g. Second Week
   * Revisit 1st Milestone and 2nd Milestone in your Third Study Cycle e.g. Third Week
   * If you are not able to start 3rd Milestone, keep visiting CheatSheets of 1st & 2nd Milestones
