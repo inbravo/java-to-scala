@@ -6,7 +6,7 @@
 * [=\*= First Milestone =\*=](first-milestone.md)
   * [Code Setup](first-milestone/setup-well-begun-half-done.md)
   * [Hello World](first-milestone/hello-world.md)
-  * [Object and Class](first-milestone/class-and-object.md)
+  * [Trait, Class and Object](first-milestone/class-and-object.md)
   * [Class Import](first-milestone/class-import.md)
   * [Constructors](first-milestone/constructors.md)
   * [Companion Object](first-milestone/companion-object.md)

@@ -1,33 +1,62 @@
-| Topic | Class and Object |
+| Topic | Trait, Class and Object |
 | :--- | :--- |
 | Time required | 10 minutes |
-| Benefit realized | What  is keyword object in Scala and its purpose |
+| Benefit realized | Trait, Class and Object in Scala |
 | Git sample | ClassObjectTest.scala |
 
 ---
+
+* Java has got `interface`, likewise Scala has `trait`
+
+```scala
+/* A simple trait, which is like Java interface */
+trait Printer {
+
+  /* A method contract only without definition */
+  def print(statement: String): Unit
+}
+```
 
 * Scala provides two ways of defining a program, using either keword `class` or `object`
 * Scala keyword `class`is used in similar fashion, the way used in Java
 
 ```scala
-class CLASSA extends CLASSB with CLASSC {
+/* Definition of CLASSA, which is extending CLASSB */
+class CLASSA extends CLASSB {
 
+  /* Method returns nothing but calls super class method */
+  def print: Unit = super.print("Hello")
+}
+
+/* Definition of CLASSB */
+class CLASSB extends Printer {
+
+  /* Method returns nothing but prints the statement */
+  def print(statement: String): Unit = println(statement)
 }
 ```
 
-* Declaration in above example: Declares a class `CLASSA` that extends both `CLASSB`and `CLASSC`
+* Declaration in above example: Declares two classes `CLASSA `& `CLASSB` 
 
 * You can think of Scala keyword `object`as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
 
 ```scala
-object OBJECTA extends CLASSB with CLASSC {
+object OBJECTA extends CLASSA {
 
+  def main(args: Array[String]): Unit = {
+
+    /* Call printHello. Point to be noted here is that it sounds like a Java static method call */
+    OBJECTA.printHello
+  }
+
+  /* Method returns nothing but prints string 'Hello' */
+  def printHello: Unit = super.print
 }
 ```
 
 * Declaration in above example,
 
-  * Declares an anonymous \(inaccessible\) class `OBJECTA` that extends both `CLASSB`and `CLASSC`
+  * Declares an anonymous \(inaccessible\) class `OBJECTA` 
 
   * Creates a single instance of this class named `OBJECTA`
 
