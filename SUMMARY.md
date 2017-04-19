@@ -18,9 +18,10 @@
   * [Variables as Definitions](second-milestone/variables-and-definitions.md)
   * [Procedures](second-milestone/variables-and-definitions/procedures.md)
   * [Operator Overloading](second-milestone/operator-overloading.md)
-  * [While-If Scala](second-milestone/looping-in-scala.md)
+  * [Reasoning with if-else](second-milestone/if-else.md)
+  * [Looping](second-milestone/looping-in-scala.md)
   * [Input and Output](second-milestone/input-and-output.md)
-  * [Cheat Sheet](second-milestone/best-practise-and-notes-to-remember.md)
+  * If Else
 * [=\*= Third Milestone =\*=](third-milestone.md)
   * [Array](third-milestone/array.md)
   * [List and Tuples](third-milestone/list.md)
