@@ -9,7 +9,7 @@
 
 ---
 
-**A Natural Study Cycle**
+**Find Your Natural Study Cycle**
 
 * Book has 7 Milestones. Each Milestone takes almost consumes same amount of time
 * Review each Milestone and find the number of days, you can devote to finish a Milestone. Call it **Study Cycle**
