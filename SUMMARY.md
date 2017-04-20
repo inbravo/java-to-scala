@@ -11,7 +11,7 @@
   * [Constructors](first-milestone/constructors.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
-  * [Common Types/Data Types](second-milestone/common-types.md)
+  * [Common Data Types](second-milestone/common-types.md)
   * [Input and Output](second-milestone/input-and-output.md)
   * [Values and Variables](second-milestone/values-variables-and-methods.md)
   * [Methods or Definitions](second-milestone/methods.md)
