@@ -45,7 +45,7 @@ To visit only keys you can use `scores.keySet`  or to iterate values `for (v <- 
 
 To get an immutable tree map instead of a hash map, use
 
-`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,    
+`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,      
 "Fred" -> 7, "Bob" -> 3, "Cindy" -> 8)`
 
 To map Java map into Scala you can use conversion utility by importing
@@ -54,26 +54,5 @@ To map Java map into Scala you can use conversion utility by importing
 
 `import scala.collection.JavaConversions.mapAsJavaMap`
 
-#### Sets
 
-`var jetSet = Set("Boeing", "Airbus")  
- //Create and initilize Immutable Set with 2 Strings.`
-
-`jetSet += "Lear"  
- // reassign the jetSet var with a  
- new set containing "Boeing", "Airbus", and "Lear`
-
-`println(jetSet.contains("Cessna"))`
-
-In case of mutable Set
-
-`import scala.collection.mutable.Set`
-
-`val movieSet = Set("Hitch", "Poltergeist")  
- //Create mutable Set`
-
-`movieSet += "Shrek"  
- // Add Shrek to movieSet`
-
-`println(movieSet)`
 
