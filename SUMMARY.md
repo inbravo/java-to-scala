@@ -26,13 +26,15 @@
   * [Cheat Sheet](third-milestone/cheat-sheet.md)
 * [=\*= Fourth Milestone =\*=](fourth-milestone.md)
   * [Array](third-milestone/array.md)
-  * [List and Tuples](third-milestone/list.md)
+  * [List and Tuple](third-milestone/list.md)
   * [Map and Set](third-milestone/maps-and-tuples.md)
+  * Cheat Sheet
 * [=\*= Fifth Milestone =\*=](fifth-milestone.md)
   * [Anagram Test](third-milestone/anagram-test.md)
   * [Stack](third-milestone/stack.md)
   * [Queue](third-milestone/queue.md)
   * [LinkedList](third-milestone/linkedlist.md)
+  * Cheat Sheet
 * =\*= Sixth Milestone =\*=
 * [=\*= Seventh Milestone =\*=](seventh-milestone.md)
 
