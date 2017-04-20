@@ -1,10 +1,10 @@
-| Topic | Maps and Tuples |
+| Topic | Map and Set |
 | :--- | :--- |
 | Time Required |  |
 | Benefits |  |
 | Git Sample |  |
 
-In Scala Set and Maps can be mutable or immutable, depends upon which one we imported to our class. by default it would be immutable. to use Mutable maps you can import `import scala.collection.mutable.Map` , while to create mutable set ` import scala.collection.mutable.Set`
+In Scala Set and Maps can be mutable or immutable, depends upon which one we imported to our class. by default it would be immutable. to use Mutable maps you can import `import scala.collection.mutable.Map` , while to create mutable set `import scala.collection.mutable.Set`
 
 #### Maps
 
@@ -45,7 +45,7 @@ To visit only keys you can use `scores.keySet`  or to iterate values `for (v <- 
 
 To get an immutable tree map instead of a hash map, use
 
-`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,  
+`val scores = scala.collection.immutable.SortedMap("Alice" -> 10,    
 "Fred" -> 7, "Bob" -> 3, "Cindy" -> 8)`
 
 To map Java map into Scala you can use conversion utility by importing
@@ -56,25 +56,24 @@ To map Java map into Scala you can use conversion utility by importing
 
 #### Sets
 
-`var jetSet = Set("Boeing", "Airbus") //Create and initilize Immutable Set with 2 Strings. `
+`var jetSet = Set("Boeing", "Airbus")  
+ //Create and initilize Immutable Set with 2 Strings.`
 
-`jetSet += "Lear" // reassign the jetSet var with a new set containing "Boeing", "Airbus", and "Lear`
+`jetSet += "Lear"  
+ // reassign the jetSet var with a  
+ new set containing "Boeing", "Airbus", and "Lear`
 
 `println(jetSet.contains("Cessna"))`
 
-
-
 In case of mutable Set
 
-`import scala.collection.mutable.Set `
+`import scala.collection.mutable.Set`
 
-`val movieSet = Set("Hitch", "Poltergeist") //Create mutable Set `
+`val movieSet = Set("Hitch", "Poltergeist")  
+ //Create mutable Set`
 
-`movieSet += "Shrek" // Add Shrek to movieSet `
+`movieSet += "Shrek"  
+ // Add Shrek to movieSet`
 
 `println(movieSet)`
-
-
-
-
 
