@@ -13,8 +13,8 @@
   * All code examples of this book, are directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
 * **Sense of Achivement: **
   * Content of this book is broken in multiple **Milestones**
-  * Each **Milestone **is broken into multiple **Topics**
-  * Every Topic describes a specfic Scala concept with minimalistic appraoch, yet giving complete code examples
+  * Each **Milestone **is broken into 5 ** Topics**
+  * Each **Topic **describes a Scala concept with minimalistic appraoch, yet giving complete code examples
   * Execution of a code example, gives users a **Sense of Achivement**, in-fact a motivation to read next Topic
   * Idea is to let readers, **Quickly Understand a Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Scala is Easy for Java Programmers**
