@@ -31,10 +31,19 @@ def main(args: Array[String]): Unit = { .... }
 
 * Scala also has got a type **Boolean **:    `val trueBoolean: Boolean = true`
 
-* In Scala `Null`is also an object, Null corresponds to Null value or empty reference.
+* **String **a sequence of Chars.
 
+* Scala includes a special syntax   for raw strings. You start and end a raw string with three double quotation
+
+  marks in a row \("""\). The interior of a raw string may contain any characters   whatsoever, including newlines, quotation marks, and special characters, except   of course three quotes in a row.
+
+```scala
+println("""Welcome to Scala Training ....
+   Type "HELP" for help.""")
+```
+
+*  In Scala `Null`is also an object, Null corresponds to Null value or empty reference.
 * No one can create object like `Nothing`in scala, this is used to denote empty collection or abnormal termination.
-
 * Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
 
 

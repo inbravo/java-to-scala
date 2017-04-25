@@ -64,7 +64,13 @@ object OBJECTA extends CLASSA {
 
 * Object is the **Entry Point** of a program
 
+* Scala provides a trait, scala.Application, which u can extends by writing "extend Application" after the singleton object, and you can directly write the code under { }, without main def. 
+
+
+
 * Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
+
+
 
 
 
