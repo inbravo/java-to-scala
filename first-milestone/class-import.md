@@ -12,6 +12,8 @@
 
 * Import statements can be anywhere.
 
+* java.lang, scala, and Predef are always imported.
+
 ```scala
 /* These imports are not required to be added explicitly */
 import _root_.java.lang._
