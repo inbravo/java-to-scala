@@ -8,7 +8,9 @@
 
 * Scala program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes all possible class imports in Scala, which is slightly different from Java
 
-* In Java you dont need to import classes, interfaces from package `java.lang.*`, similarly Scala packages along with Java lang package \(`java.lang.*`, `scala.* , scala.Predef.*`\), are not required to be explicitely imported. 
+* In Java you dont need to import classes or interfaces from package `java.lang.*`
+
+* Similarly Scala packages  \(`scala.* , scala.Predef.*`\) along with Java lang package \(`java.lang.*`\) are not required to be explicitely imported in a Scala class
 
 ```scala
 /* These imports are not required to be added explicitly */
