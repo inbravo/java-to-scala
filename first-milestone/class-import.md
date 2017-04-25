@@ -1,4 +1,4 @@
-| Topic | Class Import |
+| Topic | Import and Packages |
 | :--- | :--- |
 | Time required | 10 mins |
 | Benefits realized | How class import in Scala works |
@@ -9,6 +9,8 @@
 * Scala program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes all possible class imports in Scala, which is slightly different from Java
 
 * In Java you dont need to import classes, interfaces from package `java.lang.*`, similarly below given Scala packages along with Java lang package, are not required to be explicitely imported
+
+* Import statements can be anywhere.
 
 ```scala
 /* These imports are not required to be added explicitly */

@@ -7,7 +7,7 @@
   * [Code Setup](first-milestone/setup-well-begun-half-done.md)
   * [Hello World](first-milestone/hello-world.md)
   * [Trait, Class and Object](first-milestone/class-and-object.md)
-  * [Class Import](first-milestone/class-import.md)
+  * [Import and Packages](first-milestone/class-import.md)
   * [Constructors](first-milestone/constructors.md)
   * [Cheat Sheet](first-milestone/cheat-sheet.md)
 * [=\*= Second Milestone =\*=](second-milestone.md)
