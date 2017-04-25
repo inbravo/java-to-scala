@@ -8,11 +8,7 @@
 
 * Scala program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes all possible class imports in Scala, which is slightly different from Java
 
-* In Java you dont need to import classes, interfaces from package `java.lang.*`, similarly below given Scala packages along with Java lang package, are not required to be explicitely imported
-
-* Import statements can be anywhere.
-
-* java.lang, scala, and Predef are always imported.
+* In Java you dont need to import classes, interfaces from package `java.lang.*`, similarly Scala packages along with Java lang package \(`java.lang.*`, `scala.* , scala.Predef.*`\), are not required to be explicitely imported. 
 
 ```scala
 /* These imports are not required to be added explicitly */
@@ -35,6 +31,8 @@ import java.util.concurrent.atomic.{ AtomicInteger, AtomicLong }
 import scala.math._
 import math._
 ```
+
+* Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class
 
 
 
