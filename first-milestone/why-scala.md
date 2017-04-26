@@ -12,11 +12,11 @@
     * [Easy Access on GitHub](http://inbravo.github.io/scala-src)
   * All code examples of this book, are directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
 * **Sense of Achivement: **
-  * Content of this book is broken in multiple **Milestones**
-  * Each **Milestone **is broken into 5 ** Topics**
-  * Each **Topic **describes a Scala concept with minimalistic appraoch, yet giving complete code examples
-  * Execution of a code example, gives users a **Sense of Achivement**, in-fact a motivation to read next Topic
-  * Idea is to let readers, **Quickly Understand a Scala Concept and Feel Pulled towards Reading Next Scala Concept**
+  * Content of this book is broken in various **Milestones**
+  * Every **Milestone c**contains 5 **Topics**
+  * Every** Topic **describes a Scala concept with GitHub code examples
+  * By running these code example, users can get a **Sense of Achivement**, in-fact a motivation to read next Topics
+  * Idea is to**, Quickly Run and Understand Code for Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Scala is Easy for Java Programmers**
   * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
