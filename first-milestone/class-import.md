@@ -34,7 +34,7 @@ import scala.math._
 import math._
 ```
 
-* Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class
+* Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class. The   scope of the import statement extends until the end of the enclosing block.
 
 
 
