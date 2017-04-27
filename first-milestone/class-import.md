@@ -34,7 +34,23 @@ import scala.math._
 import math._
 ```
 
-* Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class. The   scope of the import statement extends until the end of the enclosing block.
+* Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class. The scope of the import statement extends until the end of the enclosing block.
+
+* In scala visibility can be achieved using qualifiers 
+
+```
+package com.mazicss.people
+class Person {
+private[people] def description = "A person with name " + name
+...
+}
+```
+
+You can extend the visibility to an enclosing package:
+
+```
+private[mazicss] def description = "A person with name " + name
+```
 
 
 
