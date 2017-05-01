@@ -12,7 +12,7 @@
 
 * To print the formatted value use `printf` \(like C\) `printf("Hello, %s! You are %d years old.\n", "John", 32)`
 
-* Read a line of input from the console with the `readLine`function.
+* Read a line of input from the console with the `readLine`function. 
 
 * To read a specific value, use specific methods in Scala class [scala.io.StdIn](http://www.scala-lang.org/api/current/scala/io/StdIn$.html)
 
@@ -27,6 +27,7 @@ scala.io.StdIn.readShort
 ```
 
 * With `readLine`method you can pass string before input: `val name = scala.io.StdIn.readLine("Your name: ")`
+* These methods assume that the next input line contains a single   number, without leading or trailing whitespace. Otherwise, a   NumberFormatException occurs.
 
 
 
