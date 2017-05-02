@@ -15,9 +15,16 @@ All operators do the usual work \(`+ - * / % & | ^ >> <<`\), but these operators
 * `a + b`  is a shorthand for `a.+(b)`
 * If a & b are type of Int, method '**+'** of Int class will applied on operation: `a.+(b)`
 
-* Any method can be an operator.   In Scala operators are not special language syntax: any method can   be an operator. What makes a method an operator is how you use it.  When you write “s.indexOf\('o'\)”, indexOf is not an operator. But   when you write “s indexOf 'o'”, indexOf is an operator, because   you’re using it in operator notation.
+* Any method can be an operator.  
+   In Scala operators are not special language syntax: any method can  
+   be an operator. What makes a method an operator is how you use it.  
+  When you write “s.indexOf\('o'\)”, indexOf is not an operator. But  
+   when you write “s indexOf 'o'”, indexOf is an operator, because  
+   you’re using it in operator notation.
 
 * Open program `com.inbravo.lang.OperatorsAreMethods.scala`\[[OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29\)\] in Eclipse and run...
+
+* The Scala compiler will internally “mangle” operator identifiers to turn   them into legal Java identifiers with embedded $ characters. For instance, the   identifier :-&gt; would be represented internally as $colon$minus$greater.  If you ever wanted to access this identifier from Java code, you’d need to use   this internal representation.
 
 
 

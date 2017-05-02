@@ -48,7 +48,11 @@ lazy val lazyValueWithType: Int = 100
 def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
 ```
 
-* In Scala, the word constant does not just mean val. Even   though a val does remain constant after it is initialized, it is still a variable.   For example, method parameters are vals, but each time the method is called   those vals can hold different values. A constant is more permanent.
+* In Scala, the word constant does not just mean val. Even
+   though a val does remain constant after it is initialized, it is still a variable.
+   For example, method parameters are vals, but each time the method is called
+   those vals can hold different values. A constant is more permanent.
+* Scala convention is to use camel case for constants, such as XOffset. 
 
 
 
