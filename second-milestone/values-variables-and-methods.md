@@ -53,6 +53,7 @@ def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
    For example, method parameters are vals, but each time the method is called
    those vals can hold different values. A constant is more permanent.
 * Scala convention is to use camel case for constants, such as XOffset. 
+* In Scala you can define the variables of the same name in different scope.  
 
 
 

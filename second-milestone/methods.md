@@ -59,5 +59,7 @@ def sum(args: Int*) = {
 }
 ```
 
+* You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block. 
+
 
 
