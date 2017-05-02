@@ -30,7 +30,7 @@ scala.io.StdIn.readShort
 * These methods assume that the next input line contains a single
    number, without leading or trailing whitespace. Otherwise, a
    NumberFormatException occurs.
-* To Read from file you need to` import scala.io.Source`
+* To Read from file you need to`import scala.io.Source`
 
 
 
