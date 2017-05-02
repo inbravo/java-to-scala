@@ -61,6 +61,7 @@ for(element <- list if element%2 != 0; if element!= 7) println("Element of list 
 
 * you can use "to" or "until"\(to exclude upper bound\) for iteration with "for". 
 * match - case use in scala same as switch in other language. 
+* No break or continue in scala. 
 
 
 
