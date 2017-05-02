@@ -64,7 +64,10 @@ object OBJECTA extends CLASSA {
 
 * Object is the **Entry Point** of a program
 
-* One difference between classes and singleton objects is that singleton   objects cannot take parameters, whereas classes can. Because you can’t instantiate   a singleton object with the new keyword, you have no way to pass   parameters to it.
+* One difference between classes and singleton objects is that singleton  
+   objects cannot take parameters, whereas classes can. Because you can’t instantiate  
+   a singleton object with the new keyword, you have no way to pass  
+   parameters to it.
 
 * Scala provides a trait, scala.Application, which u can extends by writing "extend Application" after the singleton object, and you can directly write the code under { }, without main def.
 
