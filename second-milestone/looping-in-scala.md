@@ -40,7 +40,7 @@ do{
 }while(condition)
 ```
 
-* Scala has slighlty different approach for looping through `for`
+* Scala has slightly different approach for looping through `for` , you can filter \(if condition\) in for loop.
 
 ```scala
 for(variable <- list) statement
