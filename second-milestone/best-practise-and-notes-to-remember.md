@@ -32,6 +32,7 @@
 15. Exceptions work just like in Java or C++, but you use a “pattern matching” syntax for catch. Scala has no checked exceptions.
 
 16. Scala has no switch statement.
+
 17. Scala has no break or continue statements, to break out of a loop, instead you can use some boolean flag  or use the break method in the Breaks object
 18. Any parameters to a method can be used inside the method. One important
      characteristic of method parameters in Scala is that they are vals,
@@ -45,6 +46,7 @@
 21. Camel-case names of classes and traits should start with an upper case 
      letter, for example: BigInt, List, and UnbalancedTreeMap.
 22. The Scala convention is to use camel case for constants, such as XOffset, where first letter is capital. 
+23. In any method invocation in Scala in which you’re     passing in exactly one argument, you can opt to use curly braces to surround  the argument instead of parentheses.
 
 
 
