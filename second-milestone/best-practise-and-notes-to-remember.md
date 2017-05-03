@@ -30,6 +30,7 @@
 14. We can call parameter less method with or without \(\), its always a good practise to use \(\) with a mutator methods\(methods which make change in object state\), and drop \(\) for accessor method \(method which does not change object state\).
 
 15. Exceptions work just like in Java or C++, but you use a “pattern matching” syntax for catch. Scala has no checked exceptions.
+
 16. Scala has no switch statement.
 17. Scala has no break or continue statements, to break out of a loop, instead you can use some boolean flag  or use the break method in the Breaks object
 18. Any parameters to a method can be used inside the method. One important
@@ -43,7 +44,7 @@
      are not used that often in Scala programs
 21. Camel-case names of classes and traits should start with an upper case 
      letter, for example: BigInt, List, and UnbalancedTreeMap.
-22. The     Scala convention is to use camel case for constants, such as XOffset, where first letter is capital. 
+22. The Scala convention is to use camel case for constants, such as XOffset, where first letter is capital. 
 
 
 
