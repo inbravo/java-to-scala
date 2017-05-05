@@ -37,6 +37,6 @@
   * Circular Queue
   * [LinkedList](third-milestone/linkedlist.md)
   * Cheat Sheet
-* =\*= Sixth Milestone =\*=
+* [=\*= Sixth Milestone =\*=](sixth-milestone.md)
 * [=\*= Seventh Milestone =\*=](seventh-milestone.md)
 
