@@ -38,5 +38,6 @@
   * [LinkedList](third-milestone/linkedlist.md)
   * Cheat Sheet
 * [=\*= Sixth Milestone =\*=](sixth-milestone.md)
+  * [Assertions and Unit Testin](sixth-milestone/assertions-and-unit-testin.md)
 * [=\*= Seventh Milestone =\*=](seventh-milestone.md)
 

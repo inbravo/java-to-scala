@@ -52,5 +52,9 @@ You can extend the visibility to an enclosing package:
 private[mazicss] def description = "A person with name " + name
 ```
 
-Access modifiers in Scala can be augmented with qualifiers. A modifier of the form private\[X\] or protected\[X\] means that access is private or protected “up to” X, where X designates some enclosing package, class or singleton object.
+* Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form private\[X\] or protected\[X\] means that access is private or  protected “up to” X, where X designates some enclosing package, class or  singleton object.
+
+* If you have some helper method you’d like to be in   scope for an entire package, go ahead and put it right at the top level of the   package.These are called _package objects._
+
+
 
