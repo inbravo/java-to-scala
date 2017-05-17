@@ -38,7 +38,7 @@ import math._
 
 * Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form private\[X\] or protected\[X\] means that access is private or protected “up to” X, where X designates some enclosing package, class or singleton object
 
-* Difference between private and private[this] 
+* Difference between `private` and `private[this]` 
 
 ```scala
 class EmployeeManager(employeeManager: EmployeeManager) {
@@ -46,9 +46,11 @@ class EmployeeManager(employeeManager: EmployeeManager) {
     /* Only accesible to 'this' */
     private[this] val privateEmployeeManagerValue = 2
 
+    println(this.privateEmployeeManagerValue)
+    
     /* This line will give compilation error */
-    /* println(this.privateEmployeeManagerValue + employeeManager.privateEmployeeManagerValue) */
-}
+    //  println(employeeManager.privateEmployeeManagerValue) 
+  }
 ```
 
 * If you have some helper method you’d like to be in scope for an entire package, go ahead and put it right at the top level of the
