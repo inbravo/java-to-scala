@@ -33,6 +33,12 @@
     - [Map In Scala][fourth-milestone-topic-5.md]
     - [Cheat sheet for Impatients][fourth-milestone-topic-6.md]
 -  [Fifth Milestone][fifth-milestone.md]
+    - [Comparision between Java and Scala Programs to Test for Anagram String][fifth-milestone-topic-1.md]
+    - [Comparision between Java and Scala Programs to Create a Stack][fifth-milestone-topic-2.md]
+    - [Comparision between Java and Scala Programs to Create a Queue][fifth-milestone-topic-3.md]
+    - [Comparision between Java and Scala Programs to Create a Linked List][fifth-milestone-topic-4.md]
+    - [Comparision between Java and Scala Programs to Create a Binary Tree][fifth-milestone-topic-5.md]
+    - [Cheat sheet for Impatients][fifth-milestone-topic-6.md]
 -  [Sixth Milestone][sixth-milestone.md]
 -  [Seventh Milestone][seventh-milestone.md]
 
@@ -65,6 +71,12 @@
 [fourth-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/map.md
 [fourth-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/cheat-sheet.md
 [fifth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone.md
+[fifth-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/anagram-test.md
+[fifth-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/stack.md
+[fifth-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/queue.md
+[fifth-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/linked-list.md
+[fifth-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/binary-tree.md
+[fifth-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/cheat-sheet.md
 [sixth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone.md
 [seventh-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/seventh-milestone.md
 
