@@ -36,7 +36,7 @@
       [first-milestone-topic-7.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/cheat-sheet.md
 [second-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone.md
       [second-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/common-types.md
-      [second-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/input-output.md
+      [second-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/input-and-output.md
       [second-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/values-variables-and-methods.md
       [second-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/values-variables-and-methods.md
       [second-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/methods.md
