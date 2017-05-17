@@ -7,14 +7,14 @@
 | Scala Reference Notes Of A Java Programmer |
 
 
--  [First Milestone][first-milestone.md]
-  - [Eclipse Setup][first-milestone-topic-1.md]
-  - [Hello World In Scala][first-milestone-topic-2.md]
-  - [Importing a Class in Scala][first-milestone-topic-3.md]
-  - [Class and Object In Scala][first-milestone-topic-4.md]
-  - [Constructor of a Class in Scala][first-milestone-topic-5.md]
-  - [Companion Object of a Class in Scala][first-milestone-topic-6.md]
-  - [Cheat sheet for Impatients][first-milestone-topic-7.md]
+- [First Milestone][first-milestone.md]
+    - [Eclipse Setup][first-milestone-topic-1.md]
+    - [Hello World In Scala][first-milestone-topic-2.md]
+    - [Importing a Class in Scala][first-milestone-topic-3.md]
+    - [Class and Object In Scala][first-milestone-topic-4.md]
+    - [Constructor of a Class in Scala][first-milestone-topic-5.md]
+    - [Companion Object of a Class in Scala][first-milestone-topic-6.md]
+    - [Cheat sheet for Impatients][first-milestone-topic-7.md]
 -  [Second Milestone][second-milestone.md]
 -  [Third Milestone][third-milestone.md]
 -  [Fourth Milestone][fourth-milestone.md]
