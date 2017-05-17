@@ -1,5 +1,5 @@
 
-| **Java to Scala : A Pragmatic Programmers Quick Companion to Embrace Scala** |
+| **A Pragmatic Java Programmers Quick Companion to Embrace Scala** |
 | :---: |
 | Scala Reference Notes Of A Java Programmer |
 
