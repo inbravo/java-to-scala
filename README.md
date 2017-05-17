@@ -6,26 +6,32 @@
 
 - [First Milestone][first-milestone.md]
     - [Eclipse Setup][first-milestone-topic-1.md]
-    - [Hello World In Scala][first-milestone-topic-2.md]
+    - [Hello World in Scala][first-milestone-topic-2.md]
     - [Importing a Class in Scala][first-milestone-topic-3.md]
-    - [Class and Object In Scala][first-milestone-topic-4.md]
+    - [Class and Object in Scala][first-milestone-topic-4.md]
     - [Constructor of a Class in Scala][first-milestone-topic-5.md]
     - [Cheat sheet for Impatients][first-milestone-topic-6.md]
 -  [Second Milestone][second-milestone.md]
     - [Common Types in Scala][second-milestone-topic-1.md]
     - [How Input/Output Works In Scala][second-milestone-topic-2.md]
-    - [Defining Properties/Fields In Scala Class/Object][second-milestone-topic-3.md]
+    - [Defining Properties/Fields in Scala Class/Object][second-milestone-topic-3.md]
     - [Defining Method/Definitions in Scala Class/Object][second-milestone-topic-4.md]
     - [Using Properties/Fields as Method/Definitions in Scala Class/Object][second-milestone-topic-5.md]
     - [Cheat sheet for Impatients][second-milestone-topic-6.md]
 -  [Third Milestone][third-milestone.md]
     - [Control Structures in Scala][third-milestone-topic-1.md]
-    - [How Operator Overloading Works In Scala][third-milestone-topic-2.md]
+    - [How Operator Overloading Works in Scala][third-milestone-topic-2.md]
     - [Companion Object of a Class in Scala][third-milestone-topic-3.md]
     - [Procedure Methods/Definitions in Scala][third-milestone-topic-4.md]
     - [][third-milestone-topic-5.md]
     - [Cheat sheet for Impatients][third-milestone-topic-6.md]
 -  [Fourth Milestone][fourth-milestone.md]
+    - [Arrays in Scala][third-milestone-topic-1.md]
+    - [Tuple In Scala][third-milestone-topic-2.md]
+    - [List In Scala][third-milestone-topic-3.md]
+    - [Set In Scala][third-milestone-topic-4.md]
+    - [Map In Scala][third-milestone-topic-5.md]
+    - [Cheat sheet for Impatients][third-milestone-topic-6.md]
 -  [Fifth Milestone][fifth-milestone.md]
 -  [Sixth Milestone][sixth-milestone.md]
 -  [Seventh Milestone][seventh-milestone.md]
@@ -52,6 +58,12 @@
 [third-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/methods.md
 [third-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/cheat-sheet.md
 [fourth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone.md
+[fourth-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/array.md
+[fourth-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/tuple.md
+[fourth-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/list.md
+[fourth-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/set.md
+[fourth-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/map.md
+[fourth-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone/cheat-sheet.md
 [fifth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone.md
 [sixth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone.md
 [seventh-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/seventh-milestone.md
