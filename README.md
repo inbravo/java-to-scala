@@ -45,7 +45,7 @@
 -  [Seventh Milestone][seventh-milestone.md]
 
 [why-Scala.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/why-Scala.md
-[how-to-finish]: https://github.com/inbravo/java-to-scala/blob/master/how-to-finish.md
+[how-to-finish.md]: https://github.com/inbravo/java-to-scala/blob/master/how-to-finish.md
 [first-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone.md
 [first-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup-well-begun-half-done.md
 [first-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/hello-world.md
