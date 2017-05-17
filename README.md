@@ -1,7 +1,7 @@
 
-| **A Pragmatic Java Programmers Quick Companion to Embrace Scala** |
+| **A Pragmatic Java Programmers Manual to Embrace Scala** |
 | :---: |
-| Scala Reference Notes Of A Java Programmer |
+| Scala Reference Manual For A Java Programmer |
 
 
 - [Why this Scala Manual?][why-Scala.md]
