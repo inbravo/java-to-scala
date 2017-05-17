@@ -36,25 +36,20 @@ import math._
 
 * Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class. The scope of the import statement extends until the end of the enclosing block.
 
-* In scala visibility can be achieved using qualifiers
+* Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form private\[X\] or protected\[X\] means that access is private or protected “up to” X, where X designates some enclosing package, class or singleton object
 
-```
-package com.mazicss.people
-class Person {
-private[people] def description = "A person with name " + name
-...
+* Difference between private and private[this] 
+
+```scala
+class EmployeeManager(employeeManager: EmployeeManager) {
+
+    /* Only accesible to 'this' */
+    private[this] val privateEmployeeManagerValue = 2
+
+    /* This line will give compilation error */
+    /* println(this.privateEmployeeManagerValue + employeeManager.privateEmployeeManagerValue) */
 }
 ```
 
-You can extend the visibility to an enclosing package:
-
-```
-private[mazicss] def description = "A person with name " + name
-```
-
-* Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form private\[X\] or protected\[X\] means that access is private or  protected “up to” X, where X designates some enclosing package, class or  singleton object.
-
-* If you have some helper method you’d like to be in   scope for an entire package, go ahead and put it right at the top level of the   package.These are called _package objects._
-
-
-
+* If you have some helper method you’d like to be in scope for an entire package, go ahead and put it right at the top level of the
+   package. Tese are called `_package` `objects._`
