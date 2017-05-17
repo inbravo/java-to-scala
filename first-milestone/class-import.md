@@ -2,7 +2,7 @@
 | :--- | :--- |
 | Time required | 10 mins |
 | Benefits realized | How class import in Scala works |
-| Git sample | [ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) |
+| Git sample | [ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) & [ObjectPrivateAccess.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ObjectPrivateAccess.scala)|
 
 ---
 
