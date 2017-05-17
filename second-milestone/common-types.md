@@ -31,14 +31,9 @@ def main(args: Array[String]): Unit = { .... }
 
 * Scala also has got a type **Boolean** :    `val trueBoolean: Boolean = true`
 
-* **String** is a sequence of Chars
+* **String** is a sequence of Chars, alike a Java String
 
-* Scala includes a special syntax
-   for raw strings. You start and end a raw string with three double quotation
-
-  marks in a row \("""\). The interior of a raw string may contain any characters
-   whatsoever, including newlines, quotation marks, and special characters, except
-   of course three quotes in a row
+* Scala includes a special syntax for String. Enclose any string within three double quotation, marked in a row \("""\). Enclosed string may contain any characters whatsoever, including newlines, quotation marks, and special characters
 
 ```scala
 println("""Welcome to Scala Training. Type "HELP" for help.""")
