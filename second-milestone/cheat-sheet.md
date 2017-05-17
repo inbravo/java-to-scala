@@ -46,7 +46,8 @@
 21. Camel-case names of classes and traits should start with an upper case 
      letter, for example: BigInt, List, and UnbalancedTreeMap.
 22. The Scala convention is to use camel case for constants, such as XOffset, where first letter is capital. 
-23. In any method invocation in Scala in which you’re     passing in exactly one argument, you can opt to use curly braces to surround  the argument instead of parentheses.
+23. In any method invocation in Scala in which you’re
+     passing in exactly one argument, you can opt to use curly braces to surround  the argument instead of parentheses.
 
 
 
