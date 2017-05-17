@@ -1,6 +1,5 @@
 | Topic | Array |
 | :--- | :--- |
-| Time Required | 30 mins |
 | Benefits |  |
 | Git sample |  |
 
