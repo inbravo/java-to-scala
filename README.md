@@ -10,17 +10,21 @@
     - [Importing a Class in Scala][first-milestone-topic-3.md]
     - [Class and Object In Scala][first-milestone-topic-4.md]
     - [Constructor of a Class in Scala][first-milestone-topic-5.md]
-    - [Companion Object of a Class in Scala][first-milestone-topic-6.md]
-    - [Cheat sheet for Impatients][first-milestone-topic-7.md]
+    - [Cheat sheet for Impatients][first-milestone-topic-6.md]
 -  [Second Milestone][second-milestone.md]
     - [Common Types in Scala][second-milestone-topic-1.md]
     - [How Input/Output Works In Scala][second-milestone-topic-2.md]
     - [Defining Properties/Fields In Scala Class/Object][second-milestone-topic-3.md]
     - [Defining Method/Definitions in Scala Class/Object][second-milestone-topic-4.md]
     - [Using Properties/Fields as Method/Definitions in Scala Class/Object][second-milestone-topic-5.md]
-    - [Companion Object of a Class in Scala][second-milestone-topic-6.md]
-    - [Cheat sheet for Impatients][second-milestone-topic-7.md]
+    - [Cheat sheet for Impatients][second-milestone-topic-6.md]
 -  [Third Milestone][third-milestone.md]
+    - [Control Structures in Scala][third-milestone-topic-1.md]
+    - [How Operator Overloading Works In Scala][third-milestone-topic-2.md]
+    - [Companion Object of a Class in Scala][third-milestone-topic-3.md]
+    - [Procedure Methods/Definitions in Scala][third-milestone-topic-4.md]
+    - [][third-milestone-topic-5.md]
+    - [Cheat sheet for Impatients][third-milestone-topic-6.md]
 -  [Fourth Milestone][fourth-milestone.md]
 -  [Fifth Milestone][fifth-milestone.md]
 -  [Sixth Milestone][sixth-milestone.md]
@@ -32,17 +36,21 @@
 [first-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/class-import.md
 [first-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/class-and-object.md
 [first-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/constructors.md
-[first-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/companion-object.md
-[first-milestone-topic-7.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/cheat-sheet.md
+[first-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/cheat-sheet.md
 [second-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone.md
 [second-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/common-types.md
 [second-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/input-and-output.md
 [second-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/values-variables-and-methods.md
 [second-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/values-variables-and-methods.md
 [second-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/methods.md
-[second-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/variables-and-definitions.md
-[second-milestone-topic-7.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/cheat-sheet.md
+[second-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone/cheat-sheet.md
 [third-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone.md
+[third-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/common-types.md
+[third-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/input-and-output.md
+[third-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/values-variables-and-methods.md
+[third-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/values-variables-and-methods.md
+[third-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/methods.md
+[third-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/third-milestone/cheat-sheet.md
 [fourth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/fourth-milestone.md
 [fifth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone.md
 [sixth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone.md
