@@ -35,7 +35,7 @@ object HelloWorld {
 
 * Open Scala program `com.inbravo.lang.HelloWorldWithoutMain.scala` \[[HelloWorldWithoutMain.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorldWithoutMain.scala)\] in your Eclipse
 
-* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World' **on console
+* Right click on program --&gt; Run As --&gt; Scala Application. Program will print '**Hello World'** on console
 
 ```scala
 object HelloWorldWithoutMain extends App {
