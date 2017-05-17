@@ -4,10 +4,16 @@
 
 | **Java to Scala : A Pragmatic Programmers Quick Companion to Embrace Scala** |
 | :---: |
-| 0.1 Beta \(Scheduled to be released in May 2017\) |
+| Scala Reference Notes Of A Java Programmer |
 
 
 -  [First Milestone][first-milestone.md]
+-  [Second Milestone][second-milestone.md]
+-  [Third Milestone][third-milestone.md]
+-  [Fourth Milestone][fourth-milestone.md]
+-  [Fifth Milestone][fifth-milestone.md]
+-  [Sixth Milestone][sixth-milestone.md]
+-  [Seventh Milestone][seventh-milestone.md]
 
 [first-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone.md
 [second-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/second-milestone.md
