@@ -16,7 +16,7 @@
 * Example if 7 days is your **Study Cycle**. All Milestones of this book will take 7 \* 7 = 49 days
 * Now the critical fact. We are Assuming tha **Your Plan will Fail** in most of the cases
 
-**Example Plan**
+**How to Finish This Reference Manual?**
 
 * Following is the example appraoch, you can make your own version of it...
   * Finish 1st Milestone within your First Study Cycle e.g. First Week
