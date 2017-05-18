@@ -64,7 +64,7 @@ sum(1,2)
 sum(1,2,3,4)
 ```
 
-* You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block. 
+* You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block 
 * Scala supports named arguments. Each argument is preceded by a parameter name and an equals sign
 
 ```scala
