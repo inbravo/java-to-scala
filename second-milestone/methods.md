@@ -1,6 +1,5 @@
 | Topic | Methods |
 | :--- | :--- |
-| Time required | 30 minutes |
 | Benefit realized | Ability to define properties and fields |
 | Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) |
 
@@ -44,7 +43,7 @@ def returnInt: Int = return 1
 def returnFloat: Float = return 1.0F
 ```
 
-* Open program `com.inbravo.lang.MethodTest.scala`\[[MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala%29%29\)\] in Eclipse and run...
+* Open program `com.inbravo.lang.MethodTest.scala` [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala)
 
 * You can also call a method with variable number of arguments, with the help of star \(`*`\)  and call using `sum (1,2,3,4)`
 
@@ -64,7 +63,9 @@ sum(1,2,3,4)
 ```
 
 * You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block. 
-* Scala supports named argument, which allow you to pass arguments to a function in a different   order. Each argument is preceded by a parameter   name and an equals sign. 
+* Scala supports named argument, which allow you to pass arguments to a function in a different
+   order. Each argument is preceded by a parameter
+   name and an equals sign. 
 
 ```scala
 //method definition
