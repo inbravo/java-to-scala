@@ -6,7 +6,7 @@
 * **Scala is Easy for Java Programmers**
   * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
-  ![](/assets/types.png)
+  ![](/assets/scala.png)
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
   * This manual considers you a Java Programmer, and try not to dive deeply in revealing common concepts of Java and Scala
 * **Code First**: 
