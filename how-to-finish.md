@@ -15,7 +15,6 @@
 * Review first Milestone and find the number of days, you will use to finish the Milestone. Call it **Study Cycle**
 * For example if 7 days is your **Study Cycle**. All Milestones of this book will take 7 \* 7 = 49 days
 * Now the critical fact, We are Assuming tha **Your Plan will Fail** unless you are crazy monkey
-* 
 
 **How to Finish This Reference Manual?**
 
