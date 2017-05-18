@@ -26,9 +26,8 @@
   * By running these code example, users can get a **Sense of Achivement**, in-fact a motivation to read next Topics
   * Idea is to, **Quickly Run and Understand Code for Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Effective Learning**
-  * One of the main characterstics of a good manual is help readers prepare for lifelong learning
     ![](/assets/effective-learning.png)
-  * This manual helps in learning against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) and It suggests a sample plan based on [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
+  * This manual helps in learning against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) with the help of a plan based on [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
   * Every **Milestone** of this manual ends with a topic named **CheatSheet**
   * **CheatSheet** is simple mechanism of refreshing the concepts anytime
   * **CheatSheet** is also a Meaningfull Instrument for Impatients. If you got no time to read complete manual, just devour CheatSheet from every Milestone
