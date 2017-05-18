@@ -65,15 +65,13 @@ sum(1,2,3,4)
 ```
 
 * You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block. 
-* Scala supports named argument, which allow you to pass arguments to a function in a different
-   order. Each argument is preceded by a parameter
-   name and an equals sign. 
+* Scala supports named arguments. Each argument is preceded by a parameter name and an equals sign
 
 ```scala
-//method definition
+/* Method definition */
 def speed(time : float, distance : float)
 
-//method calling
+/* Method calls with argument names */
 speed(distance = 100, time = 10)
 ```
 
