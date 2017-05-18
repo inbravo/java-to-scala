@@ -11,10 +11,11 @@
 
 **Find Your Natural Study Cycle**
 
-* Book has 7 Milestones. Each Milestone takes almost consumes same amount of time
-* Review each Milestone and find the number of days, you can devote to finish a Milestone. Call it **Study Cycle**
-* Example if 7 days is your **Study Cycle**. All Milestones of this book will take 7 \* 7 = 49 days
-* Now the critical fact. We are Assuming tha **Your Plan will Fail** in most of the cases
+* Book has 7 Milestones. Each Milestone consumes almost same amount of time
+* Review first Milestone and find the number of days, you will use to finish the Milestone. Call it **Study Cycle**
+* For example if 7 days is your **Study Cycle**. All Milestones of this book will take 7 \* 7 = 49 days
+* Now the critical fact, We are Assuming tha **Your Plan will Fail** unless you are crazy monkey
+* 
 
 **How to Finish This Reference Manual?**
 
