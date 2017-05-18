@@ -10,6 +10,7 @@
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * [Easy Access on GitHub](http://inbravo.github.io/scala-src)
+  * All code examples of this manual, are directly [viewable on GitHub](http://inbravo.github.io/scala-src) and [Executable on Your Local Enviornment](https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup.md)
 * **Sense of Achivement:**
   * Content of this manual is broken in various **Milestones**
   * Every **Milestone** contains 5 **Topics**
