@@ -1,7 +1,7 @@
 
 ---
 
-**Why this Book? **
+**Why this Manual?**
 
 * **Code First**: 
   * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
@@ -11,12 +11,12 @@
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     * [Easy Access on GitHub](http://inbravo.github.io/scala-src)
   * All code examples of this book, are directly [viewable on GitHub](http://inbravo.github.io/scala-src/) and [Executable on Your Local Enviornment](https://inbravo.gitbooks.io/java-to-scala/content/first-milestone/setup-well-begun-half-done.html)
-* **Sense of Achivement: **
+* **Sense of Achivement:**
   * Content of this book is broken in various **Milestones**
-  * Every **Milestone c**contains 5 **Topics**
-  * Every** Topic **describes a Scala concept with GitHub code examples
+  * Every **Milestone** contains 5 **Topics**
+  * Every **Topic** describes a Scala concept with GitHub code examples
   * By running these code example, users can get a **Sense of Achivement**, in-fact a motivation to read next Topics
-  * Idea is to**, Quickly Run and Understand Code for Scala Concept and Feel Pulled towards Reading Next Scala Concept**
+  * Idea is to, **Quickly Run and Understand Code for Scala Concept and Feel Pulled towards Reading Next Scala Concept**
 * **Scala is Easy for Java Programmers**
   * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
@@ -25,11 +25,11 @@
 * **Effective Learning**
   * One the main characterstics of every learning process is, our ability to retain the concepts, in long run
   * This books helps in learning against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) and It suggests a sample plan based on [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
-  * Every **Milestone **of this book ends with a topic named **CheatSheet**
-  * **CheatSheet **is simple mechanism of refreshing the concepts, freely from anywhere and anytime
-  * **CheatSheet **is also a Meaningfull Instrument for Impatients. If you got no time to read complete book, just devour CheatSheet from every Milestone
-  * **CheatSheet **acts as [Flash Card](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve)
-  * **CheatSheet **along with readers study plan, created with [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) concept in mind, helps in finishing all Scala concepts from this book
+  * Every **Milestone** of this book ends with a topic named **CheatSheet**
+  * **CheatSheet** is simple mechanism of refreshing the concepts, freely from anywhere and anytime
+  * **CheatSheet** is also a Meaningfull Instrument for Impatients. If you got no time to read complete book, just devour CheatSheet from every Milestone
+  * **CheatSheet** acts as [Flash Card](https://en.wikipedia.org/wiki/Flashcard), which helps, in going against [Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve)
+  * **CheatSheet** along with readers study plan, created with [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) concept in mind, helps in finishing all Scala concepts from this book
 * **Its Your Book**
   * This is a Free Book, you can fork its content from [GitHub](https://github.com/inbravo/java-to-scala) repo, add notes or change examples. You can do anything
   * Keep sharing the benefits of your work to open community
