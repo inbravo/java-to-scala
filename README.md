@@ -3,7 +3,7 @@
 | :---: |
 | Scala Reference Manual For A Java Programmer |
 
-- [Why this Scala Manual?][why-scala.md]
+- [Why this Scala Manual?][why-this-manual.md]
 - [How to Finish this Manual?][how-to-finish.md]
 - [First Milestone][first-milestone.md]
     - [Eclipse Setup][first-milestone-topic-1.md]
@@ -43,7 +43,7 @@
 -  [Sixth Milestone][sixth-milestone.md]
 -  [Seventh Milestone][seventh-milestone.md]
 
-[why-scala.md]: https://github.com/inbravo/java-to-scala/blob/master/why-scala.md
+[why-this-manual.md]: https://github.com/inbravo/java-to-scala/blob/master/why-this-manual.md
 [how-to-finish.md]: https://github.com/inbravo/java-to-scala/blob/master/how-to-finish.md
 [first-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone.md
 [first-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup.md
