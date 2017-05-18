@@ -9,8 +9,10 @@
   ![](/assets/scala.png)
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
   * This manual considers you a Java Programmer, and try not to dive deeply in revealing common concepts of Java and Scala
-* **Code First**: 
+* **Quality Code Examples**: 
   * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
+  *	Reading others code is always a challange
+    ![](/assets/code-quality.png)
   * In its Code First approach, this manual provides code samples with following concepts in mind, to increase the readablity 
     * [Code Aesthetics](http://wonko.com/post/code_aesthetics)
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
