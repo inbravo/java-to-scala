@@ -4,8 +4,8 @@
 
 ---
 
-- [Why this Scala Manual?][introduction/why-this-manual.md]
-- [How to Finish this Manual?][introduction/how-to-finish.md]
+- [Why this Scala Manual?](introduction/why-this-manual.md)
+- [How to Finish this Manual?](introduction/how-to-finish.md)
 - [First Milestone][first-milestone.md]
     - [Eclipse Setup][first-milestone-topic-1.md]
     - [Hello World in Scala][first-milestone-topic-2.md]
