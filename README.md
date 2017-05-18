@@ -1,11 +1,9 @@
 
-| **A Pragmatic Java Programmers Manual to Embrace Scala** |
+| **A Pragmatic Java Programmers Quick Companion to Embrace Scala** |
 | :---: |
-| Scala Reference Manual For A Java Programmer |
+| Scala Reference Notes Of A Java Programmer |
 
 
-- [Why this Scala Manual?][why-Scala.md]
-- [How to Finish this Manual?][how-to-finish.md]
 - [First Milestone][first-milestone.md]
     - [Eclipse Setup][first-milestone-topic-1.md]
     - [Hello World in Scala][first-milestone-topic-2.md]
@@ -44,10 +42,8 @@
 -  [Sixth Milestone][sixth-milestone.md]
 -  [Seventh Milestone][seventh-milestone.md]
 
-[why-Scala.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/why-Scala.md
-[how-to-finish.md]: https://github.com/inbravo/java-to-scala/blob/master/how-to-finish.md
 [first-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone.md
-[first-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup-well-begun-half-done.md
+[first-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup.md
 [first-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/hello-world.md
 [first-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/class-import.md
 [first-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/first-milestone/class-and-object.md
