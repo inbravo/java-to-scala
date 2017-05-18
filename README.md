@@ -2,7 +2,7 @@
 | :---: |
 | Scala Reference Manual For A Java Programmer |
 
-# Summary
+---
 
 - [Why this Scala Manual?][why-this-manual.md]
 - [How to Finish this Manual?][how-to-finish.md]
@@ -49,6 +49,8 @@
     - [Strict versus non-strict evaluation in Scala][sixth-milestone-topic-5.md]
     - [Cheat sheet for Impatients][sixth-milestone-topic-6.md]
 -  [Seventh Milestone][seventh-milestone.md]
+
+---
 
 [why-this-manual.md]: https://github.com/inbravo/java-to-scala/blob/master/why-this-manual.md
 [how-to-finish.md]: https://github.com/inbravo/java-to-scala/blob/master/how-to-finish.md
