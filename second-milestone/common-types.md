@@ -6,7 +6,7 @@
 
 ---
 
-* As Scala is pure object oriented language, each and every value in Scala is an object. Even all of the primitive data types of Scala are the objects.
+* As Scala is also an object oriented language, each and every value in Scala is an object. Every Scala data type is an object
 
 * Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef`and `AnyVal`
 
@@ -23,7 +23,7 @@
   6. **Float**      : 32 bits :   `val maxFloatValue: Float = Float.MaxValue`  
   7. **Double**     : 64 bits :   `val maxDoubleValue: Double = Double.MaxValue`
 
-* Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit`was the return type of `main`method
+* Type `Unit`is similar to `void`in Java. If you remember the Hello World program, `Unit` is the return type of `main`method
 
 ```scala
 def main(args: Array[String]): Unit = { .... }
@@ -43,7 +43,7 @@ println("""Welcome to Scala Training. Type "HELP" for help.""")
 
 * No one can create object like `Nothing`in scala, this is used to denote empty collection or abnormal termination
 
-* Open program `com.inbravo.lang.ValuesTest.scala` \[[ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)\] in Eclipse and run...
+* Open program `com.inbravo.lang.ValuesTest.scala` [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)
 
 
 
