@@ -4,20 +4,17 @@
 **Why this Manual?**
 
 * **Scala is Easy for Java Programmers**
-  * Functional programming languages are experiencing a renaissance in recent years, chief among them are Scala and Clojure
-  * Scala is more fashionable these days. It provides both object oriented and functional programming 
   ![](/assets/scala.png)
+  * Scala provides both object oriented and functional programming 
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
   * This manual considers you a Java Programmer, and try not to dive deeply in revealing common concepts of Java and Scala
 * **Quality Code Examples**: 
-  * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
+  ![](/assets/code-quality.png)
   *	Reading some one else code is always cumbersome 
-    ![](/assets/code-quality.png)
   * This manual provides code samples written with following concepts in mind, to increase the readablity 
     * [Code Aesthetics](http://wonko.com/post/code_aesthetics)
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
-    * [Code Examples on GitHub](http://inbravo.github.io/scala-src)
   * All code examples of this manual, are directly [viewable on GitHub](http://inbravo.github.io/scala-src) and [Executable on Your Local Enviornment](https://github.com/inbravo/java-to-scala/blob/master/first-milestone/setup.md)
 * **Sense of Achivement:**
   * Content of this manual is broken in various **Milestones**
