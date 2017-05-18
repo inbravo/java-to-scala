@@ -8,7 +8,8 @@
 * Scala provides keyword `def`for creating methods or definitions
 
 ```scala
-def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
+/* A definition using 'def' */
+def incrementDef = (x: Int) => x + 1 
 ```
 
 * Declare a method which takes no parameter and returns nothing but prints 'Hello''
@@ -45,9 +46,10 @@ def returnFloat: Float = return 1.0F
 
 * Open program `com.inbravo.lang.MethodTest.scala` [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala)
 
-* You can also call a method with variable number of arguments, with the help of star \(`*`\)  and call using `sum (1,2,3,4)`
+* You can also call a method with variable number of arguments, with the help of star \(`*`\) 
 
 ```scala
+/* Method which accepts anu number of Int type of arguments */
 def sum(args: Int*) = {  
 
  var result = 0  
@@ -57,7 +59,7 @@ def sum(args: Int*) = {
  }
 }
 
-
+/* Multiple valid method calls */
 sum(1,2)
 sum(1,2,3,4)
 ```
