@@ -14,7 +14,7 @@
     - [Cheat sheet for Impatients][first-milestone-topic-6.md]
 -  [Second Milestone][second-milestone.md]
     - [Common Types in Scala][second-milestone-topic-1.md]
-    - [How Input/Output Works In Scala][second-milestone-topic-2.md]
+    - [How Input/Output Works in Scala][second-milestone-topic-2.md]
     - [Defining Properties/Fields in Scala Class/Object][second-milestone-topic-3.md]
     - [Defining Method/Definitions in Scala Class/Object][second-milestone-topic-4.md]
     - [Using Properties/Fields as Method/Definitions in Scala Class/Object][second-milestone-topic-5.md]
@@ -28,10 +28,10 @@
     - [Cheat sheet for Impatients][third-milestone-topic-6.md]
 -  [Fourth Milestone][fourth-milestone.md]
     - [Arrays in Scala][fourth-milestone-topic-1.md]
-    - [Tuple In Scala][fourth-milestone-topic-2.md]
-    - [List In Scala][fourth-milestone-topic-3.md]
-    - [Set In Scala][fourth-milestone-topic-4.md]
-    - [Map In Scala][fourth-milestone-topic-5.md]
+    - [Tuple in Scala][fourth-milestone-topic-2.md]
+    - [List in Scala][fourth-milestone-topic-3.md]
+    - [Set in Scala][fourth-milestone-topic-4.md]
+    - [Map in Scala][fourth-milestone-topic-5.md]
     - [Cheat sheet for Impatients][fourth-milestone-topic-6.md]
 -  [Fifth Milestone][fifth-milestone.md]
     - [Comparision between Java and Scala Programs to Test for Anagram String][fifth-milestone-topic-1.md]
@@ -41,6 +41,12 @@
     - [Comparision between Java and Scala Programs to Create a Binary Tree][fifth-milestone-topic-5.md]
     - [Cheat sheet for Impatients][fifth-milestone-topic-6.md]
 -  [Sixth Milestone][sixth-milestone.md]
+    - [First-class functions][sixth-milestone-topic-1.md]
+    - [Higher-order functions][sixth-milestone-topic-2.md]
+    - [Pure functions in Scala][sixth-milestone-topic-3.md]
+    - [Recursion in Scala][sixth-milestone-topic-4.md]
+    - [Strict versus non-strict evaluation in Scala][sixth-milestone-topic-5.md]
+    - [Cheat sheet for Impatients][sixth-milestone-topic-6.md]
 -  [Seventh Milestone][seventh-milestone.md]
 
 [why-this-manual.md]: https://github.com/inbravo/java-to-scala/blob/master/why-this-manual.md
@@ -86,6 +92,13 @@
 [fifth-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/fifth-milestone/cheat-sheet.md
 
 [sixth-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/sixth-milestone.md
+[sixth-milestone-topic-1.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/first-class-functions.md
+[sixth-milestone-topic-2.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/higher-order-functions.md
+[sixth-milestone-topic-3.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/pure-functions.md
+[sixth-milestone-topic-4.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/recursion.md
+[sixth-milestone-topic-5.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/strict-versus-non-strict-evaluation.md
+[sixth-milestone-topic-6.md]: https://github.com/inbravo/java-to-scala/blob/master/sixth-milestone/cheat-sheet.md
+
 [seventh-milestone.md]: https://github.com/inbravo/java-to-scala/blob/master/seventh-milestone/seventh-milestone.md
 
 
