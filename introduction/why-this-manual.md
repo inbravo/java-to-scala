@@ -11,9 +11,9 @@
   * This manual considers you a Java Programmer, and try not to dive deeply in revealing common concepts of Java and Scala
 * **Quality Code Examples**: 
   * As a programmer, we always wanted to quickly play with code, rather then reading the documentation
-  *	Reading others code is always a challange
+  *	Reading some one else code is always cumbersome 
     ![](/assets/code-quality.png)
-  * In its Code First approach, this manual provides code samples with following concepts in mind, to increase the readablity 
+  * This manual provides code samples written with following concepts in mind, to increase the readablity 
     * [Code Aesthetics](http://wonko.com/post/code_aesthetics)
     * [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
     * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
