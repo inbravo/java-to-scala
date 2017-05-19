@@ -5,8 +5,6 @@
 | Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) |
 
 ---
-
-![](/assets/intro/scala.png)
   
 * As Scala is also an object oriented language, each and every value in Scala is an object. Every Scala data type is an object
 

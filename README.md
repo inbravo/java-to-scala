@@ -3,6 +3,7 @@
 | Scala Reference Manual For A Java Programmer |
 
 ---
+![](/assets/intro/scala.png)
 
 - [Why this Scala Manual?](introduction/why-this-manual.md)
 - [How to Finish this Manual?](introduction/how-to-finish.md)
