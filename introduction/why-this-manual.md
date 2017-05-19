@@ -3,7 +3,7 @@
 
 **Why this Manual?**
 
-* **Funuctional Programming Paradigm is on Rise**
+* **Functional Programming Paradigm is on Rise**
   * Few data structures, lots of operations
   *	Ability to educate data structures to perform desired functions with the help of Higher Order Functions
   *	Functional programming is declarative, it's done with expressions or declarations instead of statements
