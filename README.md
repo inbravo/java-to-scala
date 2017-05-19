@@ -3,6 +3,8 @@
 | **A Pragmatic Java Programmers Manual to Embrace Scala** |
 | Scala Reference Manual For A Java Programmer |
 
+---
+
 - [Why this Scala Manual?](introduction/why-this-manual.md)
 - [How to Finish this Manual?](introduction/how-to-finish.md)
 - [First Milestone](first-milestone/first-milestone.md)
