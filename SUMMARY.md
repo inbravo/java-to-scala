@@ -21,7 +21,7 @@
     - [How Operator Overloading Works in Scala](third-milestone/operator-overloading.md)
     - [Companion Object of a Class in Scala](third-milestone/companion-object.md)
     - [Procedure Methods/Definitions in Scala](third-milestone/procedures.md)
-    - []()
+    - [Statement Versus Expression]()
     - [Cheat sheet for Impatients](third-milestone/cheat-sheet.md)
 -  [Fourth Milestone](fourth-milestone/fourth-milestone.md)
     - [Arrays in Scala](fourth-milestone/array.md)
@@ -45,5 +45,11 @@
     - [Strict versus non-strict evaluation in Scala](sixth-milestone/strict-versus-non-strict-evaluation.md)
     - [Cheat sheet for Impatients](sixth-milestone/cheat-sheet.md)
 -  [Seventh Milestone](seventh-milestone/seventh-milestone.md)
+    - [Prefer Immutability](seventh-milestone/prefer-immutability.md)
+    - [Implicit Conversions in Scala](seventh-milestone/implicits.md)
+    - [Functors in Scala](seventh-milestone/functors.md)
+    - [Monads in Scala](seventh-milestone/monads.md)
+    - [Currying and applicative style in Scala](seventh-milestone/currying.md)
+    - [Cheat sheet for Impatients](seventh-milestone/cheat-sheet.md)
 
 ---
