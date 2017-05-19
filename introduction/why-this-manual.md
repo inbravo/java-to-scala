@@ -9,7 +9,6 @@
   *	Functional programming is declarative, it's done with expressions or declarations instead of statements
   ![](/assets/intro/java-vs-scala.png)  
 * **Scala is Easy for Java Programmers**
-  * Functional programming is a declarative programming paradigm, it means programming is done with expressions or declarations instead of statement
   * Scala is more fashionable these days. It provides both object oriented and functional programming 
   ![](/assets/intro/functional-scala.png)
   * Scala is interoperable with Java classes, your knowledge of Java API will be helpfull in designing Scala Systems
