@@ -1,8 +1,6 @@
 | Topic | Using implicits to write expressive code |
 | :--- | :--- |
-| Git sample | [ImplicitParamTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitParamTest.scala) & 
- [ImplicitFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitFuncTest.scala) &
- [ImplicitClassTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitClassTest.scala) |
+| Git sample | [ImplicitParamTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitParamTest.scala) & [ImplicitFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitFuncTest.scala) & [ImplicitClassTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImplicitClassTest.scala) |
 
 ---
 
@@ -21,7 +19,7 @@
 		def square(implicit value: Int) = value * value
 	}
 	```
-	*	Implicit conversions using class: you can add new functionality to closed classes by writing implicit conversions and bringing them into scope when you need
+	*	Implicit class: Add new functions to closed classes. Example below adds a new method `sayHello` to String class
 	```scala
 	object ImplicitClassTest {
 
@@ -31,7 +29,7 @@
 		val name = "InBravo"
 
 		/* Call method 'sayHello' using implicit method call */
-		/* See carefully that 'sayHello' does not belong to original Predef.String */
+		/* See carefully that 'sayHello' does not belong to original Predef.String. With the help of implicit, it sounds like addition to String class */
 		println(name.sayHello)
 	  }
 
