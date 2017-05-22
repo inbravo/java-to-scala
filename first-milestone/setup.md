@@ -8,7 +8,7 @@
 This excersice involves three actions
 
 * **Scala build tool setup**
-  *	Best build tool for Scala is [sbt](http://www.scala-sbt.org)
+  *	Best build tool for Scala is [sbt](http://www.scala-sbt.org)  
   ![](/assets/m-1/keep-calm-and-install-sbt.png)
   * Download setup in your desired compression format \(zip or tgz\)
   * Decompress the downloaded file to local directory. Ex:`/download/path-to-sbt`
