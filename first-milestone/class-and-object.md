@@ -1,7 +1,5 @@
 | Topic | Trait, Class and Object |
 | :--- | :--- |
-| Time required | 10 minutes |
-| Benefit realized | Trait, Class and Object in Scala |
 | Git sample | [ClassObjectTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ClassObjectTest.scala) |
 
 ---
