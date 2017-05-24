@@ -4,11 +4,13 @@
 
 ---
 
-*	Scala provides an `implicit` keyword that can be used in three ways: 
-	*	Implicit parameters: implicit values will be taken from the context and passed in implicit methods
+*	Scala `implicit` provides ability to write classes and methods that can be reused anytime they’re needed
+*	An `implicit` keyword can be used in three ways 
+	*	**Implicit Parameters**: Example below shows how method 'square' takes context bound implicit Int value '2' from the context
 	```scala
 	object ImplicitParamTest {
 
+		 /* Compiler will bind 'implicit val value = 2' to the context in which they are called */
 		implicit val value = 2
 
 		/* Method 'square' call does not provides any parameter of type Int as desired in definition */
@@ -19,7 +21,7 @@
 		def square(implicit value: Int) = value * value
 	}
 	```
-	*	Implicit class: Add new functions to closed classes. Example below adds a new method `sayHello` to String class
+	*	**Implicit Conversions with Classes**: Example below adds a new method `sayHello` to String class
 	```scala
 	object ImplicitClassTest {
 
@@ -28,16 +30,16 @@
 		/* Create new variable 'name' */
 		val name = "InBravo"
 
-		/* Call method 'sayHello' using implicit method call */
-		/* See carefully that 'sayHello' does not belong to original Predef.String. With the help of implicit, it sounds like addition to String class */
+		/* See carefully that 'sayHello' does not belong to original Predef.String */
 		println(name.sayHello)
 	  }
 
-	  /* Implicit class with a method 'sayHello' */
+	  /* Implicit class with a method 'sayHello'. A constructor parameter is must for any implicit class */
 	  implicit class Greeter(val name: String) {
 
+		/* All the methods of any implicit class are bound to context */
 		def sayHello = "Hello " + name;
 	  }
 	}
 	```
-	*	Implicit conversions using functions:
+	*	**Implicit conversions using functions**:	
