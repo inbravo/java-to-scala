@@ -1,10 +1,47 @@
-| Topic | Map and Set |
+| Topic | List and Set|
 | :--- | :--- |
-| Time Required |  |
-| Benefits |  |
-| Git Sample |  |
+| Time required | 30 minutes |
+| Benefit | How to use Scala List |
 
-In Scala Set and Maps can be mutable or immutable, depends upon which one we imported to our class. by default it would be immutable. to use Mutable maps you can import `import scala.collection.mutable.Map` , while to create mutable set `import scala.collection.mutable.Set`
+---
+
+#### **List**
+
+Scala List is immutable sequence of objects that contains the same type of objects, while in java List can be mutable. List are designed to enable functional style of Scala.
+
+`val oneTwoThree = List(1, 2, 3) // Creating and initialised List`
+
+`oneTwoThree(2) //returns the element at index 2(zero based), while is equal to oneTwoThree.apply(2)`
+
+Common operations on List are `:::` to concatenate lists and `::` \(cons operator\) to insert an element at starting, these operations will always result in new List, as List are immutable objects in Scala.
+
+Scala use`:+`to append operation, but this rarely used, as the time to append a new element increases with the size of list while prepending \(`::`\) always take constant time.
+
+`List()` or `Nil`  used to create empty List.
+
+
+#### Set
+
+`var jetSet = Set("Boeing", "Airbus")      
+ //Create and initilize Immutable Set with 2 Strings.`
+
+`jetSet += "Lear"      
+ // reassign the jetSet var with a      
+ new set containing "Boeing", "Airbus", and "Lear`
+
+`println(jetSet.contains("Cessna"))`
+
+In case of mutable Set
+
+`import scala.collection.mutable.Set`
+
+`val movieSet = Set("Hitch", "Poltergeist")      
+ //Create mutable Set`
+
+`movieSet += "Shrek"      
+ // Add Shrek to movieSet`
+
+`println(movieSet)`
 
 #### Map
 
@@ -53,4 +90,3 @@ To map Java map into Scala you can use conversion utility by importing
 `import scala.collection.JavaConversions.mapAsScalaMap.` To use scala map into java you can use
 
 `import scala.collection.JavaConversions.mapAsJavaMap`
-

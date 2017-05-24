@@ -3,7 +3,6 @@
 |  |  |
 
 ---
-
 *	There's a fundamental difference between your own code and other libraries. You can update or extend your own code, but you can't do the same with other libraries
 *	Scala has implicit parameters and conversions. They can make existing libraries much more pleasant to deal with
 *	Say you have a value `x` of type `Array[int]` and you want to assign this value to some variable of type `String`	
