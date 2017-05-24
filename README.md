@@ -15,7 +15,7 @@
     - [Constructor of a Class in Scala](first-milestone/constructors.md)
     - [Cheat sheet for Impatients](first-milestone/cheat-sheet.md)
 -  [Second Milestone](second-milestone/second-milestone.md)
-    - [Common Types in Scala](second-milestone/common-types.md)
+    - [Common Data Types in Scala](second-milestone/common-types.md)
     - [How Input/Output Works in Scala](second-milestone/input-and-output.md)
     - [Defining Properties/Fields in Scala Class/Object](second-milestone/values-variables-and-methods.md)
     - [Defining Method/Definitions in Scala Class/Object](second-milestone/methods.md)
