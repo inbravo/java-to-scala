@@ -63,7 +63,7 @@ object OBJECTA extends CLASSA {
 * Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
 
 * Scala allows you to pass field variables along with constructor
-* Open program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) and run...
+* Open program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) and run
 
 ```scala
 /* Params of the constructor turn into fields and initialized with the construction parameters */
@@ -95,11 +95,9 @@ class Employee {
 }
 ```
 
-* Scala program[ ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes all possible class imports in Scala, which is slightly different from Java
+* Scala program [ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) describes all possible class imports in Scala, which is slightly different from Java
 
-* In Java you dont need to import classes or interfaces from package `java.lang.*`
-
-* Similarly Scala packages  \(`scala.* , scala.Predef.*`\) along with Java lang package \(`java.lang.*`\) are not required to be explicitely imported in a Scala class
+* In Java you dont need to import classes or interfaces from package `java.lang.*`. Similarly Scala packages  \(`scala.* , scala.Predef.*`\) along with Java lang package \(`java.lang.*`\) are not required to be explicitely imported in a Scala class
 
 ```scala
 /* These imports are not required to be added explicitly */
@@ -125,7 +123,7 @@ import math._
 
 * Import statements can be anywhere inside the Scala program. Unlike Java, where imports are only allowed at top of class. The scope of the import statement extends until the end of the enclosing block.
 
-* Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form private\[X\] or protected\[X\] means that access is private or protected “up to” X, where X designates some enclosing package, class or singleton object
+* Access modifiers in Scala can be augmented with qualifiers. A modifier  of the form `private\[X\]` or `protected\[X\]` means that access is private or protected up-to X, where X designates some enclosing package, class or singleton object
 
 * Difference between `private` and `private[this]` 
 
