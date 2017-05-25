@@ -3,8 +3,9 @@
 | Benefits realized | Ability to run Scala examples in [REPL](http://docs.scala-lang.org/overviews/repl/overview.html) or Eclipse |
 
 ---
-##	**Setup of Scala Enviornment**
-	* Either download [Scala distro](https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.zip) and run samples on REPL
+
+* **Scala Enviornment Setup**
+ * Either download [Scala distro](https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.zip) and run samples on REPL
 	* Or do complete Scala Dev Enviornment setup using Eclipse IDE and SBT
 	* **Scala build tool setup**
 	  *	Best build tool for Scala is [sbt](http://www.scala-sbt.org)  
@@ -17,7 +18,7 @@
 	  * Inside your local scala-src project. Execute **sbt** command: `[adixit@marcus ~]$ sbt eclipse`
 	  * Last step will download all required libraries and generate Eclipse configurations
 	  * When last step is done, use Eclipse import project command and import your `scala-src` project
-##	**Setup of Code Samples**
+*	**Code Samples Setup**
   * login if you have a [Github](/github.com) account or signup, if your don't have. If you do not want to create a Github account, just download the [scala-src](https://github.com/inbravo/scala-src) as zip, using tiny green button at right side
   * After login at Github, go to project [scala-src ](https://github.com/inbravo/scala-src)and [fork](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) the repository
   * A similar repository will be available in your code space. This is going to be your personal play area.
