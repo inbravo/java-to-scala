@@ -1,7 +1,7 @@
 # Summary
 
 - [First Milestone](first-milestone/first-milestone.md)
-    - [Eclipse Setup](first-milestone/setup.md)
+    - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
     - [Class and Object in Scala](first-milestone/class-and-object.md)
     - [Expression Oriented Programming in Scala](first-milestone/expression-oriented-programming.md)
