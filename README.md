@@ -5,8 +5,6 @@
 
 ---
 
-- [Why this Scala Manual?](introduction/why-this-manual.md)
-- [How to Finish this Manual?](introduction/how-to-finish.md)
 - [First Milestone](first-milestone/first-milestone.md)
     - [Eclipse Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
