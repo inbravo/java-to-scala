@@ -24,7 +24,7 @@
 		return result
 	  }
 	```
-*	Scala code above can be improved with the help of expression-oriented syntax, Below given Scala code shows how 'match' returns `result`
+*	Scala code above can be improved with the help of expression-oriented syntax, Below given Scala code shows how `match` returns `result`
 	```scala
 	  /* Scala code below still resembles Java */
 	  def getErrorMessageWithExplicitReturnSecond(errorCode: Int): String = {
