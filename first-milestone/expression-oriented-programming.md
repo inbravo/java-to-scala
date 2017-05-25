@@ -6,7 +6,6 @@
 *	**STATEMENT VERSUS EXPRESSION**:  
 	*	A Statement **Executes**
 	*	An Expression **Evaluates** to a **Value**
-*	**NO RETURN STATEMENT**: An expression evaluates to a value, so there’s no need to return
 *	In Java, there is a practice of using keyword `return` at the end of a method. You can do the same in Scala, Example below shows it
 	```scala
 	  /* Scala code below resembles Java */
@@ -50,7 +49,7 @@
 		return errorCode match { case 1 => "TCP Socket Failure" case 2 => "UDP Failure" case 3 => "Unknown Error" }
 	  }
 	```
-*	Best Scala code will be achieved after complete removal of `return` keyword
+*	**NO RETURN STATEMENT**: An expression evaluates to a value, so there’s no need of `return`
 	```scala
 	 /* Scala code below rarely resembles Java */
 	  def getErrorMessageWithoutReturn(errorCode: Int): String = {
