@@ -3,13 +3,16 @@
 | Git sample | [AvoidReturnTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AvoidReturnTest.scala) |
 
 ---
-*	**STATEMENT VERSUS EXPRESSION**:  A statement is something that executes; an expression is something that evaluates to a value
+*	**STATEMENT VERSUS EXPRESSION**:  
+	*	A Statement **Executes**
+	*	An Expression **Evaluates** to a **Value**
 *	**NO RETURN STATEMENT**: An expression evaluates to a value, so there’s no need to return
 *	In Java, there is a practice of using keyword `return` at the end of a method. You can do the same in Scala, Example below shows it
 	```scala
-	  def getErrorMessageWithReturn(errorCode: Int): String = {
+	  /* Scala code below resembles Java */
+	  def getErrorMessageWithReturnFirst(errorCode: Int): String = {
 
-		/* Variable initializaed the default value using uderscore '_' */
+		/* A variable ('var') type which can change after declaration */
 		var result: String = "Unknown Error"
 
 		errorCode match {
@@ -17,31 +20,43 @@
 		  case 2 => result = "UDP Failure"
 		  case 3 => result = "Unknown Error"
 		}
+
+		/* Return the result */
 		return result
 	  }
 	```
-*	Scala code above can be improved with the help of expression-oriented syntax, Below given Scala code show how 'match' returns `result`
+*	Scala code above can be improved with the help of expression-oriented syntax, Below given Scala code shows how 'match' returns `result`
 	```scala
-	  def getErrorMessageWithExplicitReturn(errorCode: Int): String = {
+	  /* Scala code below still resembles Java */
+	  def getErrorMessageWithExplicitReturnSecond(errorCode: Int): String = {
 
+		/* A value ('val') type which can't change after declaration */
 		val result = errorCode match {
 		  case 1 => "TCP Socket Failure"
 		  case 2 => "UDP Failure"
 		  case 3 => "Unknown Error"
 		}
+
+		/* Return the result */
 		return result
 	  }
 	```
-*	Scala code can be improved further, by completely removing `return` keyword
+*	Scala code can be improved further, by removing `val result` declaration
 	```scala
+	  /* Scala code below somewhat resembles Java */
+	  def getErrorMessageWithExplicitReturnThird(errorCode: Int): String = {
+
+		/* Control structure 'match' is returning a String */
+		return errorCode match { case 1 => "TCP Socket Failure" case 2 => "UDP Failure" case 3 => "Unknown Error" }
+	  }
+	```
+*	Best Scala code will be achieved after complete removal of `return` keyword
+	```scala
+	 /* Scala code below rarely resembles Java */
 	  def getErrorMessageWithoutReturn(errorCode: Int): String = {
 
-		/* Control structure 'match' is the last statement in this method and 'match' is returning a String */
-		errorCode match {
-		  case 1 => "TCP Socket Failure"
-		  case 2 => "UDP Failure"
-		  case 3 => "Unknown Error"
-		}
+		/* Control structure 'match' is the last statement in this method; automatically taken as return value */
+		errorCode match { case 1 => "TCP Socket Failure" case 2 => "UDP Failure" case 3 => "Unknown Error" }
 	  }
 	```
 *	Open program [AvoidReturnTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AvoidReturnTest.scala) and run
