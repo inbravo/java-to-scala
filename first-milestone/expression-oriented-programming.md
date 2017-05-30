@@ -3,11 +3,8 @@
 | Git sample | [AvoidReturnTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AvoidReturnTest.scala) |
 
 ---
-
-## Avoid usage of `return` 
-*	**STATEMENT VERSUS EXPRESSION**:  
-	*	A Statement **Executes**
-	*	An Expression **Evaluates** to a **Value**
+##	**STATEMENT VERSUS EXPRESSION**: A Statement **Executes** while An Expression **Evaluates** to a **Value**
+##	Avoid `return` Statements
 *	In Java, there is a practice of using keyword `return` at the end of a method. You can do the same in Scala, Example below shows it
 	```scala
 	  /* Scala code below resembles Java */
