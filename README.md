@@ -2,7 +2,11 @@
 | :---: |
 | **A Pragmatic Java Programmers Notes to Embrace Scala** |
 | Scala Reference Notes of A Java Programmer |
-| <p align="center">
+
+---
+
+### These notes are taken while reading following Scala books
+<p align="center">
   <a href="http://www.horstmann.com/scala/index.html">
   	<img src="/assets/intro/pis.png"  height="230" width="150"/>
   </a>
@@ -12,7 +16,7 @@
     <a href="http://www.horstmann.com/scala/index.html">
   	<img src="/assets/intro/sid.png"  height="230" width="150"/>
   </a>
-</p>|
+</p>
 
 ---
 
