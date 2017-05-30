@@ -54,7 +54,7 @@
     - [Currying and applicative style in Scala](seventh-milestone/currying.md)
     - [Cheat sheet for Impatients](seventh-milestone/cheat-sheet.md)
 
-## Notes taken while reading following Scala books
+## Fllowing books are the source
 <p align="center">
   <a href="https://booksites.artima.com/programming_in_scala_2ed">
   	<img src="/assets/intro/pis.png" height="230" width="150"/>
