@@ -3,7 +3,7 @@
 | **A Pragmatic Java Programmers Notes to Embrace Scala** |
 | Scala Reference Notes of A Java Programmer |
 
-### Notes contains Seven Milestones and Five Topic per Milestone
+## Notes contain Seven Milestones and Five Topics per Milestone
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
@@ -54,7 +54,7 @@
     - [Currying and applicative style in Scala](seventh-milestone/currying.md)
     - [Cheat sheet for Impatients](seventh-milestone/cheat-sheet.md)
 
-### Notes taken while reading following Scala books
+## Notes taken while reading following Scala books
 <p align="center">
   <a href="https://booksites.artima.com/programming_in_scala_2ed">
   	<img src="/assets/intro/pis.png" height="230" width="150"/>
@@ -66,8 +66,6 @@
   	<img src="/assets/intro/sid.png" height="230" width="150"/>
   </a>
 </p>
-
----
 
 
 
