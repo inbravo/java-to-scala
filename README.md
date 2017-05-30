@@ -1,7 +1,7 @@
 | ![](/assets/intro/java-to-scala.png)|
 | :---: |
-| **A Pragmatic Java Programmers Manual to Embrace Scala** |
-| Scala Reference Manual For A Java Programmer |
+| **A Pragmatic Java Programmers Notes to Embrace Scala** |
+| Scala Reference Notes of A Java Programmer |
 
 ---
 
