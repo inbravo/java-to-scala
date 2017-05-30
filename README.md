@@ -1,7 +1,6 @@
 | ![](/assets/intro/java-to-scala.png)|
 | :---: |
-| **A Pragmatic Java Programmers Notes to Embrace Scala** |
-| Scala Reference Notes of A Java Programmer |
+| **Scala Reference Notes of A Java Programmer** |
 
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
