@@ -5,6 +5,7 @@
 
 ---
 
+![](/assets/intro/pis.png)![](/assets/intro/sfi.png)![](/assets/intro/sid.png)
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)

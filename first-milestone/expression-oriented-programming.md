@@ -3,6 +3,8 @@
 | Git sample | [AvoidReturnTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AvoidReturnTest.scala) |
 
 ---
+
+## Avoid usage of `return` 
 *	**STATEMENT VERSUS EXPRESSION**:  
 	*	A Statement **Executes**
 	*	An Expression **Evaluates** to a **Value**
@@ -58,4 +60,8 @@
 		errorCode match { case 1 => "TCP Socket Failure" case 2 => "UDP Failure" case 3 => "Unknown Error" }
 	  }
 	```
-*	Open program [AvoidReturnTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AvoidReturnTest.scala) and run
+*	Avoid return statement and prefer to have the last expression be the return value
+## Mutability
+
+*	Most of the mainstream languages, including object-oriented programming languages such as C#, Visual Basic, C++, and Java, were designed to primarily support imperative (procedural) programming.
+Imperative code tends to be made of statements, not expressions. Objects are created which have state. Then statements are executed that Mutate or Change the state of an object
