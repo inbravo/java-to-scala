@@ -2,10 +2,21 @@
 | :---: |
 | **A Pragmatic Java Programmers Notes to Embrace Scala** |
 | Scala Reference Notes of A Java Programmer |
+| <p align="center">
+  <a href="http://www.horstmann.com/scala/index.html">
+  	<img src="/assets/intro/pis.png"  height="230" width="150"/>
+  </a>
+    <a href="http://www.horstmann.com/scala/index.html">
+  	<img src="/assets/intro/sfi.png"  height="230" width="150"/>
+  </a>
+    <a href="http://www.horstmann.com/scala/index.html">
+  	<img src="/assets/intro/sid.png"  height="230" width="150"/>
+  </a>
+</p>|
 
 ---
 
-![](/assets/intro/pis.png)![](/assets/intro/sfi.png)![](/assets/intro/sid.png)
+
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
