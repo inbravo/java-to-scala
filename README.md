@@ -3,8 +3,6 @@
 | **A Pragmatic Java Programmers Notes to Embrace Scala** |
 | Scala Reference Notes of A Java Programmer |
 
----
-
 ### Notes contains Seven Milestones and Five Topic per Milestone
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
@@ -55,8 +53,6 @@
     - [Monads in Scala](seventh-milestone/monads.md)
     - [Currying and applicative style in Scala](seventh-milestone/currying.md)
     - [Cheat sheet for Impatients](seventh-milestone/cheat-sheet.md)
-
----
 
 ### Notes taken while reading following Scala books
 <p align="center">
