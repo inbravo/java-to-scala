@@ -59,7 +59,11 @@
 	  }
 	```
 *	Avoid return statement and prefer to have the last expression be the return value
-## Mutability
+## Prefer Mutability
 
-*	Most of the mainstream languages, including object-oriented programming languages such as C#, Visual Basic, C++, and Java, were designed to primarily support imperative (procedural) programming.
-Imperative code tends to be made of statements, not expressions. Objects are created which have state. Then statements are executed that Mutate or Change the state of an object
+*	Most of the mainstream languages, including object-oriented programming languages such as C#, Visual Basic, C++, and Java, were designed to primarily support Imperative (procedural) Programming
+*	Imperative code tends to be made of statements, not expressions
+*	Objects are created with an initial state. Then statements are executed that Mutate or Change the state of an object
+*	Defining a variable as a val means that it’s an **Immutable** reference
+*	All method parameters are **Immutable** references and class arguments default to being **Immutable** references
+*	**The only way to create a mutable variable is through the `var` syntax**
