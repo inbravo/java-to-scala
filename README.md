@@ -5,22 +5,7 @@
 
 ---
 
-### These notes are taken while reading following Scala books
-<p align="center">
-  <a href="https://booksites.artima.com/programming_in_scala_2ed">
-  	<img src="/assets/intro/pis.png" height="230" width="150"/>
-  </a>
-    <a href="http://www.horstmann.com/scala/index.html">
-  	<img src="/assets/intro/sfi.png" height="230" width="150"/>
-  </a>
-    <a href="https://www.manning.com/books/scala-in-depth">
-  	<img src="/assets/intro/sid.png" height="230" width="150"/>
-  </a>
-</p>
-
----
-
-### These notes are broken in Seven Milestones with Five Topic per Milestone
+### Notes contains Seven Milestones and Five Topic per Milestone
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
@@ -73,8 +58,20 @@
 
 ---
 
+### Notes taken while reading following Scala books
+<p align="center">
+  <a href="https://booksites.artima.com/programming_in_scala_2ed">
+  	<img src="/assets/intro/pis.png" height="230" width="150"/>
+  </a>
+    <a href="http://www.horstmann.com/scala/index.html">
+  	<img src="/assets/intro/sfi.png" height="230" width="150"/>
+  </a>
+    <a href="https://www.manning.com/books/scala-in-depth">
+  	<img src="/assets/intro/sid.png" height="230" width="150"/>
+  </a>
+</p>
 
-
+---
 
 
 
