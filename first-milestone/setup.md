@@ -1,11 +1,12 @@
 | **Topic** | **Setup** |
 | :--- | :--- |
-| Benefits realized | Ability to run Scala examples in [REPL](http://docs.scala-lang.org/overviews/repl/overview.html) or Eclipse |
+| Benefits realized | Ability to run Scala examples |
 
 ---
 ##	**Setup of Scala Enviornment**
- * Either download [Scala distro](https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.zip) and run samples on REPL
- * Or do complete Scala Dev Enviornment setup using Eclipse IDE and SBT
+ * You can avoid any local setup and run example online with the help of [Scastie](https://scastie.scala-lang.org)
+ * You can download [Scala distro](https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.zip) and run examples on [REPL](http://docs.scala-lang.org/overviews/repl/overview.html)
+ * You can also do complete Scala Dev Enviornment setup using Eclipse IDE and SBT
 	* **Scala build tool setup**
 	  *	Best build tool for Scala is [sbt](http://www.scala-sbt.org)  
 	  ![](/assets/m-1/keep-calm-and-install-sbt.png)
