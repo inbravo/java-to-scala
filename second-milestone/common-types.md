@@ -1,7 +1,5 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
-| Time required | 15 minutes |
-| Benefit realized | Understanding of Scala Basic types |
 | Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) |
 
 ---
