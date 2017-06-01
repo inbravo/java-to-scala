@@ -1,14 +1,12 @@
 | Topic | Procesures |
 | :--- | :--- |
-| Time Required | 10 minutes |
-| Benefit realized | How procedure is different from definition |
 | Git sample | [ProcedureTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala) |
 
 ---
 
-* A procedure is a definition which returns no value
+* A procedure is a Scala method or definition which **Returns No Value**
 
-* Open program`com.inbravo.lang.ProcedureTest.scala`\[[ProcedureTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala)\] in Eclipse and run...
+* Open program [ProcedureTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala)
 
 * Because the procedure doesn’t return any value, you can avoid the = symbol
 
