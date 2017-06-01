@@ -54,13 +54,11 @@ object OBJECTA extends CLASSA {
 
 * Declaration in above example,
 
-  * Declares an anonymous \(inaccessible\) class `OBJECTA`
+  * Declares an anonymous (inaccessible) class `OBJECTA`
 
   * Creates a single instance of this class named `OBJECTA`
 
-* Class is the **Blueprint** for objects and Object is the **Entry Point** of a program
-
-* Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
+* Class is the **Blueprint** for objects and Object is the **Entry Point** of a program. Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
 
 * Scala allows you to pass field variables along with constructor
 * Open program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) and run
@@ -69,7 +67,6 @@ object OBJECTA extends CLASSA {
 /* Params of the constructor turn into fields and initialized with the construction parameters */
 class Employee(val name: String, val age: Int) {/* Do something */}
 ```
-
 * Above Scala program is equivalent to below given Java program. You can see how much verbose Java is,
 
 ```java
@@ -80,7 +77,6 @@ class Employee {
       private int age;
 
       public Person(String name, int age) {
-
           this.name = name;
           this.age = age;
       }
@@ -139,6 +135,3 @@ class EmployeeManager(employeeManager: EmployeeManager) {
     //  println(employeeManager.privateEmployeeManagerValue) 
   }
 ```
-
-* If you have some helper method you’d like to be in scope for an entire package, go ahead and put it right at the top level of the
-   package. These are called `_package` `objects._`
