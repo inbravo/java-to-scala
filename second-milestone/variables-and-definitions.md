@@ -1,4 +1,4 @@
-| Topic | Variables as Definitions |
+| Topic | Values and Variables as Definitions |
 | :--- | :--- |
 | Git sample | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) |
 
