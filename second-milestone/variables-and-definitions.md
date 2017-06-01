@@ -1,16 +1,14 @@
 | Topic | Variables as Definitions |
 | :--- | :--- |
-| Time required | 10 minutes |
-| Benefit realized | How a Variable can also be used for creating a definition |
 | Git sample | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) |
 
 ---
 
-* **Variable or Value as function: **thanks to functional nature of Scala
+* Thanks to functional nature of Scala : **`var` or `val` can be used as a `def`** 
 
-* Open program`com.inbravo.lang.VarAndValTest.scala`\[[VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)\] in Eclipse and run...
+* Open program [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)
 
-* Focus on following three lines from program. You will see a `var`, `val` and `def`, actually doing same job
+* Focus on following three lines from program. You will see a `var`, a `val` and a `def`, actually doing same job
 
 ```scala
   /* A variable, value and definition, doing same jobs (increment of integer value) */
