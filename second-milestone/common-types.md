@@ -41,7 +41,4 @@ println("""Welcome to Scala Training. Type "HELP" for help.""")
 
 * No one can create object like `Nothing`in scala, this is used to denote empty collection or abnormal termination
 
-* Open program `com.inbravo.lang.ValuesTest.scala` [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)
-
-
-
+* Open program [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)
