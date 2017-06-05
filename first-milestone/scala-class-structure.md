@@ -18,7 +18,31 @@
 	```
 *	Compilation of above object results into following 3 classes: 
 	*	`ListOperationsTest$$anonfun$1.class` 		: 	The anonymous closure (`{ _ + _ }`) got compiled into it
-	*	`ListOperationsTest.class`		
-	*	`ListOperationsTest$.class`			:	The `Average` object gets compiled into it
-*	The `ListOperationsTest` object gets compiled into the `ListOperationsTest$` with the `ListOperationsTest` class having the static method forwarded to the `ListOperationsTest$` object. 
+	*	`ListOperationsTest.class`		      	:	Class with static method forwarded to `ListOperationsTest$`
+		```java
+		public final class ListOperationsTest
+		{
+		  public static double avg(List<Object> paramList)
+		  {
+		    return ListOperationsTest..MODULE$.avg(paramList);
+		  }
+		}
+		```
+	*	`ListOperationsTest$.class`
+		```java
+		public final class ListOperationsTest$ {
+		  
+		  public static final  MODULE$;
+
+		  static { new ();
+		  }
+
+		  public double avg(List<Object> values) { 
+		  double sum = scala.runtime.BoxesRunTime.unboxToDouble(values.foldLeft(scala.runtime.BoxesRunTime.boxToDouble(0.0D), new ListOperationsTest..anonfun.1()));
+		  return sum / values.size(); 
+		  }
+
+		  private ListOperationsTest$() { MODULE$ = this; }
+		}
+		```
 *	This is the mechanism Scala uses for **singleton objects** to ensure that they’re true objects but look similar to static method invocations to Java
