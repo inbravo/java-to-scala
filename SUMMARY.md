@@ -5,7 +5,7 @@
     - [Hello World in Scala](first-milestone/hello-world.md)
     - [Class and Object in Scala](first-milestone/class-and-object.md)
     - [Expression Oriented Programming in Scala](first-milestone/expression-oriented-programming.md)
-	- [Avoid null using Option Class in Scala](first-milestone/option.md)
+	- [Result of a Scala class compilation](first-milestone/scala-class-structure.md)
     - [Cheat sheet for Impatients](first-milestone/cheat-sheet.md)
 -  [Second Milestone](second-milestone/second-milestone.md)
     - [Common Data Types in Scala](second-milestone/common-types.md)
