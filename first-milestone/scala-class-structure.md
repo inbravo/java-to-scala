@@ -18,7 +18,7 @@
 	```
 *	Compilation of above object results into following 3 classes: 
 	*	`ListOperationsTest$$anonfun$1.class` 		: 	The anonymous closure (`{ _ + _ }`) got compiled into it
-	*	`ListOperationsTest.class`		      	:	Class with static method forwarded to `ListOperationsTest$`
+	*	`ListOperationsTest.class`		      	:	Actual call is forwarded to `ListOperationsTest$`
 		```java
 		public final class ListOperationsTest
 		{
@@ -45,4 +45,6 @@
 		  private ListOperationsTest$() { MODULE$ = this; }
 		}
 		```
+
+*	Porgram above are Java programs, decompiled from scala byte code
 *	This is the mechanism Scala uses for **singleton objects** to ensure that they’re true objects but look similar to static method invocations to Java
