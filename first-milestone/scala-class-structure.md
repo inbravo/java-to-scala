@@ -5,7 +5,7 @@
 
 ##	Scala code compilation
 
-*	Program below creates an object named `Average` with a single method definition 'avg'
+*	Program below creates an object named `Average`
 	```scala
 	object Average {
 	
@@ -15,6 +15,7 @@
 			sum / values.size.toDouble
 		}
 	}
+	```
 *	Compilation of above object results into following 3 classes: 
 	*	`Average$$anonfun$1.class` 	: 	The anonymous closure (`{ _ + _ }`) got compiled into it
 	*	`Average.class`		
