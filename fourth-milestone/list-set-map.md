@@ -1,6 +1,5 @@
 | Topic | List and Set|
 | :--- | :--- |
-| Time required | 30 minutes |
 | Benefit | How to use Scala List |
 
 ---

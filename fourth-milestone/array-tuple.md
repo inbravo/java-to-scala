@@ -1,6 +1,5 @@
 | Topic | Array and Tuple |
 | :--- | :--- |
-| Benefits |  |
 | Git sample |  |
 
 `Array` item used for fix length array in Scala. array of integers initialized by 0, while array of string initialized with null. we should use \(\) to access the elements of Array.

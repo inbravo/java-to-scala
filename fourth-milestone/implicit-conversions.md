@@ -1,6 +1,6 @@
 | Topic | Implicit Type Conversions |
 | :--- | :--- |
-|  |  |
+| Git sample |  |
 
 ---
 *	There's a fundamental difference between your own code and other libraries. You can update or extend your own code, but you can't do the same with other libraries
@@ -9,11 +9,11 @@
 	```scala
 	var v: String = x
 	```
-*	`Array[int]` does not conform to `String`, so this would give a type error. However, you can define a conversion function from arrays of arbitrary element type `T` to `String`, like this:
+*	Line above would give a type error, because `Array[int]` does not confirm to `String`. However a conversion from `Array` to `String` can help
 	```scala
 	implicit def array2string[T](x: Array[T]) = x.toString
 	```
-*	The conversion is automatically inserted. So the above assignment would be expanded to:
+*	The conversion is automatically inserted by using `implicit` method `array2string`
 	```scala
 	var v: String = array2string(x)
 	```
