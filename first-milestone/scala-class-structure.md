@@ -15,7 +15,7 @@
 			sum / values.size.toDouble
 		}
 	}
-*.	Compilation of above object results into following 3 classes: 
+*	Compilation of above object results into following 3 classes: 
 	*	`Average$$anonfun$1.class` 	: 	The anonymous closure (`{ _ + _ }`) got compiled into it
 	*	`Average.class`		
 	*	`Average$.class`			:	The `Average` object gets compiled into it
