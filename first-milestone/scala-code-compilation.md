@@ -65,7 +65,7 @@
 		0: iload_1
 		
 		1: tableswitch{ 
-			/* Mppings of integer values to bytecode instruction labels (or line numbers) *
+			/* Mappings of integer values to bytecode instruction labels (or line numbers) *
 			1: 51;
 			2: 46;
 			default: 24
