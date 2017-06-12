@@ -5,7 +5,7 @@
     - [Hello World in Scala](first-milestone/hello-world.md)
     - [Class and Object in Scala](first-milestone/class-and-object.md)
     - [Expression Oriented Programming in Scala](first-milestone/expression-oriented-programming.md)
-	- [Class compilation in Scala](first-milestone/scala-class-structure.md)
+	- [Code compilation in Scala](first-milestone/scala-code-compilation.md)
 -  [Second Milestone](second-milestone/second-milestone.md)
     - [Common Data Types in Scala](second-milestone/common-types.md)
     - [How Input/Output Works in Scala](second-milestone/input-and-output.md)
