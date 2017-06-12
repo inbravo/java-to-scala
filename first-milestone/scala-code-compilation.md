@@ -1,9 +1,9 @@
-| Topic | What is the result of Scala class compilation |
+| Topic | Scala code compilation |
 | :--- | :--- |
 | Git sample | [ListOperationsTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ListOperationsTest.scala)|
 
 
-##	Scala code compilation
+##	Scala class compilation
 
 *	Program below creates an object named `ListOperationsTest`
 	```scala
@@ -47,4 +47,28 @@
 		```
 
 *	Porgram above are Java programs, decompiled from scala byte code
-*	This is the mechanism Scala uses for **singleton objects** to ensure that they’re true objects but look similar to static method invocations to Java
+*	Scala uses **Singleton Objects** mechanism, to ensure that they’re true objects but look similar to static method invocations to Java
+
+##	Scala switch statement compilation
+*	Scala uses the **tableswitch** optimization. The tableswitch instruction is made up of mappings of integer values to bytecode instruction labels. Following Scala class is compiled into tableswitch statement
+	```scala
+	def unannotated(x: Int) = x match {
+		case 1 => "One"
+		case 2 => "Two!"
+		case z => z + "?"
+	}
+	```
+	```java
+	/* Equivalent bytecode of above Scala method */
+	public java.lang.String unannotated(int);
+		Code:
+		0: iload_1
+		
+		1: tableswitch{ 
+			/* Mppings of integer values to bytecode instruction labels (or line numbers) *
+			1: 51;
+			2: 46;
+			default: 24
+		}
+	...	
+	```
