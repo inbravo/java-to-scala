@@ -60,4 +60,4 @@ object HelloWorldWithoutMain extends App {
 
 * With `readLine`method you can pass string before input: `val name = scala.io.StdIn.readLine("Your name: ")`
 
-* These methods assume that the next input line contains a single number, without leading or trailing whitespace. Otherwise, a NumberFormatException occurs
+* These methods assume, next input line as a single number, without leading or trailing whitespace, else NumberFormatException occurs
