@@ -61,7 +61,8 @@ object OBJECTA extends CLASSA {
 * Class is the **Blueprint** for objects and Object is the **Entry Point** of a program. Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
 
 * Scala allows you to pass field variables along with constructor
-* Open program [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) and run
+*  In Scala, every value is an object. Even operators are method calls against the class of an object. Scala offers mixin inheritance
+through the use of traits. Objects are core to everything in Scala. Object, class, and traits are used to define public APIs for libraries
 
 ```scala
 /* Params of the constructor turn into fields and initialized with the construction parameters */
