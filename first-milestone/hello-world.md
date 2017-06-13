@@ -4,7 +4,7 @@
 
 ---
 
-**HelloWorld With** `main()` **Method**
+##  **HelloWorld With** `main()` **Method**
 
 * Open Scala program [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala)
 
@@ -25,7 +25,7 @@ object HelloWorld {
 }
 ```
 
-**HelloWorld Without** `main` **Method**
+##  **HelloWorld Without** `main` **Method**
 
 * Scala provides `scala.App` class to avoid `main` method
 
@@ -38,6 +38,9 @@ object HelloWorldWithoutMain extends App {
   println("Hello World")
 }
 ```
+
+##  Input/Output in Scala
+
 * To print the value on console you can use print : `print("Hello World")`
 
 * To print the value on console in a new line you can use println  `println("Hello World")`
