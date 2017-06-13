@@ -1,7 +1,5 @@
 | Topic | Values and variables |
 | :--- | :--- |
-| Time required | 15 minutes |
-| Benefit realized | Ability to define properties and fields |
 | Git sample\(s\) | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) & [LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala) |
 
 ---
