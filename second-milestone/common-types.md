@@ -40,5 +40,3 @@ println("""Welcome to Scala Training. Type "HELP" for help.""")
 * In Scala `Null` is an object, `Null` corresponds to `Null` value or empty reference
 
 * No one can create object like `Nothing`in scala, this is used to denote empty collection or abnormal termination
-
-* Open program [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala)
