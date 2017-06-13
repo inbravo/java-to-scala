@@ -1,6 +1,5 @@
 | Topic | Methods |
 | :--- | :--- |
-| Benefit realized | Ability to define properties and fields |
 | Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) |
 
 ---
