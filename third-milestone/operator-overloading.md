@@ -13,5 +13,3 @@
 * **`a + b`**  is a shorthand for **`a.+(b)`**
 
 * If a & b are type of Int, method **'+'** of Int class will applied on operation: **`a.+(b)`**
-
-* Open program [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala%29)
