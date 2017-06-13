@@ -1,6 +1,6 @@
 | Topic | Methods |
 | :--- | :--- |
-| Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) |
+| Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) & [SomeNoneOptionTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/SomeNoneOptionTest.scala)|
 
 ---
 
@@ -64,6 +64,7 @@ sum(1,2,3,4)
 ```
 
 * You can define local functions as well in scala just like local fields, and these will be visible in only their enclosing block 
+
 * Scala supports named arguments. Each argument is preceded by a parameter name and an equals sign
 
 ```scala
@@ -74,5 +75,16 @@ def speed(time : float, distance : float)
 speed(distance = 100, time = 10)
 ```
 
+##	Use `None` instead of `null`
+
+*	While it was habit in Java to initialize values to null, Scala provides an Option type for the same purpose
+
+*	In Java, `null` is often used as a placeholder to denote a nonfatal error as a return value or to denote that a variable isn’t yet initialized
+
+*	In Scala, one can denote this through the None subclass of `scala.Option`
+
+*	Class `scala.Option` can prevent unintended null pointer exceptions when using Scala
+
+*	Now Java has also followed Scala and Introduced `java.util.Optional`
 
 
