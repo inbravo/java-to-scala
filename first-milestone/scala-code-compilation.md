@@ -17,7 +17,7 @@
 	}
 	```
 *	Compilation of above object results into following 3 classes: 
-	*	`ListOperationsTest$$anonfun$1.class` 		: 	The anonymous closure (`{ _ + _ }`) got compiled into it
+	*	`ListOperationsTest$$anonfun$1.class` 		: 	The anonymous Closure (`{ _ + _ }`) got compiled into it. Every Scala Closure results into an anonymous class, similar to a Java Lambda
 	*	`ListOperationsTest.class`		      	:	Actual call is forwarded to `ListOperationsTest$`
 		```java
 		public final class ListOperationsTest
