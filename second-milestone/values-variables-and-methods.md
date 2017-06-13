@@ -4,8 +4,6 @@
 
 ---
 
-* Open program`com.inbravo.lang.VarAndValTest.scala`\[[VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)\] in Eclipse and run...
-
 * To declare a variable, use `var`
 
 ```scala
@@ -46,12 +44,5 @@ lazy val lazyValueWithType: Int = 100
 def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
 ```
 
-* In Scala, the word constant does not just mean val. Even
-   though a val does remain constant after it is initialized, it is still a variable.
-   For example, method parameters are vals, but each time the method is called
-   those vals can hold different values. A constant is more permanent.
-* Scala convention is to use camel case for constants, such as XOffset. 
-* In Scala you can define the variables of the same name in different scope.  
-
-
+* In Scala `val` does not mean only a constant, even though a `val` remains constant after its initialization, it is still a variable. For example, method parameters are `val`, but each time the method is called those `val` can hold different values
 
