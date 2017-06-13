@@ -24,7 +24,7 @@ val value= 8 * 5 + 2
 val valueWithType: Int = 10 * 5 + 2
 ```
 
-* All **val **type variables are initialized before utilization. A Scala `val`is a `public static final` in Java
+* All `val` type variables are initialized before utilization. A Scala `val`is a `public static final` in Java
 
 * If you want to defer this process of initiailization untill actuall utlization, use `lazy val`
 
@@ -36,9 +36,7 @@ lazy val lazyValue = 100
 lazy val lazyValueWithType: Int = 100
 ```
 
-* Open program `com.inbravo.lang.LazyValTest.scala`\[[LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala)\] in Eclipse and run...
-
-* Scala provides keyword `def`for creating methods or definitions
+* Scala provides keyword `def` for creating methods or definitions
 
 ```scala
 def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
