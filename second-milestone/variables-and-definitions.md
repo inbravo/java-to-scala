@@ -6,8 +6,6 @@
 
 * Thanks to functional nature of Scala : **`var` or `val` can be used as a `def`** 
 
-* Open program [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala)
-
 * Focus on following three lines from program. You will see a `var`, a `val` and a `def`, actually doing same job
 
 ```scala
