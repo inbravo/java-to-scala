@@ -5,7 +5,7 @@
 ---
 *  In Scala, every value is an object. Even operators are method calls against the class of an object
 
-* Java has got `interface`, likewise Scala has got `trait`. . Scala offers mixin inheritance through the use of traits
+* Java has got `interface`, likewise Scala has got `trait`. Scala offers mixin inheritance through the use of traits
 
 ```scala
 /* A simple trait, which is like Java interface */
