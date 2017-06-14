@@ -3,8 +3,9 @@
 | Git sample | [ClassObjectTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ClassObjectTest.scala) & [PrimaryConstructorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PrimaryConstructorTest.scala) & [ImportTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ImportTest.scala) & [ObjectPrivateAccess.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ObjectPrivateAccess.scala)|
 
 ---
+*  In Scala, every value is an object. Even operators are method calls against the class of an object
 
-* Java has got `interface`, likewise Scala has got `trait`
+* Java has got `interface`, likewise Scala has got `trait`. . Scala offers mixin inheritance through the use of traits
 
 ```scala
 /* A simple trait, which is like Java interface */
@@ -16,24 +17,24 @@ trait Printer {
 ```
 
 * Scala provides two ways of defining a program, using either keword `class` or `object`
+
 * Scala keyword `class`is used in similar fashion, the way used in Java
 
 ```scala
-/* Definition of CLASSA, which is extending CLASSB */
-class CLASSA extends CLASSB {
-
-  /* Method returns nothing but calls super class method */
-  def print: Unit = super.print("Hello")
-}
-
 /* Definition of CLASSB */
 class CLASSB extends Printer {
 
   /* Method returns nothing but prints the statement */
   def print(statement: String): Unit = println(statement)
 }
-```
 
+/* Definition of CLASSA, which is extending CLASSB */
+class CLASSA extends CLASSB {
+
+  /* Method returns nothing but calls super class method */
+  def print: Unit = super.print("Hello")
+}
+```
 * Declaration in above example: Declares two classes `CLASSA`& `CLASSB`
 
 * You can think of Scala keyword `object`as creating a [singleton](http://en.wikipedia.org/wiki/Singleton_pattern) object of a class that is defined implicitly. Example
@@ -60,14 +61,15 @@ object OBJECTA extends CLASSA {
 
 * Class is the **Blueprint** for objects and Object is the **Entry Point** of a program. Read more from [StackOverflow](http://stackoverflow.com/questions/1755345/difference-between-object-and-class-in-scala)
 
+* Objects are core to everything in Scala. Object, class, and traits are used to define public APIs for libraries
+
 * Scala allows you to pass field variables along with constructor
-*  In Scala, every value is an object. Even operators are method calls against the class of an object. Scala offers mixin inheritance
-through the use of traits. Objects are core to everything in Scala. Object, class, and traits are used to define public APIs for libraries
 
 ```scala
 /* Params of the constructor turn into fields and initialized with the construction parameters */
 class Employee(val name: String, val age: Int) {/* Do something */}
 ```
+
 * Above Scala program is equivalent to below given Java program. You can see how much verbose Java is,
 
 ```java
