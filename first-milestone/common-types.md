@@ -37,6 +37,35 @@ def main(args: Array[String]): Unit = { .... }
 println("""Welcome to Scala Training. Type "HELP" for help.""")
 ```
 
+* In Scala the Bottom Types are - Nothing and Null
+
+```scala
+val thing: Int =
+  if (test) {
+    /* Int */
+    11                             
+  }
+  else {
+    /* Nothing */ 
+    throw new Exception("Nothing!") 
+    }
+```
+* Type inference always looks for the common type of both branches in an `if` stamement, so if the other branch is a Type that extends everything, the infered type will automatically be the Type from the first branch
+
+```scala
+Types visualized:
+
+           [Int] -> ... -> AnyVal -> Any
+Nothing -> [Int] -> ... -> AnyVal -> Any
+
+infered type: Int
+
+        [String] -> AnyRef -> Any
+Null -> [String] -> AnyRef -> Any
+
+infered type: String
+```
+
 * In Scala `Null` is an object, `Null` corresponds to `Null` value or empty reference
 
-* No one can create object like `Nothing`in scala, this is used to denote empty collection or abnormal termination
+* No one can create object like `Nothing` in scala, this is used to denote empty collection or abnormal termination
