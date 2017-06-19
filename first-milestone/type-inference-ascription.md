@@ -1,6 +1,6 @@
 | Topic | Type Inference and Type Ascription In scala |
 | :--- | :--- |
-| Git sample | https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeAscriptionInferenceTest.scala) |
+| Git sample | [TypeAscriptionInferenceTest.scala]https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeAscriptionInferenceTest.scala) |
 
 ---
 *	Scala has **Type Inference**, which means that we can skip telling the type of something in the source code
@@ -22,7 +22,7 @@ val thing: Thing = getThing
 
 *	Leaving out the **Type Ascription** is OK. That’s a good idea, in order to make the code more self-documenting
 
-*	Early member definitions solve issues that occur when a `trait` defines an abstract value
+*	**Early Member Definitions** solve issues that occur when a `trait` defines an abstract value
 
 ```scala
 /* Trait with some property and definitions */
