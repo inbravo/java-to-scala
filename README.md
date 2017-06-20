@@ -33,7 +33,7 @@
     - [Strict versus non-strict evaluation in Scala ✗](fifth-milestone/strict-versus-non-strict-evaluation.md)
 -  [Sixth Milestone](sixth-milestone/sixth-milestone.md)
     - [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
-    - [Implicit Conversions in Scala ✗](sixth-milestone/implicits.md)
+    - [Implicit Conversions in Scala](sixth-milestone/implicits.md)
     - [Functors in Scala ✗](sixth-milestone/functors.md)
     - [Monads in Scala ✗](sixth-milestone/monads.md)
     - [Currying and applicative style in Scala ✗](sixth-milestone/currying.md)
