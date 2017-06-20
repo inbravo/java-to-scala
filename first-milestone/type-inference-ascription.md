@@ -61,8 +61,9 @@ takeAnObject(ExampleObj)
 ```
 
 *	**Type Alias** will make the code more readable. It makes sense for the future reader of this class. See the below example
+
 ```scala 
-/* Tow different types */
+/* Two different types */
 type User = String
 type Age = Int
 
