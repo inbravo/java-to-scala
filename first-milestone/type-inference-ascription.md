@@ -7,7 +7,7 @@
 
 ```scala
 
-/* A dummy triat */
+/* A dummy trait */
 trait Thing
 
 /* Instance of new trait is created */
