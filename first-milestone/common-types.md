@@ -95,3 +95,4 @@ allThings += myInt
 /* Person (extends AnyRef), no magic here */
 allThings += new Person
  ```
+* For more information read [ktoso.github.io](http://ktoso.github.io/scala-types-of-types)
