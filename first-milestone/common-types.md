@@ -31,10 +31,21 @@ def main(args: Array[String]): Unit = { .... }
 
 * **String** is a sequence of Chars, alike a Java String
 
-* Scala includes a special syntax for String. Enclose any string within three double quotation, marked in a row \("""\). Enclosed string may contain any characters whatsoever, including newlines, quotation marks, and special characters
-
 ```scala
-println("""Welcome to Scala Training. Type "HELP" for help.""")
+/* Two strings */
+val stringOne = "stringOne"
+val stringTwo = "stringTwo"
+
+val contactOperationOne = stringOne + stringTwo
+val contactOperationTwo = stringOne ++ stringTwo
+
+/* Both values are same */
+if (contactOperationOne.equals(contactOperationTwo)) {
+  println("Both operations ('+' & '++') performs similar on strings")
+} else {
+  println("Both operations ('+' & '++') performs differently on strings")
+}
+
 ```
 
 * In Scala the Bottom Types are - Nothing and Null
