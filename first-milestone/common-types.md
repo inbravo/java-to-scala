@@ -1,16 +1,16 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
-| Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) |
+| Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) & [AnyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AnyValTest.scala)  |
 
 ---
   
 * As Scala is also an object oriented language, each and every value in Scala is an object. Every Scala data type is an object
 
-* Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef`and `AnyVal`
+* Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef` and `AnyVal`
 
   ![](https://github.com/inbravo/java-to-scala/blob/master/assets/m-2/types.png)
 
-* From the above Image `AnyVal`is extended by all numeric types. All types reside in package `scala`
+* From the above Image `AnyVal` is extended by all numeric types. All types reside in package `scala`
 
 * Scala has 7 numeric types  
   1. **Byte**       : 8 bits  :   `val maxByteValue: Byte = Byte.MaxValue`  
@@ -69,3 +69,24 @@ infered type: String
 * In Scala `Null` is an object, `Null` corresponds to `Null` value or empty reference
 
 * No one can create object like `Nothing` in scala, this is used to denote empty collection or abnormal termination
+
+* `AnyRef` is the **Object World** of the Scala, it corresponds to `java.lang.Object` in Java, and is the supertype of all objects
+
+* `AnyVal` on the other hand represents the **Value World** of Scala, such as int and other JVM primitives
+
+```scala
+/* A dummy class */
+class Person
+
+/* A buffer which can store 'Any' */
+val allThings = ArrayBuffer[Any]()
+
+/* Int, kept as low-level 'int' during runtime */
+val myInt = 10
+
+/* Add an Int (extends AnyVal). boxed (!) -> becomes java.lang.Integer in the collection */
+allThings += myInt
+
+/* Person (extends AnyRef), no magic here */
+allThings += new Person
+ ```scala
