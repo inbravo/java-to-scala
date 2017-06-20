@@ -34,7 +34,7 @@ trait TraitWithProperty {
 	override val toString = "TraitWithProperty(" + name + ")"
 }
 
-/* 'traitWithProperty' is a subclass of 'Property' now */
+/* 'traitWithProperty' is a subclass of 'TraitWithProperty' now */
 val traitWithProperty = new TraitWithProperty { override val name = "DOMAIN" }
 
 /* Implicit call to 'toString' will print TraitWithProperty(null). Why value of property 'name' is 'null'? */
