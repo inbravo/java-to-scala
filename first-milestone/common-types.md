@@ -89,4 +89,4 @@ allThings += myInt
 
 /* Person (extends AnyRef), no magic here */
 allThings += new Person
- ```scala
+ ```
