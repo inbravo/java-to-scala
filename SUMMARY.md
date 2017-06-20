@@ -3,7 +3,7 @@
 - [First Milestone](first-milestone/first-milestone.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
-	- [Common Data Types in Scala](first-milestone/common-types.md)
+	- [Common Types in Scala](first-milestone/common-types.md)
     - [Class, Object and Trait in Scala](first-milestone/class-and-object.md)
 	- [Type Inference, Type Ascription and Type Aliasing in Scala](first-milestone/type-inference-ascription.md)
 -  [Second Milestone](second-milestone/second-milestone.md)
