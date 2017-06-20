@@ -1,6 +1,6 @@
-| Topic | Type Inference and Type Ascription In scala |
+| Topic | Type Inference, Type Ascription and Type Aliasing In scala |
 | :--- | :--- |
-| Git sample | [TypeAscriptionInferenceTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeAscriptionInferenceTest.scala) |
+| Git sample | [TypeAscriptionInferenceTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeAscriptionInferenceTest.scala) & [TypeAliasTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeAliasTest.scala)|
 
 ---
 *	Scala has **Type Inference**, which means that we can skip telling the type of something in the source code
@@ -58,4 +58,14 @@ object ExampleObj
 def takeAnObject(obj: ExampleObj.type) = {}
 
 takeAnObject(ExampleObj)
+```
+
+*	**Type Alias** will make the code more readable. It makes sense for the future reader of this class. See the below example
+```scala 
+/* Tow different types */
+type User = String
+type Age = Int
+
+/* Call goes to Predef.immutable.Map[A, B]. which creates a map[String => Int] */
+var data: Map[User, Age] = Map.empty
 ```
