@@ -49,3 +49,13 @@ class AnotherTraitWithProperty extends { val name = "HI" } with TraitWithPropert
 /* Early member definitions solve issues that occur when a trait defines an abstract value */
 println(new AnotherTraitWithProperty)
 ```
+
+*	How to pass an object into a method. Just saying obj: ExampleObj won’t work because that’s already referring to the instance, so there’s a member called type which should be used in such cases
+
+```scala
+object ExampleObj
+
+def takeAnObject(obj: ExampleObj.type) = {}
+
+takeAnObject(ExampleObj)
+```
