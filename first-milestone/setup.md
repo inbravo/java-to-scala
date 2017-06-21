@@ -9,16 +9,16 @@
  *	You can download [Scala distro](https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.zip) and run examples on [REPL](http://docs.scala-lang.org/overviews/repl/overview.html)
  *	You can also do complete Scala Dev Enviornment setup using Eclipse IDE and SBT
 	*	**Scala Build Tool Setup**
-		*	Best build tool for Scala is [sbt](http://www.scala-sbt.org)  
+		-	Best build tool for Scala is [sbt](http://www.scala-sbt.org)  
 	  	![](/assets/m-1/keep-calm-and-install-sbt.png)
-	  	*	Download setup in your desired compression format \(zip or tgz\)
-	  	*	Decompress the downloaded file to local directory. Ex:`/download/path-to-sbt`
-	  	*	Update **PATH** variable to include [sbt](http://www.scala-sbt.org) Ex:`[adixit@marcus ~]$ export PATH=$PATH:/download/path-to-sbt/bin`
+	  	-	Download setup in your desired compression format \(zip or tgz\)
+	  	-	Decompress the downloaded file to local directory. Ex:`/download/path-to-sbt`
+	  	-	Update **PATH** variable to include [sbt](http://www.scala-sbt.org) Ex:`[adixit@marcus ~]$ export PATH=$PATH:/download/path-to-sbt/bin`
 	*	**Eclipse IDE Setup**
-		*	Download [Scala Eclipse](http://scala-ide.org)
-	  	*	Inside your local scala-src project. Execute **sbt** command: `[adixit@marcus ~]$ sbt eclipse`
-	  	*	Last step will download all required libraries and generate Eclipse configurations
-	  	*	When last step is done, use Eclipse import project command and import your `scala-src` project
+		-	Download [Scala Eclipse](http://scala-ide.org)
+	  	-	Inside your local scala-src project. Execute **sbt** command: `[adixit@marcus ~]$ sbt eclipse`
+	  	-	Last step will download all required libraries and generate Eclipse configurations
+	  	-	When last step is done, use Eclipse import project command and import your `scala-src` project
 	  
 ##	**Setup of Code Samples**
   *	login if you have a [Github](/github.com) account or signup, if your don't have. If you do not want to create a Github account, just download the [scala-src](https://github.com/inbravo/scala-src) as zip, using tiny green button at right side
