@@ -1,6 +1,5 @@
-| **Topic** | **Setup** |
+| Topic | Setup |
 | :--- | :--- |
-| Benefits realized | Ability to run Scala examples |
 
 ---
 ##	**Setup of Scala Enviornment**
