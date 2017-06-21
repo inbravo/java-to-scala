@@ -70,3 +70,24 @@ type Age = Int
 /* Call goes to Predef.immutable.Map[A, B]. which creates a map[String => Int] */
 var data: Map[User, Age] = Map.empty
 ```
+
+*	Type Aliases are like Abstract Type Members. Allowing to define templates but instead of using the class `Clazz[A, B]` syntax,  name them inside the class like,
+
+```scala 
+trait SimplestContainer {
+  type A      // Abstract Type Member
+
+  def value: A
+}
+
+/* 'SimplestContainer' instance can be created without implementing the type member 'A' */
+/* Type of 'A' is actualy just a shorthand for type A >: Nothing <: Any, which means 'Anything' */
+val someObjectOfSimplestContainer = new SimplestContainer 
+
+/* An object implementing 'SimplestContainer' and providing type information of 'A' */
+object IntContainer extends SimplestContainer {
+
+  type A = Int
+  def value = 42
+}
+```
