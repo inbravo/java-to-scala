@@ -1,4 +1,4 @@
-| Topic | Values and Variables as Definitions |
+| Topic | Using Properties/Fields as Method/Definitions in Scala Class/Object |
 | :--- | :--- |
 | Git sample | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) |
 

@@ -1,4 +1,4 @@
-| Topic | Values and variables |
+| Topic | Defining Properties/Fields in Scala Class/Object |
 | :--- | :--- |
 | Git sample\(s\) | [VarAndValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala) & [LazyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/LazyValTest.scala) |
 

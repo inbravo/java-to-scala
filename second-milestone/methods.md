@@ -1,4 +1,4 @@
-| Topic | Methods |
+| Topic | Defining Method/Definitions in Scala Class/Object |
 | :--- | :--- |
 | Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) & [SomeNoneOptionTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/SomeNoneOptionTest.scala)|
 

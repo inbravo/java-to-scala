@@ -1,4 +1,4 @@
-| Topic | Companion Object |
+| Topic | Companion Object and Companion Class in Scala |
 | :--- | :--- |
 | Git Sample | [CompanionObjectTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/CompanionObjectTest.scala) |
 

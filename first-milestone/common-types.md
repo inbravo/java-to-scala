@@ -8,7 +8,7 @@
 
 * Class `Any`is the root of the Scala class hierarchy. Every class in a Scala execution environment inherits directly or indirectly from this class. Class `Any`has two direct subclasses: `AnyRef` and `AnyVal`
 
-  ![](https://github.com/inbravo/java-to-scala/blob/master/assets/m-2/types.png)
+  ![](/assets/m-2/types.png)
 
 * From the above Image `AnyVal` is extended by all numeric types. All types reside in package `scala`
 
@@ -61,7 +61,7 @@ val intThing: Int =
   
     /* Nothing */ 
     throw new Exception("Nothing!") 
-    }
+  }
     
 val stringThing: String =
   if (test) {
@@ -106,4 +106,5 @@ allThings += myInt
 /* Person (extends AnyRef), no magic here */
 allThings += new Person
  ```
+ 
 * For more information read [ktoso.github.io](http://ktoso.github.io/scala-types-of-types)
