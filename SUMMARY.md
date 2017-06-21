@@ -22,7 +22,7 @@
 	- [Implicit Type Conversions in Scala ✗](fourth-milestone/implicit-conversions.md)
     - [Arrays and Tuple in Scala](fourth-milestone/array-tuple.md)
     - [List, Set and Map in Scala](fourth-milestone/list-set-map.md)
- 	- [Using the Right Collection in Scala](fourth-milestone/right-collection.md)
+	- [Using the Right Collection in Scala](fourth-milestone/right-collection.md)
 -  [Fifth Milestone](fifth-milestone/fifth-milestone.md)
     - [First-class functions ✗](fifth-milestone/first-class-functions.md)
     - [Higher-order functions ✗](fifth-milestone/higher-order-functions.md)
