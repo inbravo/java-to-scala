@@ -71,9 +71,10 @@ type Age = Int
 var data: Map[User, Age] = Map.empty
 ```
 
-*	Type Aliases are like Abstract Type Members. Allowing to define templates but instead of using the class `Clazz[A, B]` syntax,  name them inside the class like,
+*	Type Aliases are like Abstract Type Members. Allowing to define templates but instead of using the class `Clazz[A]` syntax,  name them inside the class. Java folks will use generics in similar fashion e.g. SimplestContainer<A>
 
 ```scala 
+/* In Java : SimplestContainer<A> */
 trait SimplestContainer {
   type A      // Abstract Type Member
 
