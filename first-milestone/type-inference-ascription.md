@@ -94,3 +94,21 @@ object IntContainer extends SimplestContainer {
   def value = 42
 }
 ```
+
+*	Type Aliasing can also help in applying constraints. For example you want a container that can only store anything that is of a Number instance
+
+```scala 
+trait OnlyNumbersContainer {
+
+ /* Abstract Type Member of rigid type 'Number' */ 
+  type A <: Number
+  def value: A
+}
+
+/* Bellow won't compile */ 
+val numberVal = new OnlyNumbersContainer {
+
+  /* error: type mismatch; found: String(""); required: this.A */ 
+  def value = "" 
+}
+```
