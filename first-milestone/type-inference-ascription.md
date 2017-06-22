@@ -76,13 +76,15 @@ var data: Map[User, Age] = Map.empty
 ```scala 
 /* In Java : SimplestContainer<A> */
 trait SimplestContainer {
-  type A      // Abstract Type Member
-
+  
+  /* Abstract Type Member */ 
+  type A      
   def value: A
 }
 
 /* 'SimplestContainer' instance can be created without implementing the type member 'A' */
 /* Type of 'A' is actualy just a shorthand for type A >: Nothing <: Any, which means 'Anything' */
+/* Valid, but 'A' is 'Anything' */
 val someObjectOfSimplestContainer = new SimplestContainer 
 
 /* An object implementing 'SimplestContainer' and providing type information of 'A' */
