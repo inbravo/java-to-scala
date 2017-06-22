@@ -38,7 +38,7 @@
     - [Monads in Scala ✗](sixth-milestone/monads.md)
     - [Currying and applicative style in Scala ✗](sixth-milestone/currying.md)
 
-## These notes are captured from below give places, and subject to frequent changes
+## These notes are taken from
 -	[Twitter Scala School](http://twitter.github.io/scala_school)
 -	[Twitter Effective Scala](http://twitter.github.io/effectivescala)
 -	[Scala for the Impatient from Cay Horstmann](http://www.horstmann.com/scala/index.html)
