@@ -38,10 +38,10 @@
     - [Monads in Scala ✗](sixth-milestone/monads.md)
     - [Currying and applicative style in Scala ✗](sixth-milestone/currying.md)
 
-## These notes are captured while reading following books or free content
+## These notes are captured from below give places, and subject to frequent changes
 -	[Twitter Scala School](http://twitter.github.io/scala_school)
 -	[Twitter Effective Scala](http://twitter.github.io/effectivescala)
 -	[Scala for the Impatient from Cay Horstmann](http://www.horstmann.com/scala/index.html)
 -	[Programming in Scala from Artima](https://booksites.artima.com/programming_in_scala_2ed)
 -	[Scala in Depth from Joshua Sureth: Best Scala Book as per my understanding :)](https://www.manning.com/books/scala-in-depth)
--	[Scala's Types of Typesfrom Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
+-	[Scala's Types of Types from Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
