@@ -1,6 +1,6 @@
 | Topic | Operator as Functions and Object as Functions |
 | :--- | :--- |
-| Git sample | [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala) |
+| Git sample | [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala) & [ApplyMethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ApplyMethodTest.scala) |
 
 ---
 
@@ -71,3 +71,5 @@ val str : String = Foo.unapply(x) match {
   case None    => throw new scala.MatchError(x)
 }
 ```
+
+* For more information [refer](http://www.scala-lang.org/old/node/112)
