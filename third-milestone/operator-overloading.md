@@ -4,6 +4,8 @@
 
 ---
 
+## Operators as Functions
+
 *	Unlike Java, you can treat operators as functions (operator overloading) in Scala
 
 *	Every value in Scala is an **Object** and every operation is a **Method Call**. For example, when you say `1 + 2` in Scala, you are actually invoking a method named `+` defined in class Int, and 1 and 2 are objects we are passing to this method
@@ -13,6 +15,8 @@
 *	**`a + b`**  is a shorthand for **`a.+(b)`**
 
 *	If a & b are type of Int, method **'+'** of Int class will applied on operation: **`a.+(b)`**
+
+## Objects as Functions
 
 *	Scala provides `apply` and `unapply`
 
