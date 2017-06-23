@@ -14,7 +14,7 @@
     - [Using Properties/Fields as Method/Definitions in Scala Class/Object](second-milestone/variables-and-definitions.md)
 -  [Third Milestone](third-milestone/third-milestone.md)
     - [Control Structures in Scala](third-milestone/looping-in-scala.md)
-    - [How Operator Overloading Works in Scala](third-milestone/operator-overloading.md)
+    - [Operator as Functions and Object as Functions in Scala](third-milestone/operator-overloading.md)
     - [Procedure Methods/Definitions in Scala](third-milestone/procedures.md)
 	- [Code Compilation in Scala](third-milestone/scala-code-compilation.md)
 -  [Fourth Milestone](fourth-milestone/fourth-milestone.md)
