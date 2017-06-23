@@ -20,6 +20,31 @@
 
 *	Method `apply` is probably the easier to explain. When you treat your object like a function, apply is called, so Scala turns `obj(a, b, c)` to `obj.apply(a, b, c)`
 
+```scala
+/* Various ways to create customer id from customer name */
+object CustomerId {
+
+  /* Apply method helps in constructor calls */
+  def apply(name: String) = "ID-" + name
+  def apply(id: Int) = id
+  def apply(id: Long) = id.intValue
+  def apply(id: Double) = id.intValue
+}
+
+  /* Object as function */
+  /* Will call 'apply(name: String)' */
+  println(CustomerId("Amit"))
+
+  /* Will call 'apply(id: Int)' */
+  println(CustomerId(100))
+
+  /* Will call 'apply(id: Long)' */
+  println(CustomerId(100L))
+
+  /* Will call 'apply(id: Double)' */
+  println(CustomerId(1000.0)
+```
+
 *	Method `unapply` is a bit more complicated. It is used in Scala's pattern matching mechanism and its most common use is in [Extractor Objects](http://www.scala-lang.org/old/node/112)
 
 ```scala
