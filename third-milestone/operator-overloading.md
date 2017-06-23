@@ -49,7 +49,7 @@ object CustomerId {
   println(CustomerId(1000.0)
 ```
 
-*	Method `unapply` is a bit more complicated. It is used in Scala's pattern matching mechanism and its most common use is in [Extractor Objects](http://www.scala-lang.org/old/node/112)
+*	Method `unapply` is a bit more complicated. It is used in Scala's pattern matching mechanism and its most common use is in **Extractor Objects**
 
 ```scala
 object Foo {
