@@ -52,18 +52,43 @@ object CustomerId {
 *	Method `unapply` is a bit more complicated. It is used in Scala's pattern matching mechanism and its most common use is in **Extractor Objects**
 
 ```scala
-object Foo {
-  def unapply(x : Int) : Option[String] = 
-    if(x == 0) Some("Hello, World") else None
+object UserIdToEmail {
+
+  /* Apply method helps in constructor like calls */
+  def apply(id: String) = if (!id.contains("@")) id + "@inbravo-org.com" else id
+
+  /* Apply method helps in constructor like calls */
+  def apply(id: String, domain: String) = id + "@" + domain
+
+  /* 'unapply' method helps in removing any sugar coating */
+  def unapply(id: String): Option[(String)] = {
+
+    /* Split the email id in two parts */
+    val parts = id split "@"
+
+    /* Length of resultive array shouuld be 2  */
+    if (parts.length == 2) Some(parts(0)) else None
+  }
+
+  /* 'unapply' method helps in removing any sugar coating */
+  def unapply(id: String, domain: String): Option[(String)] = {
+
+    /* 'Id' should not contain '@' */
+    if (!id.contains("@")) Some(id) else None
+  }
 }
 
-/* So now, if you use this is in a pattern match like so: */
-myInt match {
-    case Foo(str) => println(str)
-}
+  var defaultEmail = UserIdToEmail("inbravo")
+  var perfectEmail = UserIdToEmail("inbravo@inbravo-org.com")
+  var splittedEmail = UserIdToEmail("inbravo", "inbravo-org.com")
+
+  defaultEmail = defaultEmail match {
+    case UserIdToEmail(userId) => userId
+    case _                     => throw new scala.MatchError(defaultEmail)
+  }
 ```
 
-*	Let's suppose `myInt = 0`. Then what happens? In this case `Foo.unapply(0)` gets called, and as you can see, will return `Some("Hello, World")`. The contents of the `Option` will get assigned to `str` so in the end, the above pattern match will print out "Hello, world"
+*	Let's suppose `emailString = inbravo`. Then what happens? In this case `UserIdToEmail.unapply(id: String)` gets called, and as you can see, will return `Some("inbravo")`. The contents of the `Option` will get assigned to `userId` so in the end, the above pattern match will print out "inbravo"
 
 *	But what if `myInt = 1`? Then `Foo.unapply(1)` returns `None` so the corresponding expression for that pattern does not get called
 
