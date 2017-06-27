@@ -78,6 +78,9 @@ object UserIdToEmail {
   }
 }
 
+object UnapplyMethodTest extends App {
+
+  /* Different types of email from userid */
   var defaultEmail = UserIdToEmail("inbravo")
   var perfectEmail = UserIdToEmail("inbravo@inbravo-org.com")
   var splittedEmail = UserIdToEmail("inbravo", "inbravo-org.com")
@@ -86,19 +89,16 @@ object UserIdToEmail {
     case UserIdToEmail(userId) => userId
     case _                     => throw new scala.MatchError(defaultEmail)
   }
-```
+    perfectEmail = perfectEmail match {
+    case UserIdToEmail(userId) => userId
+    case _                     => throw new scala.MatchError(defaultEmail)
+  }
 
-*	Let's suppose `emailString = inbravo`. Then what happens? In this case `UserIdToEmail.unapply(id: String)` gets called, and as you can see, will return `Some("inbravo")`. The contents of the `Option` will get assigned to `userId` so in the end, the above pattern match will print out "inbravo"
-
-*	But what if `myInt = 1`? Then `Foo.unapply(1)` returns `None` so the corresponding expression for that pattern does not get called
-
-*	In the case of assignments, like `val Foo(str) = x` this is syntactic sugar for:
-
-```scala
-val str : String = Foo.unapply(x) match {
-  case Some(s) => s
-  case None    => throw new scala.MatchError(x)
-}
+  splittedEmail = splittedEmail match {
+    case UserIdToEmail(userId) => userId
+    case _                     => throw new scala.MatchError(defaultEmail)
+  }
+ }
 ```
 
 * For more information [refer](http://www.scala-lang.org/old/node/112)
