@@ -1,7 +1,9 @@
 | Topic | Type Bounds In scala |
 | :--- | :--- |
-| Git sample | [TypeBoundTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeBoundTest.scala) <br/> [ViewBoundTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ViewBoundTest.scala) |
-| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/upper-type-bounds.html) <br/> [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/lower-type-bounds.html) <br/> [journaldev.com](http://www.journaldev.com/9609/scala-typebounds-upper-lower-and-view-bounds) <br/> [stackoverflow.com](https://stackoverflow.com/questions/4465948/what-are-scala-context-and-view-bounds) |
+| Git sample | [UpperTypeBoundTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeBoundTest.scala) |
+| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/upper-type-bounds.html) 
+<br/> [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/lower-type-bounds.html)
+<br/> [journaldev.com](http://www.journaldev.com/9609/scala-typebounds-upper-lower-and-view-bounds) |
 
 ---
 
@@ -12,15 +14,13 @@
 *	Scala supports three types of type bounds
 	*	Upper bounds :	it limits a type to a **Subtype** of another type e.g. `[T <: Ordered[T]]`
 	*	Lower bounds : it limits a type to be a **Supertype** of another type e.g. e.g. `[T >: Ordered[T]]`
-	*	View bounds	: use implicit conversions automatically
-	*	Context bounds	:	
+	*	View bounds	: use implicit conversions automatically to solve our problem statement	
 	
-*	**Upper bounds** 
+*	**Upper type bounds** 
 	*	 An upper type bound term `T <: A` expresses that type variable `T` refers to a Subtype of type `A` 
 
-*	**Lower bounds** 	
+*	**Lower type bounds** 	
 	*	A lower type bounds term `T >: A` expresses that the type variable `T` refers to a Supertype of type `A`
-	
 ```scala
 object TypeBoundTest extends App {
 
@@ -60,40 +60,5 @@ class AnimalCarer {
   /* Type bound expression [T >: Puppy] says that 'T' can only be a supertype of 'Puppy' */
   /* Lower bound is applied */
   def lowerBoundBasedMethod[T >: Puppy](t: T) = println(t)
-}
-```
-
-*	object ViewBoundTest extends App {
-
-  val p1 = new Person("A", "D")
-  val p2 = new Person("E", "A")
-  val p3 = new Person("G", "A")
-
-  println(p1.greater)
-  println(p2.greater)
-  println(p3.greater)
-}
-
-*	**View bounds** 	
-	*	Please be aware that [view bounds are deprecated](https://github.com/scala/scala/pull/2909)
-	*	A view bounds term `[T <% Ordered[T]` expresses that `T` should have an implicit conversion to `Ordered[T]`, so that one can call `T` methods on an object of type `Ordered[T]` 
-
-```scala
-/* Scala’s View Bound operator '<%' */
-object ViewBoundTest extends App {
-
-  val p1 = new Person("A", "D")
-  val p2 = new Person("E", "A")
-  val p3 = new Person("G", "A")
-
-  println(p1.greater)
-  println(p2.greater)
-  println(p3.greater)
-}
-
-/* Scala’s View Bound operator '<%' means that 'T' should have an implicit conversion to 'Ordered[T]' available */
-class Person[T <% Ordered[T]](val firstName: T, val lastName: T) {
-
-  def greater = if (firstName > lastName) firstName else lastName
 }
 ```
