@@ -1,7 +1,7 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
-| Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) & [AnyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AnyValTest.scala)  |
-| References | [http://docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/unified-types.html) |
+| Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) <br/> [AnyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AnyValTest.scala)  |
+| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/unified-types.html) <br/> [ktoso.github.io](http://ktoso.github.io/scala-types-of-types) |
 
 ---
   
@@ -107,5 +107,3 @@ allThings += myInt
 /* Person (extends AnyRef), no magic here */
 allThings += new Person
  ```
- 
-* For more information read [ktoso.github.io](http://ktoso.github.io/scala-types-of-types)
