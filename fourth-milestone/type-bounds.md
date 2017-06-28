@@ -9,6 +9,7 @@
 
 *	Scala type bounds helps in **Type-Safe** application development
 
+*	Scala supports following type bounds
 	*	Upper bounds :	it limits a type to a **Subtype** of another type e.g. `[T <: Ordered[T]]`
 	*	Lower bounds : it limits a type to be a **Supertype** of another type e.g. e.g. `[T >: Ordered[T]]`
 	*	View bounds	: use implicit conversions automatically
