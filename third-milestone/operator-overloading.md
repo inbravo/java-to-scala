@@ -1,6 +1,6 @@
 | Topic | Operator as Functions and Object as Functions |
 | :--- | :--- |
-| Git sample | [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala) & [ObjectExtractorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ObjectExtractorTest.scala) |
+| Git sample | [OperatorsAreMethods.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/OperatorsAreMethods.scala) <br/> [ObjectExtractorTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ObjectExtractorTest.scala) |
 | References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/extractor-objects.html) <br/> [java-lang.org](http://www.scala-lang.org/old/node/112) <br/> [blog.jayway.com](https://blog.jayway.com/2011/10/11/injectors-and-extractors-in-scala) |
 
 ---
