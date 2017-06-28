@@ -1,10 +1,7 @@
 | Topic | Type Bounds In scala |
 | :--- | :--- |
 | Git sample | [UpperTypeBoundTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/TypeBoundTest.scala) |
-| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/upper-type-bounds.html) 
-<br/> [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/lower-type-bounds.html)
-<br/> [journaldev.com](http://www.journaldev.com/9609/scala-typebounds-upper-lower-and-view-bounds) |
-
+| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/upper-type-bounds.html) <br/> [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/lower-type-bounds.html) <br/> [journaldev.com](http://www.journaldev.com/9609/scala-typebounds-upper-lower-and-view-bounds) |
 ---
 
 *	In Scala, type bounds are restrictions on type parameters or type variable. By using type bounds, we can define the limits of a type variable
