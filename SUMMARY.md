@@ -18,7 +18,7 @@
     - [Procedure Methods/Definitions in Scala](third-milestone/procedures.md)
 	- [Code Compilation in Scala](third-milestone/scala-code-compilation.md)
 -  [Fourth Milestone](fourth-milestone/fourth-milestone.md)
-	- [Type System in Scala ✗](fourth-milestone/type-system.md)
+	- [Type Bounds in Scala ✗](fourth-milestone/type-bounds.md)
 	- [Implicit Type Conversions in Scala ✗](fourth-milestone/implicit-conversions.md)
     - [Arrays and Tuple in Scala](fourth-milestone/array-tuple.md)
     - [List, Set and Map in Scala](fourth-milestone/list-set-map.md)
