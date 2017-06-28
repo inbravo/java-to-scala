@@ -10,7 +10,9 @@
 	*	Takes one or more functions as an input
     *	Outputs a function
 
-*	In example below, there is a function named `apply` which takes another function `f` and a value `v` and applies function `f` to `v`
+*	In example below, there is a function: `apply` which takes another function `f` and a value `v` and applies function `f` to `v`
+
+*	Function: `apply` consumes an `Int` and returns a `String` : `Int => String`
 
 *	In example below, method `decorator.layout` is coerced automatically to a value of type `Int => String` as required by method `apply`
 
