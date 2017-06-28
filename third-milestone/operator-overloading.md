@@ -84,5 +84,3 @@ object ObjectExtractorTest extends App {
   }
 }
 ```
-
-* For more information
