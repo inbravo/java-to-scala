@@ -40,10 +40,6 @@
 
 ## These notes are taken from
 -	[Scala Official Introduction](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
--	[Twitter Scala School](http://twitter.github.io/scala_school)
--	[Twitter Effective Scala](http://twitter.github.io/effectivescala)
--	[Scala for the Impatient from Cay Horstmann](http://www.horstmann.com/scala/index.html)
--	[Programming in Scala from Artima](https://booksites.artima.com/programming_in_scala_2ed)
 -	[Scala in Depth from Joshua Sureth](https://www.manning.com/books/scala-in-depth)
 -	[Scala's Types of Types from Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
 

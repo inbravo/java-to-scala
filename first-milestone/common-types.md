@@ -1,6 +1,7 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
 | Git sample | [ValuesTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala) & [AnyValTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/AnyValTest.scala)  |
+| References | [http://docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/unified-types.html) |
 
 ---
   
