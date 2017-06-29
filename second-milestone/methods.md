@@ -1,10 +1,13 @@
 | Topic | Defining Method/Definitions in Scala Class/Object |
 | :--- | :--- |
 | Git sample | [MethodTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala) & [SomeNoneOptionTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/SomeNoneOptionTest.scala)|
+| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/scala-for-java-programmers#case-classes-and-pattern-matching) |
 
 ---
 
-* Scala provides keyword `def`for creating methods or definitions
+## Creating a method or function in Scala
+
+* Scala provides keyword `def` for creating methods or definitions
 
 ```scala
 /* A definition using 'def' */
@@ -73,6 +76,26 @@ def speed(time : float, distance : float)
 
 /* Method calls with argument names */
 speed(distance = 100, time = 10)
+```
+
+## Functions are objects
+
+* Perhaps more surprising for the Java programmer, functions are also objects in Scala. It is therefore possible to pass functions as arguments, to store them in variables, and to return them from other functions
+
+* In below example method `timeFlies` is such a function, which is used as an arguments to another function `oncePerSecond`
+
+```scala
+    object Timer {
+      def oncePerSecond(callback: () => Unit) {
+        while (true) { callback(); Thread sleep 1000 }
+      }
+      def timeFlies() {
+        println("time flies like an arrow...")
+      }
+      def main(args: Array[String]) {
+        oncePerSecond(timeFlies)
+      }
+    }
 ```
 
 ##	Use `None` instead of `null`
