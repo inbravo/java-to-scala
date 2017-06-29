@@ -39,7 +39,8 @@
     - [Currying and applicative style in Scala ✗](sixth-milestone/currying.md)
 
 ## These notes are taken from
--	[Scala Official Introduction](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
+-	[Scala Official Tour](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
+-	[Official Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers#introduction)
 -	[Scala in Depth from Joshua Sureth](https://www.manning.com/books/scala-in-depth)
 -	[Scala's Types of Types from Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
 
