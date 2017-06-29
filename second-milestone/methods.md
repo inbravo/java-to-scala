@@ -7,6 +7,8 @@
 
 ## Creating a method or function in Scala
 
+* In functional programming languages, when you call a function that has parameters, you are said to be applying the function to the parameters 
+
 * Scala provides keyword `def` for creating methods or definitions
 
 ```scala
