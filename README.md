@@ -17,7 +17,7 @@
 -  [Third Milestone](third-milestone/third-milestone.md)
     - [Control Structures in Scala](third-milestone/looping-in-scala.md)
     - [Operator as Functions and Object as Functions in Scala](third-milestone/operator-overloading.md)
-    - [Procedure Methods/Definitions in Scala](third-milestone/procedures.md)
+    - [Procedures and Partially Applied Functions in Scala](third-milestone/procedures.md)
 	- [Code Compilation in Scala](third-milestone/scala-code-compilation.md)
 -  [Fourth Milestone](fourth-milestone/fourth-milestone.md)
     - [Arrays and Tuple in Scala](fourth-milestone/array-tuple.md)
