@@ -28,7 +28,7 @@ def box(s : String): Unit = {
 }
 ```
 
-## Procedures: methods with no return types
+## Partial functions
 
 *   In Java all the parameters are passed to the function. In Scala you can give only a subset of the parameters to the function, the result of the expression is a partially applied function
 
