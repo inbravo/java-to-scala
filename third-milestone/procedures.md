@@ -1,7 +1,6 @@
 | Topic | Procedures and partially applied function |
 | :--- | :--- |
-| Git sample | [ProcedureTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala) </br>
-[PartialAppliedFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PartialAppliedFuncTest.scala) |
+| Git sample | [ProcedureTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala) </br> [PartialAppliedFuncTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/PartialAppliedFuncTest.scala) |
 | References | [alvinalexander.com](http://alvinalexander.com/scala/how-to-use-partially-applied-functions-in-scala-syntax-examples) |
 
 ---
