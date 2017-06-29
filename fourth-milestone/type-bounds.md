@@ -5,6 +5,22 @@
 
 ---
 
+*	Methods in Scala can be parameterized by type as well as value. The syntax is similar to that of generic classes of Java
+
+*	Type parameters are declared within a pair of brackets while value parameters are enclosed in a pair of parentheses
+
+```scala
+def listOfDuplicates[A](x: A, length: Int): List[A] = {
+if (length < 1)
+    Nil
+else
+    x :: listOfDuplicates(x, length - 1)
+}
+
+println(listOfDuplicates[Int](3, 4))  // List(3, 3, 3, 3)
+println(listOfDuplicates("La", 8))  // List(La, La, La, La, La, La, La, La)
+```
+    
 *	In Scala, type bounds are restrictions on type parameters or type variable. By using type bounds, we can define the limits of a type variable
 
 *	Scala type bounds helps in **Type-Safe** application development
