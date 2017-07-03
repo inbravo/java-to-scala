@@ -5,7 +5,7 @@
 
 ---
 
-* Currying, invented by Moses Schönfinkel and Gottlob Frege, is the technique of transforming a Function of Multiple Arguments to turn into a Function that takes a Single Argument (the other arguments having been specified by the curry)
+* Currying, invented by Moses Schönfinkel and Gottlob Frege, is the technique of transforming a **Function of Multiple Arguments** into a **Function of Single Argument** (other arguments having been specified by the curry)
 
 *	When a method is called with a fewer number of parameter lists, then this will yield a function taking the missing parameter lists as its arguments
 
