@@ -1,7 +1,7 @@
 | Topic | Common types in Scala |
 | :--- | :--- |
 | Git sample | [CurryingTest.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/CurryingTest.scala)	|
-| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/currying.html)	 |
+| References | [docs.scala-lang.org](http://docs.scala-lang.org/tutorials/tour/currying.html)	<br/> [codecommit.com](http://www.codecommit.com/blog/scala/function-currying-in-scala) |
 
 ---
 
