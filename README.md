@@ -29,8 +29,8 @@
 -  [Fifth Milestone](fifth-milestone/fifth-milestone.md)
     - [Higher-order functions](fifth-milestone/higher-order-functions.md)
 	- [Currying in Scala](fifth-milestone/currying.md)
-    - [First-class functions ✗](fifth-milestone/first-class-functions.md)
-    - [Pure functions in Scala ✗](fifth-milestone/pure-functions.md)
+    - [First-class functions](fifth-milestone/first-class-functions.md)
+    - [Pure functions in Scala](fifth-milestone/pure-functions.md)
     - [Recursive functions in Scala ✗](fifth-milestone/recursive-functions.md)
 -  [Sixth Milestone](sixth-milestone/sixth-milestone.md)
     - [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
@@ -44,6 +44,7 @@
 -	[Official Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers#introduction)
 -	[Scala in Depth from Joshua Sureth](https://www.manning.com/books/scala-in-depth)
 -	[Scala's Types of Types from Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
+-	[](http://alvinalexander.com/scala/fp-book)
 
 ## Contributors 
 -	[Sarita Singhal](https://github.com/saritasinghal)
