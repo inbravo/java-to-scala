@@ -13,6 +13,7 @@
 	```scala
 	var v: String = x
 	```
+	
 *	Line above would give a type error, because `Array[int]` does not confirm to `String`. However a conversion from `Array` to `String` can help
 
 	```scala
@@ -25,7 +26,8 @@
 	var v: String = array2string(x)
 	```
 
-	*	Scala `implicit` provides ability to write classes and methods that can be reused anytime they’re needed
+*	Scala `implicit` provides ability to write classes and methods that can be reused anytime they’re needed
+
 *	An `implicit` keyword can be used in three ways 
 	*	**Implicit Parameters**: Example below shows how method 'square' takes context bound implicit Int value '2' from the context
 	
