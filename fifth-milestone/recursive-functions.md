@@ -24,6 +24,7 @@ standardSum(0, 10)
 ```
 
 *	Example of a recursive function performing same task,
+
 ```scala
 def recursiveSum(a: Int, b: Int): Int = {
 
