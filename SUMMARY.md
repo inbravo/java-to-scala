@@ -22,7 +22,7 @@
     - [Arrays and Tuple in Scala](fourth-milestone/array-tuple.md)
     - [List, Set and Map in Scala](fourth-milestone/list-set-map.md)
 	- [Using the Right Collection in Scala](fourth-milestone/right-collection.md)
-	- [Implicit Conversions in Scala ✗](sixth-milestone/implicits.md)
+	- [Using implicits to write expressive code](fourth-milestone/implicits.md)
 	- [Type Bounds in Scala](fourth-milestone/type-bounds.md)
 -  [Fifth Milestone](fifth-milestone/fifth-milestone.md)
     - [Higher-order functions](fifth-milestone/higher-order-functions.md)
@@ -31,8 +31,8 @@
     - [Pure functions in Scala](fifth-milestone/pure-functions.md)
     - [Recursive functions in Scala](fifth-milestone/recursive-functions.md)
 -  [Sixth Milestone](sixth-milestone/sixth-milestone.md)
+    - [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
     - [Functors in Scala ✗](sixth-milestone/functors.md)
     - [Monads in Scala ✗](sixth-milestone/monads.md)
-    - [Currying and applicative style in Scala ✗](sixth-milestone/currying.md)
 
 ---
