@@ -5,29 +5,6 @@
 
 ---
 
-##  Functional programming meets object orientation
-
-* Functional programming and object-oriented programming are two different ways of looking at a problem. 
-
-* Functional programming puts special emphasis on the **Verbs** of a program and ways to combine and manipulate them. 
-
-* Object-oriented programming puts special emphasis on **nouns** and attaches verbs to them. 
-
-* The two pproaches are almost inverses of each other, with one being **Top Down** and the other **Bottom Up**
-
-* Object-oriented programming approaches software by dividing code into nouns or objects. Each object has some form of identity (self/this), behavior (methods), and state (members). After identifying nouns and defining their behaviors, interactions between nouns are defined
-
-* Functional programming approaches software as the combination of functions. It tends to decompose software into behaviors, usually in a bottom-up fashion. Functions are viewed in a mathematical sense, purely operations on their input. All variables are considered immutable
-
-* Attributes commonly ascribed to object-oriented and functional programming
-
-| Object-oriented programming Functional programming  | Composition of objects (nouns) Composition of functions (verbs) |
-| :--- | :--- |
-| Encapsulated stateful interaction | Deferred side effects | 
-| Iterative algorithms |  Recursive algorithms and continuations  | 
-| Imperative flow   | Lazy evaluation | 
-| N/A | Pattern matching
-
 ##  **HelloWorld With** `main()` **Method**
 
 * Open Scala program [HelloWorld.scala](https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/HelloWorld.scala)
