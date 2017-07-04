@@ -44,7 +44,7 @@
 -	[Official Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers#introduction)
 -	[Scala in Depth from Joshua Sureth](https://www.manning.com/books/scala-in-depth)
 -	[Scala's Types of Types from Konrad Malawski](http://ktoso.github.io/scala-types-of-types)
--	[](http://alvinalexander.com/scala/fp-book)
+-	[Scala Notes from Alvin Alexander](http://alvinalexander.com/scala/fp-book)
 
 ## Contributors 
 -	[Sarita Singhal](https://github.com/saritasinghal)
