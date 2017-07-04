@@ -29,7 +29,7 @@
 	- [Currying in Scala](fifth-milestone/currying.md)
     - [First-class functions](fifth-milestone/first-class-functions.md)
     - [Pure functions in Scala](fifth-milestone/pure-functions.md)
-    - [Recursive functions in Scala ✗](fifth-milestone/recursive-functions.md)
+    - [Recursive functions in Scala](fifth-milestone/recursive-functions.md)
 -  [Sixth Milestone](sixth-milestone/sixth-milestone.md)
     - [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
     - [Implicit Conversions in Scala](sixth-milestone/implicits.md)
