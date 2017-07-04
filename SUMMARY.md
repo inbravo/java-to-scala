@@ -1,7 +1,7 @@
 # Summary
 
 - [First Milestone](first-milestone/first-milestone.md)
-	- [Functional Programming meets Object Orientation](functional-meets-object-orientation.md)
+	- [Functional Programming meets Object Orientation](first-milestone/functional-meets-object-orientation.md)
     - [Scala Dev Enviornment Setup](first-milestone/setup.md)
     - [Hello World in Scala](first-milestone/hello-world.md)
 	- [Common Types in Scala](first-milestone/common-types.md)
