@@ -24,7 +24,7 @@
     - [Arrays and Tuple in Scala](fourth-milestone/array-tuple.md)
     - [List, Set and Map in Scala](fourth-milestone/list-set-map.md)
 	- [Using the Right Collection in Scala](fourth-milestone/right-collection.md)
-	- [Using implicits to write expressive code](fourth-milestone/implicit.md)
+	- [Using implicits to write expressive code](fourth-milestone/implicits.md)
 	- [Type Bounds in Scala](fourth-milestone/type-bounds.md)
 -  [Fifth Milestone](fifth-milestone/fifth-milestone.md)
     - [Higher-order functions](fifth-milestone/higher-order-functions.md)

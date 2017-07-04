@@ -7,5 +7,5 @@
 - [Arrays and Tuple in Scala](array-tuple.md)
 - [List, Set and Map in Scala](list-set-map.md)
 - [Using the Right Collection in Scala](right-collection.md)
-- [Using implicits to write expressive code](implicit.md)
+- [Using implicits to write expressive code](implicits.md)
 - [Type Bounds in Scala](type-bounds.md)
