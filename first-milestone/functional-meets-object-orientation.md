@@ -8,9 +8,9 @@
 
 * Functional programming and object-oriented programming are two different ways of looking at a problem. 
 
-* Functional programming puts special emphasis on the **Verbs** of a program and ways to combine and manipulate them. 
+* Functional programming puts special emphasis on the **Verbs** (Action/State/Occurence) of a program and ways to combine and manipulate them
 
-* Object-oriented programming puts special emphasis on **nouns** and attaches verbs to them. 
+* Object-oriented programming puts special emphasis on **Nouns** (Class of things) and attaches verbs to them 
 
 * The two pproaches are almost inverses of each other, with one being **Top Down** and the other **Bottom Up**
 
