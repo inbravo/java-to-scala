@@ -48,3 +48,4 @@
 
 ## Contributors 
 -	[Sarita Singhal](https://github.com/saritasinghal)
+-	[Amit Dixit](https://github.com/inbravo)
