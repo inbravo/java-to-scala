@@ -33,9 +33,10 @@
     - [Pure functions in Scala](fifth-milestone/pure-functions.md)
     - [Recursive functions in Scala](fifth-milestone/recursive-functions.md)
 -  [Sixth Milestone](sixth-milestone/sixth-milestone.md)
-    - [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
     - [Functors in Scala ✗](sixth-milestone/functors.md)
     - [Monads in Scala ✗](sixth-milestone/monads.md)
+	- [Applicatives in Scala ✗](sixth-milestone/applicatives.md)
+	- [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
 
 ## These notes are taken from
 -	[Scala Official Tour](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
