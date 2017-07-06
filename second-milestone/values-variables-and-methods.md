@@ -36,11 +36,10 @@ lazy val lazyValue = 100
 lazy val lazyValueWithType: Int = 100
 ```
 
+* See how [lazy](http://alvinalexander.com/scala/look-how-scala-lazy-val-converted-to-java-code-jvm-bytecode) values are handled in byte code
+
 * Scala provides keyword `def` for creating methods or definitions
 
 ```scala
 def incrementDef = (x: Int) => x + 1 /* A definition using 'def' */
 ```
-
-* In Scala `val` does not mean only a constant, even though a `val` remains constant after its initialization, it is still a variable. For example, method parameters are `val`, but each time the method is called those `val` can hold different values
-
