@@ -38,7 +38,7 @@
 	- [Applicatives in Scala ✗](sixth-milestone/applicatives.md)
 	- [Prefer Immutability ✗](sixth-milestone/prefer-immutability.md)
 
-## These notes are taken from
+## References
 -	[Scala Official Tour](http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html)
 -	[Official Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers#introduction)
 -	[Scala in Depth from Joshua Sureth](https://www.manning.com/books/scala-in-depth)
