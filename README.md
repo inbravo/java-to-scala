@@ -47,5 +47,4 @@
 -	[Alexey Zvolinskiy's Blog](http://fruzenshtein.com)
 
 ## Contributors 
--	[Sarita Singhal](https://github.com/saritasinghal)
 -	[Amit Dixit](https://github.com/inbravo)
